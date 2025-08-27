@@ -22,10 +22,15 @@ jobs:
       - name: Generate XMLs
         run: |
           python multi_scraper_xml.py
-      - name: Commit XMLs
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data_all.xml out/
-          git diff --quiet && echo "No changes" || git commit -m "Update XML feeds"
-          git push
+- name: Commit XMLs
+  run: |
+    git config user.name "github-actions[bot]"
+    git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+    git add -A
+    if git diff --cached --quiet; then
+      echo "No changes"
+    else
+      git commit -m "Update XML feeds"
+      git push
+    fi
+
