@@ -2,152 +2,254 @@
 <html lang="da">
 <head>
   <meta charset="utf-8" />
-  <title>NemTilmeld – feeds pr. entitet</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sclerose – lokale arrangementer (viewer)</title>
   <style>
-    :root{--bg:#fff;--fg:#111;--muted:#666;--line:#e6e6e6;}
-    *{box-sizing:border-box}
-    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--fg);margin:2rem;}
-    h1{font-size:1.4rem;margin:.2rem 0 1rem}
-    .controls{display:flex;gap:.5rem;flex-wrap:wrap;align-items:center;margin-bottom:1rem}
-    input[type="search"]{padding:.5rem .7rem;border:1px solid var(--line);border-radius:.6rem;min-width:280px}
-    button{padding:.5rem .8rem;border:1px solid var(--line);background:#f7f7f7;border-radius:.6rem;cursor:pointer}
-    #summary{font-size:.95rem;color:var(--muted);margin-bottom:.5rem}
-    details{border:1px solid var(--line);border-radius:.8rem;margin:0 0 1rem;background:#fafafa}
-    summary{list-style:none;cursor:pointer;padding:.8rem 1rem;font-weight:600;display:flex;gap:.6rem;align-items:center}
-    summary::marker, summary::-webkit-details-marker{display:none}
-    .badge{background:#eee;border:1px solid var(--line);border-radius:999px;padding:.1rem .5rem;font-size:.8rem}
-    .links a{color:#0b57d0;text-decoration:none;margin-left:.5rem}
-    .links a:hover{text-decoration:underline}
-    .wrap{padding:0 1rem 1rem 1rem}
-    table{border-collapse:collapse;width:100%;background:#fff;border:1px solid var(--line)}
-    th,td{border-bottom:1px solid var(--line);padding:.55rem .6rem;vertical-align:top}
-    th{background:#f6f6f6;text-align:left}
-    tr:nth-child(even) td{background:#fcfcfc}
-    .muted{color:var(--muted);font-size:.9em}
-    .empty{padding:1rem;border:1px dashed var(--line);background:#fff;border-radius:.6rem}
-    .hidden{display:none !important}
+    :root { --bg:#f6f7f8; --card:#fff; --ink:#1b1f23; --muted:#6a7177; --accent:#0d6514; }
+    body { margin:0; font:16px/1.5 system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif; color:var(--ink); background:var(--bg); }
+    header { background:var(--accent); color:#fff; padding:16px 20px; }
+    header h1 { margin:0; font-size:20px; }
+    main { max-width:1100px; margin:24px auto; padding:0 16px; }
+    .toolbar { display:flex; gap:12px; align-items:center; margin-bottom:16px; flex-wrap:wrap; }
+    .toolbar label { color:var(--muted); font-size:14px; }
+    select, button { padding:8px 10px; border-radius:8px; border:1px solid #d0d7de; background:#fff; }
+    button { cursor:pointer; }
+    .grid { display:grid; grid-template-columns:1fr; gap:18px; }
+    @media(min-width:800px){ .grid{ grid-template-columns:repeat(2,1fr);} }
+    section.entity { background:transparent; border:0; padding:0; }
+    section.entity > h2 { font-size:20px; margin:24px 0 8px; border-bottom:2px solid #e5e7eb; padding-bottom:6px; }
+    .card { background:var(--card); border:1px solid #e5e7eb; border-radius:14px; padding:16px; box-shadow:0 1px 2px rgba(0,0,0,.04); display:flex; flex-direction:column; gap:10px; }
+    .title { font-weight:600; font-size:18px; margin:0; }
+    .meta { color:var(--muted); font-size:14px; }
+    .desc { color:#2c3238; font-size:15px; }
+    .actions { margin-top:6px; }
+    .btn { display:inline-block; padding:8px 10px; border-radius:10px; text-decoration:none; background:var(--accent); color:#fff; border:0; }
+    .empty { color:var(--muted); font-style:italic; padding:8px 0; }
+    .error { background:#ffe8e8; border:1px solid #ffb3b3; color:#8a1f1f; padding:10px 12px; border-radius:10px; }
+    footer { color:var(--muted); font-size:12px; margin-top:24px; }
+    details summary { cursor:pointer; }
+    code.small { background:#eef2f7; padding:2px 6px; border-radius:6px; }
   </style>
 </head>
 <body>
-  <h1>NemTilmeld – feeds pr. entitet</h1>
+  <header>
+    <h1>Lokale arrangementer – viewer</h1>
+  </header>
 
-  <div class="controls">
-    <button id="reload">Genindlæs</button>
-    <input id="q" type="search" placeholder="Søg i titler, steder …" />
-    <span id="lastRun" class="muted"></span>
-  </div>
-
-  <div id="summary" class="muted">Indlæser…</div>
-  <div id="container"></div>
-
-<script>
-const fmt = new Intl.DateTimeFormat("da-DK", {
-  year:"numeric", month:"short", day:"2-digit",
-  hour:"2-digit", minute:"2-digit"
-});
-
-/** Helpers */
-const byId = (id)=>document.getElementById(id);
-const norm = (s)=> (s||"").toLowerCase().normalize("NFKD").replace(/\s+/g," ").trim();
-
-function hostFromUrl(u){
-  try{ return new URL(u).host; }catch{ return null; }
-}
-
-async function getHostsFromSources(){
-  // sources.txt ligger i repo-roden – samme origin som viewer.html (GitHub Pages)
-  const res = await fetch("sources.txt");
-  if(!res.ok) throw new Error("Kunne ikke hente sources.txt");
-  const text = await res.text();
-  const hosts = [];
-  for(const line of text.split(/\r?\n/)){
-    const s = line.trim();
-    if(!s || s.startsWith("#")) continue;
-    const h = hostFromUrl(s);
-    if(h && !hosts.includes(h)) hosts.push(h);
-  }
-  return hosts;
-}
-
-function parseXmlEvents(xmlText){
-  const doc = new DOMParser().parseFromString(xmlText, "application/xml");
-  const list = [];
-  doc.querySelectorAll("data > events > event").forEach(ev=>{
-    const get = sel => (ev.querySelector(sel)?.textContent || "").trim();
-    const start = get("start_time_common") || get("start_time");
-    const dt = start ? new Date(start.replace(" ", "T")) : null;
-    const loc = (() => {
-      const name = get("location > name");
-      const adr  = get("location > address");
-      const zip  = get("location > zipcode");
-      const city = get("location > city");
-      return [name, adr, [zip,city].filter(Boolean).join(" ")].filter(Boolean).join(", ");
-    })();
-    list.push({
-      id: get("org_event_id"),
-      title: get("title"),
-      url: get("url"),
-      startRaw: start,
-      start: dt,
-      startLabel: dt ? fmt.format(dt) : start,
-      loc
-    });
-  });
-  // sortér efter startdato
-  list.sort((a,b)=>{
-    const ax = a.start ? a.start.getTime() : Number.MAX_SAFE_INTEGER;
-    const bx = b.start ? b.start.getTime() : Number.MAX_SAFE_INTEGER;
-    return ax - bx;
-  });
-  return list;
-}
-
-function sectionHtml(host, count, xmlUrl, rssUrl){
-  return `
-  <details ${count ? "open": ""}>
-    <summary>
-      <span>${host}</span>
-      <span class="badge">${count} event${count===1?"":"s"}</span>
-      <span class="links muted">[
-        <a href="${xmlUrl}" target="_blank" rel="noopener">XML</a> ·
-        <a href="${rssUrl}" target="_blank" rel="noopener">RSS</a>
-      ]</span>
-    </summary>
-    <div class="wrap">
-      ${count ? `
-      <table>
-        <thead>
-          <tr><th>Titel</th><th>Start</th><th>Sted</th><th>Link</th></tr>
-        </thead>
-        <tbody id="tb-${cssSafe(host)}"></tbody>
-      </table>` : `
-      <div class="empty">Ingen aktuelle events fundet.</div>`}
+  <main>
+    <div class="toolbar">
+      <label for="entitySelect">Filtrér afdeling:</label>
+      <select id="entitySelect">
+        <option value="*">Alle afdelinger</option>
+      </select>
+      <button id="reloadBtn" title="Genindlæs feeds">Opdater</button>
     </div>
-  </details>`;
-}
 
-function cssSafe(s){ return s.replace(/[^a-zA-Z0-9_-]/g,"_"); }
+    <div id="status"></div>
 
-function renderRows(host, events){
-  const tb = byId("tb-"+cssSafe(host));
-  if(!tb) return;
-  tb.innerHTML = events.map(e=>`
-    <tr data-text="${norm([e.title,e.loc].join(" "))}">
-      <td><strong>${escapeHtml(e.title || "(uden titel)")}</strong></td>
-      <td>${escapeHtml(e.startLabel||"")}</td>
-      <td>${escapeHtml(e.loc||"")}</td>
-      <td>${e.url ? `<a href="${e.url}" target="_blank" rel="noopener">Åbn</a>`:""}</td>
-    </tr>
-  `).join("");
-}
+    <div id="container"></div>
 
-function escapeHtml(s){
-  return (s||"").replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
-}
+    <footer>
+      Viser XML fra <code class="small">out/data-&lt;host&gt;.xml</code> genereret af workflowet. Viewer læser
+      <code class="small">sources.txt</code> for at finde afdelinger.
+    </footer>
+  </main>
 
-async function loadAll(){
-  byId("summary").textContent = "Indlæser…";
-  const t0 = performance.now();
+  <script>
+    // ---------- utils ----------
+    const el = (tag, props={}) => Object.assign(document.createElement(tag), props);
+    const htmlToText = (html) => (new DOMParser().parseFromString(`<x>${html||""}</x>`, "text/html").documentElement.textContent||"").replace(/\s+/g," ").trim();
+    const short = (s, n=220) => s.length>n ? s.slice(0,n-1)+"…" : s;
 
-  const hosts = await getHostsFromSources();
+    function uniq(xs){ return [...new Set(xs)]; }
+
+    // Parse ISO-ish "YYYY-MM-DD HH:MM:SS" as local time for display
+    function formatDK(dtCommon, fallbackText){
+      if(!dtCommon && fallbackText) return fallbackText;
+      if(!dtCommon) return "";
+      try{
+        // Treat as UTC to avoid TZ drift, but show in Danish locale
+        const d = new Date(dtCommon.replace(" ", "T") + "Z");
+        if(isNaN(d)) return fallbackText || dtCommon;
+        return d.toLocaleString("da-DK", { weekday:"short", year:"numeric", month:"short", day:"numeric", hour:"2-digit", minute:"2-digit" });
+      }catch(_){ return fallbackText || dtCommon; }
+    }
+
+    async function fetchText(path){
+      const r = await fetch(path, { cache:"no-cache" });
+      if(!r.ok) throw new Error(`${path}: ${r.status}`);
+      return await r.text();
+    }
+
+    function parseXML(txt){
+      const doc = new DOMParser().parseFromString(txt, "application/xml");
+      if(doc.querySelector("parsererror")) throw new Error("XML parse error");
+      return doc;
+    }
+
+    function hostFromSourceLine(line){
+      try{
+        line = line.trim();
+        if(!line) return null;
+        if(line.startsWith("#")) return null;
+        if(!line.startsWith("http")) line = "https://" + line;
+        const u = new URL(line);
+        return u.host;
+      }catch{ return null; }
+    }
+
+    // ---------- view ----------
+    const statusBox = document.getElementById("status");
+    const container = document.getElementById("container");
+    const entitySelect = document.getElementById("entitySelect");
+    const reloadBtn = document.getElementById("reloadBtn");
+
+    function showStatus(msg, kind="info"){
+      const box = el("div", { className: kind==="error" ? "error" : "meta", innerText: msg });
+      statusBox.replaceChildren(box);
+    }
+
+    function clearStatus(){ statusBox.replaceChildren(); }
+
+    function renderEntity(host, siteTitle, events){
+      const sec = el("section", { className:"entity", id:`ent-${host}` });
+      const h2 = el("h2", { innerText: siteTitle || host });
+      sec.appendChild(h2);
+
+      if(!events.length){
+        sec.appendChild(el("div", { className:"empty", innerText:"Ingen aktuelle arrangementer." }));
+        return sec;
+      }
+
+      const grid = el("div", { className:"grid" });
+
+      for(const ev of events){
+        const card = el("article", { className:"card" });
+
+        const title = (ev.querySelector("title")?.textContent || "Arrangement").trim();
+        const url   = (ev.querySelector("url")?.textContent || "").trim();
+
+        const startCommon = ev.querySelector("start_time_common")?.textContent?.trim() || "";
+        const startPretty = formatDK(startCommon, ev.querySelector("start_time")?.textContent?.trim());
+
+        const descHtml = ev.querySelector("description")?.textContent || "";
+        const teaserGiven = ev.querySelector("description_short")?.textContent || "";
+        const teaser = teaserGiven ? teaserGiven : short(htmlToText(descHtml), 260);
+
+        const h3 = el("h3", { className:"title" });
+        h3.textContent = title;
+        card.appendChild(h3);
+
+        const meta = el("div", { className:"meta", innerText: startPretty || "" });
+        card.appendChild(meta);
+
+        if(teaser){
+          const d = el("div", { className:"desc" });
+          d.textContent = teaser;
+          card.appendChild(d);
+        }
+
+        const act = el("div", { className:"actions" });
+        if(url){
+          act.appendChild(el("a", { className:"btn", href:url, target:"_blank", rel:"noopener", innerText:"Læs mere" }));
+        }
+        card.appendChild(act);
+
+        grid.appendChild(card);
+      }
+
+      sec.appendChild(grid);
+      return sec;
+    }
+
+    function fillEntitySelect(hosts, titlesMap){
+      entitySelect.replaceChildren(el("option", { value:"*", textContent:"Alle afdelinger" }));
+      hosts.forEach(h=>{
+        const opt = el("option", { value:h, textContent: titlesMap.get(h) || h });
+        entitySelect.appendChild(opt);
+      });
+    }
+
+    function applyFilter(){
+      const value = entitySelect.value;
+      for(const sec of container.querySelectorAll("section.entity")){
+        if(value==="*" || sec.id === `ent-${value}`) sec.style.display="";
+        else sec.style.display="none";
+      }
+    }
+
+    // ---------- main load ----------
+    async function load(){
+      showStatus("Henter kilder…");
+
+      let srcTxt;
+      try{
+        srcTxt = await fetchText("sources.txt");
+      }catch(e){
+        showStatus("Kunne ikke hente sources.txt – tjek at filen findes på branch.", "error");
+        return;
+      }
+
+      const hosts = uniq(
+        srcTxt.split(/\r?\n/).map(hostFromSourceLine).filter(Boolean)
+      );
+
+      if(!hosts.length){
+        showStatus("Ingen gyldige kilder fundet i sources.txt.", "error");
+        return;
+      }
+
+      clearStatus();
+      container.replaceChildren();
+
+      const titlesByHost = new Map();
+      const order = [];
+
+      for(const host of hosts){
+        const path = `out/data-${host}.xml`;
+        try{
+          const txt = await fetchText(path);
+          const xml = parseXML(txt);
+
+          const events = Array.from(xml.querySelectorAll("data > events > event"));
+          // forsøg at hente entitetsnavn fra første events organization/title
+          let siteTitle = "";
+          const orgTitle = events[0]?.querySelector("organization > title")?.textContent?.trim();
+          if(orgTitle) siteTitle = orgTitle;
+          else siteTitle = host;
+
+          titlesByHost.set(host, siteTitle);
+          order.push({ host, siteTitle, events });
+
+        }catch(e){
+          // vis en lille fejlblok men fortsæt med de andre
+          const warn = el("div", { className:"error", innerText:`Kunne ikke hente ${path} (${e.message}).` });
+          container.appendChild(warn);
+          continue;
+        }
+      }
+
+      // sorter entiteter alfabetisk efter titel
+      order.sort((a,b)=> (a.siteTitle||a.host).localeCompare(b.siteTitle||b.host, "da"));
+
+      // render
+      for(const {host, siteTitle, events} of order){
+        container.appendChild(renderEntity(host, siteTitle, events));
+      }
+
+      fillEntitySelect(order.map(x=>x.host), titlesByHost);
+      applyFilter();
+
+      if(!order.length){
+        showStatus("Ingen feeds tilgængelige (out/data-*.xml mangler). Kør workflowet først.", "error");
+      }
+    }
+
+    entitySelect.addEventListener("change", applyFilter);
+    reloadBtn.addEventListener("click", load);
+
+    // kick off
+    load();
+  </script>
+</body>
+</html>
