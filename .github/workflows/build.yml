@@ -8,7 +8,6 @@ on:
 permissions:
   contents: write  # krævet for at kunne committe/pushe output
 
-# (valgfrit) undgå overlappende kørsler
 concurrency:
   group: build-xml-multi
   cancel-in-progress: true
@@ -16,23 +15,29 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0            # <-- vigtigt ift. pull --rebase
+          persist-credentials: true
 
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+          cache: "pip"
 
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
+          python -m pip install --upgrade pip wheel setuptools
           pip install -r requirements.txt
+        # requirements.txt skal indeholde: requests, beautifulsoup4, lxml
 
       - name: Generate XMLs
         run: |
-          # multi_scraper_xml.py læser som standard kilder fra sources.txt
           python multi_scraper_xml.py
 
       - name: Verify outputs
@@ -45,20 +50,18 @@ jobs:
       - name: Commit XMLs
         run: |
           set -e
-          git config user.name "github-actions[bot]"
+          git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # Tilføj alle nye/ændrede filer
           git add -A
-
-          # Commit kun hvis der ER staged ændringer
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
             git commit -m "Update XML feeds"
-            # Håndter hvis der er kommet nye commits på branch imens
             BRANCH="${GITHUB_REF_NAME:-main}"
-            git pull --rebase origin "$BRANCH" || true
+            # sørg for vi kan rebase mod origin/BRANCH, selv ved schedule
+            git fetch origin "$BRANCH"
+            git pull --rebase --autostash origin "$BRANCH" || true
             git push origin "$BRANCH"
           fi
 
@@ -69,3 +72,4 @@ jobs:
           path: |
             data_all.xml
             out/*.xml
+          if-no-files-found: warn
