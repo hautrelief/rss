@@ -1,85 +1,153 @@
 <!doctype html>
-<html lang="en">
+<html lang="da">
 <head>
   <meta charset="utf-8" />
-  <title>Events viewer</title>
+  <title>NemTilmeld – feeds pr. entitet</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
-    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif; margin:2rem;}
-    h1{font-weight:600; font-size:1.25rem}
-    .controls{margin-bottom:1rem; display:flex; gap:.5rem; align-items:center}
-    table{border-collapse:collapse; width:100%}
-    th,td{border:1px solid #ddd; padding:.5rem; vertical-align:top}
-    th{background:#f6f6f6; text-align:left}
-    tr:nth-child(even){background:#fafafa}
-    .muted{color:#666; font-size:.9em}
+    :root{--bg:#fff;--fg:#111;--muted:#666;--line:#e6e6e6;}
+    *{box-sizing:border-box}
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--fg);margin:2rem;}
+    h1{font-size:1.4rem;margin:.2rem 0 1rem}
+    .controls{display:flex;gap:.5rem;flex-wrap:wrap;align-items:center;margin-bottom:1rem}
+    input[type="search"]{padding:.5rem .7rem;border:1px solid var(--line);border-radius:.6rem;min-width:280px}
+    button{padding:.5rem .8rem;border:1px solid var(--line);background:#f7f7f7;border-radius:.6rem;cursor:pointer}
+    #summary{font-size:.95rem;color:var(--muted);margin-bottom:.5rem}
+    details{border:1px solid var(--line);border-radius:.8rem;margin:0 0 1rem;background:#fafafa}
+    summary{list-style:none;cursor:pointer;padding:.8rem 1rem;font-weight:600;display:flex;gap:.6rem;align-items:center}
+    summary::marker, summary::-webkit-details-marker{display:none}
+    .badge{background:#eee;border:1px solid var(--line);border-radius:999px;padding:.1rem .5rem;font-size:.8rem}
+    .links a{color:#0b57d0;text-decoration:none;margin-left:.5rem}
+    .links a:hover{text-decoration:underline}
+    .wrap{padding:0 1rem 1rem 1rem}
+    table{border-collapse:collapse;width:100%;background:#fff;border:1px solid var(--line)}
+    th,td{border-bottom:1px solid var(--line);padding:.55rem .6rem;vertical-align:top}
+    th{background:#f6f6f6;text-align:left}
+    tr:nth-child(even) td{background:#fcfcfc}
+    .muted{color:var(--muted);font-size:.9em}
+    .empty{padding:1rem;border:1px dashed var(--line);background:#fff;border-radius:.6rem}
+    .hidden{display:none !important}
   </style>
 </head>
 <body>
-  <h1>NemTilmeld events</h1>
+  <h1>NemTilmeld – feeds pr. entitet</h1>
+
   <div class="controls">
-    <label>Source XML:</label>
-    <input id="src" size="60" value="data_all.xml" />
-    <button id="load">Load</button>
+    <button id="reload">Genindlæs</button>
+    <input id="q" type="search" placeholder="Søg i titler, steder …" />
+    <span id="lastRun" class="muted"></span>
   </div>
-  <table id="tbl">
-    <thead>
-      <tr>
-        <th>Title</th>
-        <th>Start</th>
-        <th>End</th>
-        <th>Location</th>
-        <th>Link</th>
-      </tr>
-    </thead>
-    <tbody></tbody>
-  </table>
+
+  <div id="summary" class="muted">Indlæser…</div>
+  <div id="container"></div>
 
 <script>
-async function load(xmlUrl){
-  const res = await fetch(xmlUrl);
-  if(!res.ok) throw new Error("Failed to fetch "+xmlUrl);
-  const text = await res.text();
-  const doc = new DOMParser().parseFromString(text, "application/xml");
+const fmt = new Intl.DateTimeFormat("da-DK", {
+  year:"numeric", month:"short", day:"2-digit",
+  hour:"2-digit", minute:"2-digit"
+});
 
-  const rows = [];
-  for(const ev of doc.querySelectorAll("data > events > event")){
-    const val = tag => (ev.querySelector(tag)?.textContent || "").trim();
-    const loc = ev.querySelector("location");
-    const locStr = [
-      loc?.querySelector("name")?.textContent,
-      loc?.querySelector("address")?.textContent,
-      [loc?.querySelector("zipcode")?.textContent, loc?.querySelector("city")?.textContent].filter(Boolean).join(" "),
-      loc?.querySelector("country")?.textContent
-    ].filter(Boolean).join(", ");
+/** Helpers */
+const byId = (id)=>document.getElementById(id);
+const norm = (s)=> (s||"").toLowerCase().normalize("NFKD").replace(/\s+/g," ").trim();
 
-    rows.push({
-      title: val("title"),
-      start: val("start_time_common") || val("start_time"),
-      end: val("end_time_common") || val("end_time"),
-      loc: locStr,
-      url: val("url"),
-      orgId: val("org_event_id")
-    });
-  }
-
-  const tbody = document.querySelector("#tbl tbody");
-  tbody.innerHTML = "";
-  for(const r of rows){
-    const tr = document.createElement("tr");
-    tr.innerHTML = `
-      <td><strong>${r.title || "(untitled)"} </strong><div class="muted">#${r.orgId||""}</div></td>
-      <td>${r.start||""}</td>
-      <td>${r.end||""}</td>
-      <td>${r.loc||""}</td>
-      <td>${r.url ? `<a href="${r.url}" target="_blank" rel="noopener">Open</a>` : ""}</td>
-    `;
-    tbody.appendChild(tr);
-  }
+function hostFromUrl(u){
+  try{ return new URL(u).host; }catch{ return null; }
 }
 
-document.getElementById("load").onclick = () => load(document.getElementById("src").value);
-load(document.getElementById("src").value).catch(e => alert(e.message));
-</script>
-</body>
-</html>
+async function getHostsFromSources(){
+  // sources.txt ligger i repo-roden – samme origin som viewer.html (GitHub Pages)
+  const res = await fetch("sources.txt");
+  if(!res.ok) throw new Error("Kunne ikke hente sources.txt");
+  const text = await res.text();
+  const hosts = [];
+  for(const line of text.split(/\r?\n/)){
+    const s = line.trim();
+    if(!s || s.startsWith("#")) continue;
+    const h = hostFromUrl(s);
+    if(h && !hosts.includes(h)) hosts.push(h);
+  }
+  return hosts;
+}
+
+function parseXmlEvents(xmlText){
+  const doc = new DOMParser().parseFromString(xmlText, "application/xml");
+  const list = [];
+  doc.querySelectorAll("data > events > event").forEach(ev=>{
+    const get = sel => (ev.querySelector(sel)?.textContent || "").trim();
+    const start = get("start_time_common") || get("start_time");
+    const dt = start ? new Date(start.replace(" ", "T")) : null;
+    const loc = (() => {
+      const name = get("location > name");
+      const adr  = get("location > address");
+      const zip  = get("location > zipcode");
+      const city = get("location > city");
+      return [name, adr, [zip,city].filter(Boolean).join(" ")].filter(Boolean).join(", ");
+    })();
+    list.push({
+      id: get("org_event_id"),
+      title: get("title"),
+      url: get("url"),
+      startRaw: start,
+      start: dt,
+      startLabel: dt ? fmt.format(dt) : start,
+      loc
+    });
+  });
+  // sortér efter startdato
+  list.sort((a,b)=>{
+    const ax = a.start ? a.start.getTime() : Number.MAX_SAFE_INTEGER;
+    const bx = b.start ? b.start.getTime() : Number.MAX_SAFE_INTEGER;
+    return ax - bx;
+  });
+  return list;
+}
+
+function sectionHtml(host, count, xmlUrl, rssUrl){
+  return `
+  <details ${count ? "open": ""}>
+    <summary>
+      <span>${host}</span>
+      <span class="badge">${count} event${count===1?"":"s"}</span>
+      <span class="links muted">[
+        <a href="${xmlUrl}" target="_blank" rel="noopener">XML</a> ·
+        <a href="${rssUrl}" target="_blank" rel="noopener">RSS</a>
+      ]</span>
+    </summary>
+    <div class="wrap">
+      ${count ? `
+      <table>
+        <thead>
+          <tr><th>Titel</th><th>Start</th><th>Sted</th><th>Link</th></tr>
+        </thead>
+        <tbody id="tb-${cssSafe(host)}"></tbody>
+      </table>` : `
+      <div class="empty">Ingen aktuelle events fundet.</div>`}
+    </div>
+  </details>`;
+}
+
+function cssSafe(s){ return s.replace(/[^a-zA-Z0-9_-]/g,"_"); }
+
+function renderRows(host, events){
+  const tb = byId("tb-"+cssSafe(host));
+  if(!tb) return;
+  tb.innerHTML = events.map(e=>`
+    <tr data-text="${norm([e.title,e.loc].join(" "))}">
+      <td><strong>${escapeHtml(e.title || "(uden titel)")}</strong></td>
+      <td>${escapeHtml(e.startLabel||"")}</td>
+      <td>${escapeHtml(e.loc||"")}</td>
+      <td>${e.url ? `<a href="${e.url}" target="_blank" rel="noopener">Åbn</a>`:""}</td>
+    </tr>
+  `).join("");
+}
+
+function escapeHtml(s){
+  return (s||"").replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+}
+
+async function loadAll(){
+  byId("summary").textContent = "Indlæser…";
+  const t0 = performance.now();
+
+  const hosts = await getHostsFromSources();
