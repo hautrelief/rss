@@ -433,5 +433,341 @@
         <email>&lt;![CDATA[ frivillig@scleroseforeningen.dk ]]&gt;</email>
       </contact_details>
     </event>
+    <event id="133">
+      <org_event_id>133</org_event_id>
+      <title>&lt;![CDATA[ Pårørendegruppe | Scleroseforeningens lokalafd. Horsens-Hedensted og Odder-Samsø ]]&gt;</title>
+      <description>&lt;![CDATA[ &lt;div class=&quot;modal-content&quot;&gt;
+&lt;div class=&quot;modal-section-header modal-header&quot;&gt;
+&lt;div class=&quot;pull-left js-nemtilmeld_modal_field-title&quot; id=&quot;nemtilmeld_alert_modal_title&quot;&gt;Hov - noget gik galt&lt;/div&gt;
+&lt;div class=&quot;action-button pull-right&quot;&gt;
+&lt;span aria-hidden=&quot;true&quot; class=&quot;js-nemtilmeld_modal_button icon-delete escape_nemtilmeld_alert_modal&quot; data-dismiss=&quot;modal&quot; style=&quot;font-size: 30px; vertical-align: middle; color: #fff; cursor: pointer;&quot;&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;modal-section-content modal-body&quot;&gt;
+&lt;div class=&quot;modal-section-content-inner js-nemtilmeld_modal_field-message&quot; id=&quot;nemtilmeld_alert_modal_message&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;modal-section-footer clearfix modal-footer&quot;&gt;
+&lt;button class=&quot;js-nemtilmeld_modal_button btn btn-medium approve js-approve pull-right js-nemtilmeld_modal_field-escape&quot; data-dismiss=&quot;modal&quot; id=&quot;escape_nemtilmeld_alert_modal&quot;&gt;Luk&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt; ]]&gt;</description>
+      <description_short>&lt;![CDATA[ Hov - noget gik galt Luk ]]&gt;</description_short>
+      <start_time>2025-09-17 7:00 PM</start_time>
+      <end_time>2025-09-17 9:00 PM</end_time>
+      <deadline/>
+      <start_time_common>2025-09-17 19:00:00</start_time_common>
+      <end_time_common>2025-09-17 21:00:00</end_time_common>
+      <deadline_time_common/>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-horsens-hedensted.nemtilmeld.dk/133/</url>
+      <images>
+        <image id="0">
+          <source>&lt;![CDATA[ https://sclerose-horsens-hedensted.nemtilmeld.dk/system/application/views/ar/common/assets/img/loading-ver-7e99e1159a3686f6aa4f90043c554483.gif ]]&gt;</source>
+        </image>
+        <image id="1">
+          <source>&lt;![CDATA[ https://sclerose-horsens-hedensted.nemtilmeld.dk/images/organizations/16586/logo.png?mtime=1700652814 ]]&gt;</source>
+        </image>
+        <image id="2">
+          <source>&lt;![CDATA[ https://sclerose-horsens-hedensted.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png ]]&gt;</source>
+        </image>
+        <image id="3">
+          <source>&lt;![CDATA[ https://sclerose-horsens-hedensted.nemtilmeld.dk/images/misc/creditcard_logo_dankort.png ]]&gt;</source>
+        </image>
+        <image id="4">
+          <source>&lt;![CDATA[ https://sclerose-horsens-hedensted.nemtilmeld.dk/images/misc/creditcard_logo_visa.png ]]&gt;</source>
+        </image>
+        <image id="5">
+          <source>&lt;![CDATA[ https://sclerose-horsens-hedensted.nemtilmeld.dk/images/misc/creditcard_logo_visa_electron.png ]]&gt;</source>
+        </image>
+        <image id="6">
+          <source>&lt;![CDATA[ https://sclerose-horsens-hedensted.nemtilmeld.dk/images/misc/creditcard_logo_mastercard.png ]]&gt;</source>
+        </image>
+        <image id="7">
+          <source>&lt;![CDATA[ https://sclerose-horsens-hedensted.nemtilmeld.dk/images/nemtilmeld-logo-ver-724e35a5500d286f9bf77196170fb204.svg ]]&gt;</source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="133">
+        <type>&lt;![CDATA[ address ]]&gt;</type>
+        <name>&lt;![CDATA[ Pårørendegruppe ]]&gt;</name>
+        <address>&lt;![CDATA[ 17. september ]]&gt;</address>
+        <zipcode>&lt;![CDATA[ 2025 ]]&gt;</zipcode>
+        <city>&lt;![CDATA[ kl. ]]&gt;</city>
+        <country>&lt;![CDATA[ DK ]]&gt;</country>
+      </location>
+      <organization id="16571">
+        <title>&lt;![CDATA[ Scleroseforeningens lokalafd. Bornholm ]]&gt;</title>
+        <address>&lt;![CDATA[ Kalbyvejen 13. Åkirkeby. ]]&gt;</address>
+        <city>&lt;![CDATA[ Åkirkeby ]]&gt;</city>
+        <phone>&lt;![CDATA[ 30450103 ]]&gt;</phone>
+        <country>&lt;![CDATA[ DK ]]&gt;</country>
+        <url>&lt;![CDATA[ https://sclerose-horsens-hedensted.nemtilmeld.dk/ ]]&gt;</url>
+        <description>&lt;![CDATA[  ]]&gt;</description>
+        <email>&lt;![CDATA[ frivillig@scleroseforeningen.dk ]]&gt;</email>
+        <zipcode>&lt;![CDATA[ 3720 ]]&gt;</zipcode>
+      </organization>
+      <contact_details>
+        <name>&lt;![CDATA[ Scleroseforeningens organisationskonsulent, Scleroseforeningens lokalafd. Bornholm ]]&gt;</name>
+        <phone>&lt;![CDATA[ 36463646 ]]&gt;</phone>
+        <email>&lt;![CDATA[ frivillig@scleroseforeningen.dk ]]&gt;</email>
+      </contact_details>
+    </event>
+    <event id="134">
+      <org_event_id>134</org_event_id>
+      <title>&lt;![CDATA[ Pårørendegruppe | Scleroseforeningens lokalafd. Horsens-Hedensted og Odder-Samsø ]]&gt;</title>
+      <description>&lt;![CDATA[ &lt;div class=&quot;modal-content&quot;&gt;
+&lt;div class=&quot;modal-section-header modal-header&quot;&gt;
+&lt;div class=&quot;pull-left js-nemtilmeld_modal_field-title&quot; id=&quot;nemtilmeld_alert_modal_title&quot;&gt;Hov - noget gik galt&lt;/div&gt;
+&lt;div class=&quot;action-button pull-right&quot;&gt;
+&lt;span aria-hidden=&quot;true&quot; class=&quot;js-nemtilmeld_modal_button icon-delete escape_nemtilmeld_alert_modal&quot; data-dismiss=&quot;modal&quot; style=&quot;font-size: 30px; vertical-align: middle; color: #fff; cursor: pointer;&quot;&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;modal-section-content modal-body&quot;&gt;
+&lt;div class=&quot;modal-section-content-inner js-nemtilmeld_modal_field-message&quot; id=&quot;nemtilmeld_alert_modal_message&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;modal-section-footer clearfix modal-footer&quot;&gt;
+&lt;button class=&quot;js-nemtilmeld_modal_button btn btn-medium approve js-approve pull-right js-nemtilmeld_modal_field-escape&quot; data-dismiss=&quot;modal&quot; id=&quot;escape_nemtilmeld_alert_modal&quot;&gt;Luk&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt; ]]&gt;</description>
+      <description_short>&lt;![CDATA[ Hov - noget gik galt Luk ]]&gt;</description_short>
+      <start_time>2025-10-29 7:00 PM</start_time>
+      <end_time>2025-10-29 9:00 PM</end_time>
+      <deadline/>
+      <start_time_common>2025-10-29 19:00:00</start_time_common>
+      <end_time_common>2025-10-29 21:00:00</end_time_common>
+      <deadline_time_common/>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-horsens-hedensted.nemtilmeld.dk/134/</url>
+      <images>
+        <image id="0">
+          <source>&lt;![CDATA[ https://sclerose-horsens-hedensted.nemtilmeld.dk/system/application/views/ar/common/assets/img/loading-ver-7e99e1159a3686f6aa4f90043c554483.gif ]]&gt;</source>
+        </image>
+        <image id="1">
+          <source>&lt;![CDATA[ https://sclerose-horsens-hedensted.nemtilmeld.dk/images/organizations/16586/logo.png?mtime=1700652814 ]]&gt;</source>
+        </image>
+        <image id="2">
+          <source>&lt;![CDATA[ https://sclerose-horsens-hedensted.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png ]]&gt;</source>
+        </image>
+        <image id="3">
+          <source>&lt;![CDATA[ https://sclerose-horsens-hedensted.nemtilmeld.dk/images/misc/creditcard_logo_dankort.png ]]&gt;</source>
+        </image>
+        <image id="4">
+          <source>&lt;![CDATA[ https://sclerose-horsens-hedensted.nemtilmeld.dk/images/misc/creditcard_logo_visa.png ]]&gt;</source>
+        </image>
+        <image id="5">
+          <source>&lt;![CDATA[ https://sclerose-horsens-hedensted.nemtilmeld.dk/images/misc/creditcard_logo_visa_electron.png ]]&gt;</source>
+        </image>
+        <image id="6">
+          <source>&lt;![CDATA[ https://sclerose-horsens-hedensted.nemtilmeld.dk/images/misc/creditcard_logo_mastercard.png ]]&gt;</source>
+        </image>
+        <image id="7">
+          <source>&lt;![CDATA[ https://sclerose-horsens-hedensted.nemtilmeld.dk/images/nemtilmeld-logo-ver-724e35a5500d286f9bf77196170fb204.svg ]]&gt;</source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="134">
+        <type>&lt;![CDATA[ address ]]&gt;</type>
+        <name>&lt;![CDATA[ Pårørendegruppe ]]&gt;</name>
+        <address>&lt;![CDATA[ 29. oktober ]]&gt;</address>
+        <zipcode>&lt;![CDATA[ 2025 ]]&gt;</zipcode>
+        <city>&lt;![CDATA[ kl. ]]&gt;</city>
+        <country>&lt;![CDATA[ DK ]]&gt;</country>
+      </location>
+      <organization id="16571">
+        <title>&lt;![CDATA[ Scleroseforeningens lokalafd. Bornholm ]]&gt;</title>
+        <address>&lt;![CDATA[ Kalbyvejen 13. Åkirkeby. ]]&gt;</address>
+        <city>&lt;![CDATA[ Åkirkeby ]]&gt;</city>
+        <phone>&lt;![CDATA[ 30450103 ]]&gt;</phone>
+        <country>&lt;![CDATA[ DK ]]&gt;</country>
+        <url>&lt;![CDATA[ https://sclerose-horsens-hedensted.nemtilmeld.dk/ ]]&gt;</url>
+        <description>&lt;![CDATA[  ]]&gt;</description>
+        <email>&lt;![CDATA[ frivillig@scleroseforeningen.dk ]]&gt;</email>
+        <zipcode>&lt;![CDATA[ 3720 ]]&gt;</zipcode>
+      </organization>
+      <contact_details>
+        <name>&lt;![CDATA[ Scleroseforeningens organisationskonsulent, Scleroseforeningens lokalafd. Bornholm ]]&gt;</name>
+        <phone>&lt;![CDATA[ 36463646 ]]&gt;</phone>
+        <email>&lt;![CDATA[ frivillig@scleroseforeningen.dk ]]&gt;</email>
+      </contact_details>
+    </event>
+    <event id="135">
+      <org_event_id>135</org_event_id>
+      <title>&lt;![CDATA[ Pårørendegruppe | Scleroseforeningens lokalafd. Horsens-Hedensted og Odder-Samsø ]]&gt;</title>
+      <description>&lt;![CDATA[ &lt;div class=&quot;modal-content&quot;&gt;
+&lt;div class=&quot;modal-section-header modal-header&quot;&gt;
+&lt;div class=&quot;pull-left js-nemtilmeld_modal_field-title&quot; id=&quot;nemtilmeld_alert_modal_title&quot;&gt;Hov - noget gik galt&lt;/div&gt;
+&lt;div class=&quot;action-button pull-right&quot;&gt;
+&lt;span aria-hidden=&quot;true&quot; class=&quot;js-nemtilmeld_modal_button icon-delete escape_nemtilmeld_alert_modal&quot; data-dismiss=&quot;modal&quot; style=&quot;font-size: 30px; vertical-align: middle; color: #fff; cursor: pointer;&quot;&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;modal-section-content modal-body&quot;&gt;
+&lt;div class=&quot;modal-section-content-inner js-nemtilmeld_modal_field-message&quot; id=&quot;nemtilmeld_alert_modal_message&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;modal-section-footer clearfix modal-footer&quot;&gt;
+&lt;button class=&quot;js-nemtilmeld_modal_button btn btn-medium approve js-approve pull-right js-nemtilmeld_modal_field-escape&quot; data-dismiss=&quot;modal&quot; id=&quot;escape_nemtilmeld_alert_modal&quot;&gt;Luk&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt; ]]&gt;</description>
+      <description_short>&lt;![CDATA[ Hov - noget gik galt Luk ]]&gt;</description_short>
+      <start_time>2025-11-26 7:00 PM</start_time>
+      <end_time>2025-11-26 9:00 PM</end_time>
+      <deadline/>
+      <start_time_common>2025-11-26 19:00:00</start_time_common>
+      <end_time_common>2025-11-26 21:00:00</end_time_common>
+      <deadline_time_common/>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-horsens-hedensted.nemtilmeld.dk/135/</url>
+      <images>
+        <image id="0">
+          <source>&lt;![CDATA[ https://sclerose-horsens-hedensted.nemtilmeld.dk/system/application/views/ar/common/assets/img/loading-ver-7e99e1159a3686f6aa4f90043c554483.gif ]]&gt;</source>
+        </image>
+        <image id="1">
+          <source>&lt;![CDATA[ https://sclerose-horsens-hedensted.nemtilmeld.dk/images/organizations/16586/logo.png?mtime=1700652814 ]]&gt;</source>
+        </image>
+        <image id="2">
+          <source>&lt;![CDATA[ https://sclerose-horsens-hedensted.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png ]]&gt;</source>
+        </image>
+        <image id="3">
+          <source>&lt;![CDATA[ https://sclerose-horsens-hedensted.nemtilmeld.dk/images/misc/creditcard_logo_dankort.png ]]&gt;</source>
+        </image>
+        <image id="4">
+          <source>&lt;![CDATA[ https://sclerose-horsens-hedensted.nemtilmeld.dk/images/misc/creditcard_logo_visa.png ]]&gt;</source>
+        </image>
+        <image id="5">
+          <source>&lt;![CDATA[ https://sclerose-horsens-hedensted.nemtilmeld.dk/images/misc/creditcard_logo_visa_electron.png ]]&gt;</source>
+        </image>
+        <image id="6">
+          <source>&lt;![CDATA[ https://sclerose-horsens-hedensted.nemtilmeld.dk/images/misc/creditcard_logo_mastercard.png ]]&gt;</source>
+        </image>
+        <image id="7">
+          <source>&lt;![CDATA[ https://sclerose-horsens-hedensted.nemtilmeld.dk/images/nemtilmeld-logo-ver-724e35a5500d286f9bf77196170fb204.svg ]]&gt;</source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="135">
+        <type>&lt;![CDATA[ address ]]&gt;</type>
+        <name>&lt;![CDATA[ Pårørendegruppe ]]&gt;</name>
+        <address>&lt;![CDATA[ 26. november ]]&gt;</address>
+        <zipcode>&lt;![CDATA[ 2025 ]]&gt;</zipcode>
+        <city>&lt;![CDATA[ kl. ]]&gt;</city>
+        <country>&lt;![CDATA[ DK ]]&gt;</country>
+      </location>
+      <organization id="16571">
+        <title>&lt;![CDATA[ Scleroseforeningens lokalafd. Bornholm ]]&gt;</title>
+        <address>&lt;![CDATA[ Kalbyvejen 13. Åkirkeby. ]]&gt;</address>
+        <city>&lt;![CDATA[ Åkirkeby ]]&gt;</city>
+        <phone>&lt;![CDATA[ 30450103 ]]&gt;</phone>
+        <country>&lt;![CDATA[ DK ]]&gt;</country>
+        <url>&lt;![CDATA[ https://sclerose-horsens-hedensted.nemtilmeld.dk/ ]]&gt;</url>
+        <description>&lt;![CDATA[  ]]&gt;</description>
+        <email>&lt;![CDATA[ frivillig@scleroseforeningen.dk ]]&gt;</email>
+        <zipcode>&lt;![CDATA[ 3720 ]]&gt;</zipcode>
+      </organization>
+      <contact_details>
+        <name>&lt;![CDATA[ Scleroseforeningens organisationskonsulent, Scleroseforeningens lokalafd. Bornholm ]]&gt;</name>
+        <phone>&lt;![CDATA[ 36463646 ]]&gt;</phone>
+        <email>&lt;![CDATA[ frivillig@scleroseforeningen.dk ]]&gt;</email>
+      </contact_details>
+    </event>
+    <event id="139">
+      <org_event_id>139</org_event_id>
+      <title>&lt;![CDATA[ Fælles bustur til Sclerosefestival i Vildbjerg | Scleroseforeningens lokalafd. Horsens-Hedensted og Odder-Samsø ]]&gt;</title>
+      <description>&lt;![CDATA[ &lt;div class=&quot;modal-content&quot;&gt;
+&lt;div class=&quot;modal-section-header modal-header&quot;&gt;
+&lt;div class=&quot;pull-left js-nemtilmeld_modal_field-title&quot; id=&quot;nemtilmeld_alert_modal_title&quot;&gt;Hov - noget gik galt&lt;/div&gt;
+&lt;div class=&quot;action-button pull-right&quot;&gt;
+&lt;span aria-hidden=&quot;true&quot; class=&quot;js-nemtilmeld_modal_button icon-delete escape_nemtilmeld_alert_modal&quot; data-dismiss=&quot;modal&quot; style=&quot;font-size: 30px; vertical-align: middle; color: #fff; cursor: pointer;&quot;&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;modal-section-content modal-body&quot;&gt;
+&lt;div class=&quot;modal-section-content-inner js-nemtilmeld_modal_field-message&quot; id=&quot;nemtilmeld_alert_modal_message&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;modal-section-footer clearfix modal-footer&quot;&gt;
+&lt;button class=&quot;js-nemtilmeld_modal_button btn btn-medium approve js-approve pull-right js-nemtilmeld_modal_field-escape&quot; data-dismiss=&quot;modal&quot; id=&quot;escape_nemtilmeld_alert_modal&quot;&gt;Luk&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt; ]]&gt;</description>
+      <description_short>&lt;![CDATA[ Hov - noget gik galt Luk ]]&gt;</description_short>
+      <start_time>2025-10-04 8:00 AM</start_time>
+      <end_time>2025-10-04 10:00 AM</end_time>
+      <deadline/>
+      <start_time_common>2025-10-04 08:00:00</start_time_common>
+      <end_time_common>2025-10-04 10:00:00</end_time_common>
+      <deadline_time_common/>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-horsens-hedensted.nemtilmeld.dk/139/</url>
+      <images>
+        <image id="0">
+          <source>&lt;![CDATA[ https://sclerose-horsens-hedensted.nemtilmeld.dk/system/application/views/ar/common/assets/img/loading-ver-7e99e1159a3686f6aa4f90043c554483.gif ]]&gt;</source>
+        </image>
+        <image id="1">
+          <source>&lt;![CDATA[ https://sclerose-horsens-hedensted.nemtilmeld.dk/images/organizations/16586/logo.png?mtime=1700652814 ]]&gt;</source>
+        </image>
+        <image id="2">
+          <source>&lt;![CDATA[ https://sclerose-horsens-hedensted.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png ]]&gt;</source>
+        </image>
+        <image id="3">
+          <source>&lt;![CDATA[ https://sclerose-horsens-hedensted.nemtilmeld.dk/images/misc/creditcard_logo_dankort.png ]]&gt;</source>
+        </image>
+        <image id="4">
+          <source>&lt;![CDATA[ https://sclerose-horsens-hedensted.nemtilmeld.dk/images/misc/creditcard_logo_visa.png ]]&gt;</source>
+        </image>
+        <image id="5">
+          <source>&lt;![CDATA[ https://sclerose-horsens-hedensted.nemtilmeld.dk/images/misc/creditcard_logo_visa_electron.png ]]&gt;</source>
+        </image>
+        <image id="6">
+          <source>&lt;![CDATA[ https://sclerose-horsens-hedensted.nemtilmeld.dk/images/misc/creditcard_logo_mastercard.png ]]&gt;</source>
+        </image>
+        <image id="7">
+          <source>&lt;![CDATA[ https://sclerose-horsens-hedensted.nemtilmeld.dk/images/nemtilmeld-logo-ver-724e35a5500d286f9bf77196170fb204.svg ]]&gt;</source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="139">
+        <type>&lt;![CDATA[ address ]]&gt;</type>
+        <name>&lt;![CDATA[ Fælles bustur til Sclerosefestival i VildbjergAflyst ]]&gt;</name>
+        <address>&lt;![CDATA[ 4. oktober ]]&gt;</address>
+        <zipcode>&lt;![CDATA[ 2025 ]]&gt;</zipcode>
+        <city>&lt;![CDATA[ kl. ]]&gt;</city>
+        <country>&lt;![CDATA[ DK ]]&gt;</country>
+      </location>
+      <organization id="16571">
+        <title>&lt;![CDATA[ Scleroseforeningens lokalafd. Bornholm ]]&gt;</title>
+        <address>&lt;![CDATA[ Kalbyvejen 13. Åkirkeby. ]]&gt;</address>
+        <city>&lt;![CDATA[ Åkirkeby ]]&gt;</city>
+        <phone>&lt;![CDATA[ 30450103 ]]&gt;</phone>
+        <country>&lt;![CDATA[ DK ]]&gt;</country>
+        <url>&lt;![CDATA[ https://sclerose-horsens-hedensted.nemtilmeld.dk/ ]]&gt;</url>
+        <description>&lt;![CDATA[  ]]&gt;</description>
+        <email>&lt;![CDATA[ frivillig@scleroseforeningen.dk ]]&gt;</email>
+        <zipcode>&lt;![CDATA[ 3720 ]]&gt;</zipcode>
+      </organization>
+      <contact_details>
+        <name>&lt;![CDATA[ Scleroseforeningens organisationskonsulent, Scleroseforeningens lokalafd. Bornholm ]]&gt;</name>
+        <phone>&lt;![CDATA[ 36463646 ]]&gt;</phone>
+        <email>&lt;![CDATA[ frivillig@scleroseforeningen.dk ]]&gt;</email>
+      </contact_details>
+    </event>
   </events>
 </data>
