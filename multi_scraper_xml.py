@@ -5,16 +5,17 @@ import re
 import sys
 import time
 import logging
-from datetime import datetime
+from datetime import datetime, timezone
 from urllib.parse import urljoin, urlparse
+from email.utils import format_datetime as rfc2822
 
 import requests
 from bs4 import BeautifulSoup
-from lxml import etree as ET  # real CDATA support
+from lxml import etree as ET  # CDATA support
 
 # ------------------------- Config / setup -------------------------
 
-UA = "nemtilmeld-xml-multi/1.1 (+https://github.com/)"
+UA = "nemtilmeld-xml-multi/1.2 (+https://github.com/)"
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
 S = requests.Session()
@@ -24,7 +25,7 @@ S.headers.update({
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
 })
 
-# Danish month map + some short forms
+# Danish month map (incl. short forms)
 MONTHS = {
     "jan": 1, "januar": 1,
     "feb": 2, "februar": 2,
@@ -67,7 +68,7 @@ def fetch(url: str, retries: int = 3, timeout: int = 25) -> requests.Response:
             r = S.get(url, timeout=timeout)
             r.raise_for_status()
             return r
-        except Exception as e:
+        except Exception:
             if attempt == retries - 1:
                 raise
             time.sleep(2 ** attempt)
@@ -99,20 +100,16 @@ def site_name_from_soup(soup: BeautifulSoup) -> str:
 
 def desc_html(soup: BeautifulSoup) -> str:
     """Choose a reasonable description block, avoiding modals/alerts."""
-    # Skip obvious modal/alert containers
     def bad(el):
         cls = " ".join(el.get("class", [])).lower()
         idv = (el.get("id") or "").lower()
-        return ("modal" in cls or "alert" in cls or
-                "modal" in idv or "alert" in idv)
+        return ("modal" in cls or "alert" in cls or "modal" in idv or "alert" in idv)
 
-    # Try common containers in priority order
     for sel in ["main", "article", "section", "div#content", "div.content", "div.container", "div.col", "div.row"]:
         el = soup.select_one(sel)
         if el and not bad(el):
             return str(el)
 
-    # Fallback: take a handful of <p> paragraphs (skipping modal/alert)
     parts = []
     for p in soup.find_all("p"):
         if bad(p):
@@ -124,7 +121,6 @@ def desc_html(soup: BeautifulSoup) -> str:
 
 
 def extract_dt(text: str):
-    """Return (start_dt, end_dt) if we can parse a date/time."""
     text = text.replace("\xa0", " ")
     d = m = y = None
     for pat in DATE_PATTERNS:
@@ -132,31 +128,21 @@ def extract_dt(text: str):
         if mo:
             g = mo.groups()
             if not g[1].isdigit():
-                d = int(g[0])
-                m = MONTHS.get(g[1].lower().strip("."))  # textual month
-                y = int(g[2])
+                d = int(g[0]); m = MONTHS.get(g[1].lower().strip(".")); y = int(g[2])
                 break
             else:
-                d = int(g[0])
-                m = int(g[1])
-                y = int(g[2])
-                if y < 100:
-                    y += 2000 if y < 50 else 1900
+                d = int(g[0]); m = int(g[1]); y = int(g[2]); y += 2000 if y < 100 and y < 50 else 1900 if y < 100 else 0
                 break
 
     hh = mm = None
     for tp in TIME_PATTERNS:
         to = tp.search(text)
         if to:
-            hh = int(to.group(1))
-            mm = int(to.group(2))
-            break
+            hh = int(to.group(1)); mm = int(to.group(2)); break
 
     if d and m and y:
-        if hh is None:
-            hh = 9
-        if mm is None:
-            mm = 0
+        if hh is None: hh = 9
+        if mm is None: mm = 0
         st = datetime(y, m, d, hh, mm)
         en = datetime(y, m, d, min(23, hh + 2), mm)
         return st, en
@@ -176,67 +162,41 @@ def parse_times(soup: BeautifulSoup):
 
 
 def parse_location(soup: BeautifulSoup, default_country="DK"):
-    """Try to extract a location-ish block, very heuristic."""
-    loc = {
-        "type": "address",
-        "name": "",
-        "address": "",
-        "zipcode": "",
-        "city": "",
-        "country": default_country,
-    }
-
-    # look for something that looks like "<street ...> <zip> <city>"
+    loc = { "type": "address", "name": "", "address": "", "zipcode": "", "city": "", "country": default_country }
     txt = soup.get_text("\n", strip=True)
     mo = re.search(r"(.{5,120})\s+(\d{4})\s+([A-Za-zæøåÆØÅ .-]{2,80})", txt)
     if mo:
         loc["address"] = clean_spaces(mo.group(1))[:200]
         loc["zipcode"] = mo.group(2)
-        loc["city"] = clean_spaces(mo.group(3))[:100]
-
+        loc["city"]   = clean_spaces(mo.group(3))[:100]
     h = soup.find(["h2", "h3", "strong", "b"])
     if h and h.get_text(strip=True):
         loc["name"] = clean_spaces(h.get_text(" ", strip=True))[:120]
-
     return loc
 
 
-IMG_SKIP_PAT = re.compile(
-    r"(loading|creditcard_logo|nemtilmeld-logo|tracking|/assets/img/)",
-    re.I
-)
-
+IMG_SKIP_PAT = re.compile(r"(loading|creditcard_logo|nemtilmeld-logo|tracking|/assets/img/)", re.I)
 
 def parse_images(soup: BeautifulSoup, base_root: str):
     out, seen = [], set()
     for img in soup.find_all("img", src=True):
         src = img["src"]
-        if src.startswith("data:"):
-            continue
+        if src.startswith("data:"): continue
         absu = urljoin(base_root, src)
-        if IMG_SKIP_PAT.search(absu):
-            continue
-        if absu in seen:
-            continue
-        seen.add(absu)
-        out.append(absu)
+        if IMG_SKIP_PAT.search(absu): continue
+        if absu in seen: continue
+        seen.add(absu); out.append(absu)
     return out
 
 
 def fmt_h(dt):
-    if not dt:
-        return ""
+    if not dt: return ""
     try:
-        # locale-independent 12h style (as in your sample)
         return dt.strftime("%Y-%m-%d %-I:%M %p")
     except ValueError:
-        # Windows strftime has no %-I
         return dt.strftime("%Y-%m-%d %I:%M %p")
 
-
-def fmt_c(dt):
-    return dt.strftime("%Y-%m-%d %H:%M:%S") if dt else ""
-
+def fmt_c(dt): return dt.strftime("%Y-%m-%d %H:%M:%S") if dt else ""
 
 def cdata_sub(parent, tag, val):
     el = ET.SubElement(parent, tag)
@@ -247,28 +207,21 @@ def cdata_sub(parent, tag, val):
 # ------------------------- Link discovery -------------------------
 
 def event_links(listing_html: str, base_url: str):
-    """
-    Return absolute event URLs like 'https://host/<id>/' from
-    any NemTilmeld listing page (handles /, /events/, etc.).
-    """
+    """Return absolute event URLs like 'https://host/<id>/' from any listing page."""
     root = site_root(base_url)
     soup = BeautifulSoup(listing_html, "html.parser")
     out = set()
-
     for a in soup.find_all("a", href=True):
         try:
             absu = urljoin(root, a["href"])
             path = urlparse(absu).path.strip("/")
-            if not path:
-                continue
+            if not path: continue
             segs = path.split("/")
-            # accept first purely numeric segment as event id
             digit = next((seg for seg in segs if seg.isdigit()), None)
             if digit:
                 out.add(urljoin(root, f"{digit}/"))
         except Exception:
             continue
-
     return sorted(out)
 
 
@@ -278,8 +231,7 @@ def build_provider(parent):
     prov = ET.SubElement(parent, "provider")
     cdata_sub(prov, "title", "NemTilmeld Aps")
     cdata_sub(prov, "address", "Strømmen 6")
-    z = ET.SubElement(prov, "zipcode")
-    z.text = ET.CDATA("9400")
+    z = ET.SubElement(prov, "zipcode"); z.text = ET.CDATA("9400")
     cdata_sub(prov, "city", "Nørresundby")
     cdata_sub(prov, "email", "info@nemtilmeld.dk")
     cdata_sub(prov, "phone", "+45 70404070")
@@ -294,7 +246,6 @@ def scrape_event(ev_url: str, base_root: str):
     title = f"{title_from_soup(soup)}"
     site_name = site_name_from_soup(soup)
     if site_name and site_name not in title:
-        # helpful context (as seen in your example)
         title = f"{title} | {site_name}"
 
     desc = desc_html(soup)
@@ -302,23 +253,17 @@ def scrape_event(ev_url: str, base_root: str):
     st, en, dl = parse_times(soup)
     loc = parse_location(soup)
 
-    # Extract org_event_id from URL path
     p = urlparse(ev_url).path.strip("/")
     org_id = (p.split("/")[0] if p else "")
 
-    # Build <event>
     ev = ET.Element("event", id=org_id or "0")
-
     ET.SubElement(ev, "org_event_id").text = org_id or ""
-
     cdata_sub(ev, "title", title)
-    d = ET.SubElement(ev, "description")
-    d.text = ET.CDATA(desc or "")
 
+    d = ET.SubElement(ev, "description"); d.text = ET.CDATA(desc or "")
     short = BeautifulSoup(desc or "", "html.parser").get_text(" ", strip=True)[:300]
     cdata_sub(ev, "description_short", short)
 
-    # times
     ET.SubElement(ev, "start_time").text = fmt_h(st)
     ET.SubElement(ev, "end_time").text = fmt_h(en)
     ET.SubElement(ev, "deadline").text = fmt_h(dl)
@@ -326,7 +271,6 @@ def scrape_event(ev_url: str, base_root: str):
     ET.SubElement(ev, "end_time_common").text = fmt_c(en)
     ET.SubElement(ev, "deadline_time_common").text = fmt_c(dl)
 
-    # tickets placeholder
     ET.SubElement(ev, "tickets")
     ET.SubElement(ev, "available_tickets").text = "true"
     ET.SubElement(ev, "available_tickets_quantity")
@@ -334,44 +278,35 @@ def scrape_event(ev_url: str, base_root: str):
     ET.SubElement(ev, "few_tickets_left").text = "false"
     ET.SubElement(ev, "public_status").text = "registration_open"
 
-    # url
     ET.SubElement(ev, "url").text = ev_url
 
-    # images
     imgs_el = ET.SubElement(ev, "images")
     for i, src in enumerate(imgs):
         im = ET.SubElement(imgs_el, "image", id=str(i))
-        ssrc = ET.SubElement(im, "source")
-        ssrc.text = ET.CDATA(src)
+        ssrc = ET.SubElement(im, "source"); ssrc.text = ET.CDATA(src)
 
     ET.SubElement(ev, "categories").text = " "
 
-    # location
     le = ET.SubElement(ev, "location", id=org_id or "0")
     cdata_sub(le, "type", loc.get("type"))
     cdata_sub(le, "name", loc.get("name"))
     cdata_sub(le, "address", loc.get("address"))
-    z2 = ET.SubElement(le, "zipcode")
-    z2.text = ET.CDATA(loc.get("zipcode", ""))
+    z2 = ET.SubElement(le, "zipcode"); z2.text = ET.CDATA(loc.get("zipcode", ""))
     cdata_sub(le, "city", loc.get("city"))
     cdata_sub(le, "country", loc.get("country", "DK"))
 
-    # organization (best-effort; fall back to host name)
     host = urlparse(base_root).netloc
     org = ET.SubElement(ev, "organization", id="0")
     cdata_sub(org, "title", site_name or host)
     cdata_sub(org, "address", "")
-    city = loc.get("city") or ""
-    cdata_sub(org, "city", city)
+    cdata_sub(org, "city", loc.get("city") or "")
     cdata_sub(org, "phone", "")
     cdata_sub(org, "country", "DK")
     cdata_sub(org, "url", base_root)
     cdata_sub(org, "description", "")
     cdata_sub(org, "email", "")
-    oz = ET.SubElement(org, "zipcode")
-    oz.text = ET.CDATA(loc.get("zipcode", ""))
+    oz = ET.SubElement(org, "zipcode"); oz.text = ET.CDATA(loc.get("zipcode", ""))
 
-    # contact_details (placeholders)
     cd = ET.SubElement(ev, "contact_details")
     cdata_sub(cd, "name", site_name or host)
     cdata_sub(cd, "phone", "")
@@ -381,10 +316,13 @@ def scrape_event(ev_url: str, base_root: str):
 
 
 def scrape_site(base_url: str):
-    """Return list[ET.Element] of <event> nodes for this site."""
+    """Return (events, site_title) for this site."""
     root = site_root(base_url)
-    listing = fetch(root).text
-    links = event_links(listing, root)
+    listing_html = fetch(root).text
+    soup_list = BeautifulSoup(listing_html, "html.parser")
+    site_title = site_name_from_soup(soup_list) or urlparse(root).netloc
+
+    links = event_links(listing_html, root)
     logging.info("Found %d event link(s) on %s", len(links), root)
 
     events = []
@@ -395,7 +333,7 @@ def scrape_site(base_url: str):
         except Exception as e:
             logging.warning("Failed %s: %s", url, e)
 
-    return events
+    return events, site_title
 
 
 def write_site_xml(base_url: str, events, out_path: str):
@@ -404,10 +342,61 @@ def write_site_xml(base_url: str, events, out_path: str):
     evs = ET.SubElement(data, "events")
     for ev in events:
         evs.append(ev)
+    xml_bytes = ET.tostring(data, encoding="utf-8", xml_declaration=True, pretty_print=True)
+    with open(out_path, "wb") as f:
+        f.write(xml_bytes)
 
-    xml_bytes = ET.tostring(
-        data, encoding="utf-8", xml_declaration=True, pretty_print=True
-    )
+
+def _parse_start(ev):
+    s = ev.findtext("start_time_common") or ""
+    try:
+        return datetime.strptime(s, "%Y-%m-%d %H:%M:%S")
+    except Exception:
+        # fallback on 12h format if needed
+        s2 = ev.findtext("start_time") or ""
+        for fmt in ("%Y-%m-%d %I:%M %p", "%Y-%m-%d %-I:%M %p"):
+            try:
+                return datetime.strptime(s2, fmt)
+            except Exception:
+                pass
+    return None
+
+
+def write_site_rss(base_url: str, site_title: str, events, out_path: str):
+    """RSS 2.0 feed per site."""
+    host = urlparse(base_url).netloc
+    rss = ET.Element("rss", version="2.0")
+    ch = ET.SubElement(rss, "channel")
+    ET.SubElement(ch, "title").text = f"{site_title} – Events"
+    ET.SubElement(ch, "link").text = base_url
+    ET.SubElement(ch, "description").text = f"Arrangementer fra {site_title} ({host})"
+    ET.SubElement(ch, "language").text = "da-DK"
+    ET.SubElement(ch, "ttl").text = "360"
+
+    # sort by start time ascending
+    def sort_key(ev):
+        dt = _parse_start(ev)
+        return dt or datetime.max
+    events_sorted = sorted(events, key=sort_key)
+
+    for ev in events_sorted:
+        title = ev.findtext("title") or "Arrangement"
+        link  = ev.findtext("url") or base_url
+        desc  = ev.findtext("description") or ""
+        dt    = _parse_start(ev)
+
+        it = ET.SubElement(ch, "item")
+        ET.SubElement(it, "title").text = title
+        ET.SubElement(it, "link").text = link
+        g = ET.SubElement(it, "guid", isPermaLink="true"); g.text = link
+        d = ET.SubElement(it, "description"); d.text = ET.CDATA(desc)
+        pd = ET.SubElement(it, "pubDate")
+        if dt is None:
+            pd.text = rfc2822(datetime.utcnow().replace(tzinfo=timezone.utc))
+        else:
+            pd.text = rfc2822(dt.replace(tzinfo=timezone.utc))
+
+    xml_bytes = ET.tostring(rss, encoding="utf-8", xml_declaration=True, pretty_print=True)
     with open(out_path, "wb") as f:
         f.write(xml_bytes)
 
@@ -418,10 +407,7 @@ def write_combined_xml(all_events, out_path: str):
     evs = ET.SubElement(data, "events")
     for ev in all_events:
         evs.append(ev)
-
-    xml_bytes = ET.tostring(
-        data, encoding="utf-8", xml_declaration=True, pretty_print=True
-    )
+    xml_bytes = ET.tostring(data, encoding="utf-8", xml_declaration=True, pretty_print=True)
     with open(out_path, "wb") as f:
         f.write(xml_bytes)
 
@@ -433,15 +419,12 @@ def main(argv):
     if not sources:
         try:
             with open("sources.txt", "r", encoding="utf-8") as fh:
-                sources = [
-                    line.strip() for line in fh if line.strip() and not line.strip().startswith("#")
-                ]
+                sources = [line.strip() for line in fh if line.strip() and not line.strip().startswith("#")]
         except FileNotFoundError:
             print("No sources provided and sources.txt not found.")
             print("Usage: python multi_scraper_xml.py https://site1.nemtilmeld.dk/ https://site2.nemtilmeld.dk/")
             return 1
 
-    # Normalize to host roots
     roots = []
     for s in sources:
         try:
@@ -453,7 +436,6 @@ def main(argv):
         logging.error("No valid sources.")
         return 2
 
-    # Ensure out dir exists
     import os
     os.makedirs("out", exist_ok=True)
 
@@ -463,10 +445,15 @@ def main(argv):
     for base in roots:
         try:
             logging.info("Scraping site: %s", base)
-            events = scrape_site(base)
+            events, site_title = scrape_site(base)
             host = urlparse(base).netloc.replace(":", "-")
-            out_path = f"out/data-{host}.xml"
-            write_site_xml(base, events, out_path)
+
+            xml_path = f"out/data-{host}.xml"
+            rss_path = f"out/rss-{host}.xml"
+
+            write_site_xml(base, events, xml_path)
+            write_site_rss(base, site_title, events, rss_path)
+
             per_site_counts.append((host, len(events)))
             all_events.extend(events)
         except Exception as e:
@@ -475,14 +462,13 @@ def main(argv):
 
     write_combined_xml(all_events, "data_all.xml")
 
-    # Summary
     logging.info("---- Summary ----")
     total = 0
     for host, n in per_site_counts:
         logging.info("%s: %d event(s)", host, n)
         total += n
     logging.info("TOTAL events: %d", total)
-    logging.info("Wrote data_all.xml and %d per-site file(s) in ./out/", len(per_site_counts))
+    logging.info("Wrote data_all.xml and per-site XML/RSS files in ./out/")
     return 0
 
 
