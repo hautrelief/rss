@@ -1,0 +1,320 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data>
+  <provider>
+    <title><![CDATA[NemTilmeld Aps]]></title>
+    <address><![CDATA[Strømmen 6]]></address>
+    <zipcode><![CDATA[9400]]></zipcode>
+    <city><![CDATA[Nørresundby]]></city>
+    <email><![CDATA[info@nemtilmeld.dk]]></email>
+    <phone><![CDATA[+45 70404070]]></phone>
+    <website><![CDATA[https://www.nemtilmeld.dk]]></website>
+  </provider>
+  <events>
+    <event id="177">
+      <org_event_id>177</org_event_id>
+      <title><![CDATA[Foredrag med Jesper Bergstrøm | Scleroseforeningens lokalafd. Odense, Kerteminde, Nordfyns]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Odense, Kerteminde, Nordfyns logo" class="" src="https://sclerose-okn.nemtilmeld.dk/images/organizations/16592/logo.png?mtime=1700653104" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-11-06 7:00 PM</start_time>
+      <end_time>2025-11-06 9:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-11-06 19:00:00</start_time_common>
+      <end_time_common>2025-11-06 21:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-nordfyn.nemtilmeld.dk/177/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-okn.nemtilmeld.dk/images/organizations/16592/logo.png?mtime=1700653104]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-okn.nemtilmeld.dk/images/descriptions/16592/Parorendelogo.png]]></source>
+        </image>
+        <image id="2">
+          <source><![CDATA[https://sclerose-okn.nemtilmeld.dk/images/descriptions/16592/jesper-bergstroem-1.png]]></source>
+        </image>
+        <image id="3">
+          <source><![CDATA[https://sclerose-nordfyn.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="177">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Foredrag med Jesper Bergstrøm]]></name>
+        <address><![CDATA[6. november]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Foredrag med Jesper Bergstrøm | Scleroseforeningens lokalafd. Odense, Kerteminde, Nordfyns]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-nordfyn.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Foredrag med Jesper Bergstrøm | Scleroseforeningens lokalafd. Odense, Kerteminde, Nordfyns]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="184">
+      <org_event_id>184</org_event_id>
+      <title><![CDATA[Julefrokost | Scleroseforeningens lokalafd. Odense, Kerteminde, Nordfyns]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Odense, Kerteminde, Nordfyns logo" class="" src="https://sclerose-okn.nemtilmeld.dk/images/organizations/16592/logo.png?mtime=1700653104" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-11-29 12:30 PM</start_time>
+      <end_time>2025-11-29 2:30 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-11-29 12:30:00</start_time_common>
+      <end_time_common>2025-11-29 14:30:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-nordfyn.nemtilmeld.dk/184/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-okn.nemtilmeld.dk/images/organizations/16592/logo.png?mtime=1700653104]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-nordfyn.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="184">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Julefrokost]]></name>
+        <address><![CDATA[29. november]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Julefrokost | Scleroseforeningens lokalafd. Odense, Kerteminde, Nordfyns]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-nordfyn.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Julefrokost | Scleroseforeningens lokalafd. Odense, Kerteminde, Nordfyns]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="203">
+      <org_event_id>203</org_event_id>
+      <title><![CDATA[Gå bold | Scleroseforeningens lokalafd. Odense, Kerteminde, Nordfyns]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Odense, Kerteminde, Nordfyns logo" class="" src="https://sclerose-okn.nemtilmeld.dk/images/organizations/16592/logo.png?mtime=1700653104" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-08-20 3:00 PM</start_time>
+      <end_time>2025-08-20 5:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-08-20 15:00:00</start_time_common>
+      <end_time_common>2025-08-20 17:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-nordfyn.nemtilmeld.dk/203/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-okn.nemtilmeld.dk/images/organizations/16592/logo.png?mtime=1700653104]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-nordfyn.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="203">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Gå bold]]></name>
+        <address><![CDATA[20. august]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Gå bold | Scleroseforeningens lokalafd. Odense, Kerteminde, Nordfyns]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-nordfyn.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Gå bold | Scleroseforeningens lokalafd. Odense, Kerteminde, Nordfyns]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="204">
+      <org_event_id>204</org_event_id>
+      <title><![CDATA[Mandegruppen | Scleroseforeningens lokalafd. Odense, Kerteminde, Nordfyns]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Odense, Kerteminde, Nordfyns logo" class="" src="https://sclerose-okn.nemtilmeld.dk/images/organizations/16592/logo.png?mtime=1700653104" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-09-03 3:00 PM</start_time>
+      <end_time>2025-09-03 5:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-09-03 15:00:00</start_time_common>
+      <end_time_common>2025-09-03 17:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-nordfyn.nemtilmeld.dk/204/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-okn.nemtilmeld.dk/images/organizations/16592/logo.png?mtime=1700653104]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-nordfyn.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="204">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Mandegruppen]]></name>
+        <address><![CDATA[3. september]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Mandegruppen | Scleroseforeningens lokalafd. Odense, Kerteminde, Nordfyns]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-nordfyn.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Mandegruppen | Scleroseforeningens lokalafd. Odense, Kerteminde, Nordfyns]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="205">
+      <org_event_id>205</org_event_id>
+      <title><![CDATA[Kvindegruppen | Scleroseforeningens lokalafd. Odense, Kerteminde, Nordfyns]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Odense, Kerteminde, Nordfyns logo" class="" src="https://sclerose-okn.nemtilmeld.dk/images/organizations/16592/logo.png?mtime=1700653104" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-09-10 3:30 PM</start_time>
+      <end_time>2025-09-10 5:30 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-09-10 15:30:00</start_time_common>
+      <end_time_common>2025-09-10 17:30:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-nordfyn.nemtilmeld.dk/205/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-okn.nemtilmeld.dk/images/organizations/16592/logo.png?mtime=1700653104]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-nordfyn.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="205">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Kvindegruppen]]></name>
+        <address><![CDATA[10. september]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Kvindegruppen | Scleroseforeningens lokalafd. Odense, Kerteminde, Nordfyns]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-nordfyn.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Kvindegruppen | Scleroseforeningens lokalafd. Odense, Kerteminde, Nordfyns]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+  </events>
+</data>

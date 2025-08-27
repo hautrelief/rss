@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data>
+  <provider>
+    <title><![CDATA[NemTilmeld Aps]]></title>
+    <address><![CDATA[Strømmen 6]]></address>
+    <zipcode><![CDATA[9400]]></zipcode>
+    <city><![CDATA[Nørresundby]]></city>
+    <email><![CDATA[info@nemtilmeld.dk]]></email>
+    <phone><![CDATA[+45 70404070]]></phone>
+    <website><![CDATA[https://www.nemtilmeld.dk]]></website>
+  </provider>
+  <events>
+    <event id="168">
+      <org_event_id>168</org_event_id>
+      <title><![CDATA[Caféaften for pårørende | Scleroseforeningens lokalafd. Esbjerg og Fanø]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Esbjerg og Fanø logo" class="use-full-height" src="https://sclerose-esbjerg-fanoe.nemtilmeld.dk/images/organizations/16575/logo.png?mtime=1700653195" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-09-03 6:00 PM</start_time>
+      <end_time>2025-09-03 8:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-09-03 18:00:00</start_time_common>
+      <end_time_common>2025-09-03 20:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-esbjerg-fanoe.nemtilmeld.dk/168/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-esbjerg-fanoe.nemtilmeld.dk/images/organizations/16575/logo.png?mtime=1700653195]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-esbjerg-fanoe.nemtilmeld.dk/images/descriptions/16575/CAFE_MODE_PARORENDE_SEP_2025.jpg]]></source>
+        </image>
+        <image id="2">
+          <source><![CDATA[https://sclerose-esbjerg-fanoe.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="168">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Caféaften for pårørende]]></name>
+        <address><![CDATA[3. september]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Caféaften for pårørende | Scleroseforeningens lokalafd. Esbjerg og Fanø]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-esbjerg-fanoe.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Caféaften for pårørende | Scleroseforeningens lokalafd. Esbjerg og Fanø]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="169">
+      <org_event_id>169</org_event_id>
+      <title><![CDATA[Keramikaften for unge med sclerose september 2025 | Scleroseforeningens lokalafd. Esbjerg og Fanø]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Esbjerg og Fanø logo" class="use-full-height" src="https://sclerose-esbjerg-fanoe.nemtilmeld.dk/images/organizations/16575/logo.png?mtime=1700653195" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-09-04 6:00 PM</start_time>
+      <end_time>2025-09-04 8:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-09-04 18:00:00</start_time_common>
+      <end_time_common>2025-09-04 20:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-esbjerg-fanoe.nemtilmeld.dk/169/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-esbjerg-fanoe.nemtilmeld.dk/images/organizations/16575/logo.png?mtime=1700653195]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-esbjerg-fanoe.nemtilmeld.dk/images/descriptions/16575/Keramikaften_septemer_2025.jpg]]></source>
+        </image>
+        <image id="2">
+          <source><![CDATA[https://sclerose-esbjerg-fanoe.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="169">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Keramikaften for unge med sclerose september 2025]]></name>
+        <address><![CDATA[Keramikaften for unge med sclerose september]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[Dato og tid]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Keramikaften for unge med sclerose september 2025 | Scleroseforeningens lokalafd. Esbjerg og Fanø]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[Dato og tid]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-esbjerg-fanoe.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Keramikaften for unge med sclerose september 2025 | Scleroseforeningens lokalafd. Esbjerg og Fanø]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="171">
+      <org_event_id>171</org_event_id>
+      <title><![CDATA[Søren Ryge: Det handler om mennesker | Scleroseforeningens lokalafd. Esbjerg og Fanø]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Esbjerg og Fanø logo" class="use-full-height" src="https://sclerose-esbjerg-fanoe.nemtilmeld.dk/images/organizations/16575/logo.png?mtime=1700653195" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-10-30 4:45 PM</start_time>
+      <end_time>2025-10-30 6:45 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-10-30 16:45:00</start_time_common>
+      <end_time_common>2025-10-30 18:45:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-esbjerg-fanoe.nemtilmeld.dk/171/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-esbjerg-fanoe.nemtilmeld.dk/images/organizations/16575/logo.png?mtime=1700653195]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-esbjerg-fanoe.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="171">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Søren Ryge: Det handler om mennesker]]></name>
+        <address><![CDATA[30. oktober]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Søren Ryge: Det handler om mennesker | Scleroseforeningens lokalafd. Esbjerg og Fanø]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-esbjerg-fanoe.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Søren Ryge: Det handler om mennesker | Scleroseforeningens lokalafd. Esbjerg og Fanø]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+  </events>
+</data>

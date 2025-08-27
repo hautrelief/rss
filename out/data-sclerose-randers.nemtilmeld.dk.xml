@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data>
+  <provider>
+    <title><![CDATA[NemTilmeld Aps]]></title>
+    <address><![CDATA[Strømmen 6]]></address>
+    <zipcode><![CDATA[9400]]></zipcode>
+    <city><![CDATA[Nørresundby]]></city>
+    <email><![CDATA[info@nemtilmeld.dk]]></email>
+    <phone><![CDATA[+45 70404070]]></phone>
+    <website><![CDATA[https://www.nemtilmeld.dk]]></website>
+  </provider>
+  <events>
+    <event id="26">
+      <org_event_id>26</org_event_id>
+      <title><![CDATA[Prøv at bokse! | Scleroseforeningens lokalafd. Randers]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Randers logo" class="" src="https://sclerose-randers.nemtilmeld.dk/images/organizations/16599/logo.png?mtime=1700653005" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-10-08 6:30 PM</start_time>
+      <end_time>2025-10-08 8:30 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-10-08 18:30:00</start_time_common>
+      <end_time_common>2025-10-08 20:30:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-randers.nemtilmeld.dk/26/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-randers.nemtilmeld.dk/images/organizations/16599/logo.png?mtime=1700653005]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-randers.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="26">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Prøv at bokse!]]></name>
+        <address><![CDATA[8. oktober]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Prøv at bokse! | Scleroseforeningens lokalafd. Randers]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-randers.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Prøv at bokse! | Scleroseforeningens lokalafd. Randers]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+  </events>
+</data>

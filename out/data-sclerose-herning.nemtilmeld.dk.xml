@@ -1,0 +1,677 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data>
+  <provider>
+    <title><![CDATA[NemTilmeld Aps]]></title>
+    <address><![CDATA[Strømmen 6]]></address>
+    <zipcode><![CDATA[9400]]></zipcode>
+    <city><![CDATA[Nørresundby]]></city>
+    <email><![CDATA[info@nemtilmeld.dk]]></email>
+    <phone><![CDATA[+45 70404070]]></phone>
+    <website><![CDATA[https://www.nemtilmeld.dk]]></website>
+  </provider>
+  <events>
+    <event id="67">
+      <org_event_id>67</org_event_id>
+      <title><![CDATA[Sclerose Café Træf | Scleroseforeningens lokalafd. Herning]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Herning logo" class="" src="https://sclerose-herning.nemtilmeld.dk/images/organizations/16584/logo.png?mtime=1700652911" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-09-15 5:30 PM</start_time>
+      <end_time>2025-09-15 7:30 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-09-15 17:30:00</start_time_common>
+      <end_time_common>2025-09-15 19:30:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-herning.nemtilmeld.dk/67/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-herning.nemtilmeld.dk/images/organizations/16584/logo.png?mtime=1700652911]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-herning.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="67">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Sclerose Café Træf]]></name>
+        <address><![CDATA[15. september]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Sclerose Café Træf | Scleroseforeningens lokalafd. Herning]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-herning.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Sclerose Café Træf | Scleroseforeningens lokalafd. Herning]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="68">
+      <org_event_id>68</org_event_id>
+      <title><![CDATA[Sclerose Café Træf | Scleroseforeningens lokalafd. Herning]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Herning logo" class="" src="https://sclerose-herning.nemtilmeld.dk/images/organizations/16584/logo.png?mtime=1700652911" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-10-14 6:30 PM</start_time>
+      <end_time>2025-10-14 8:30 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-10-14 18:30:00</start_time_common>
+      <end_time_common>2025-10-14 20:30:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-herning.nemtilmeld.dk/68/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-herning.nemtilmeld.dk/images/organizations/16584/logo.png?mtime=1700652911]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-herning.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="68">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Sclerose Café Træf]]></name>
+        <address><![CDATA[14. oktober]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Sclerose Café Træf | Scleroseforeningens lokalafd. Herning]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-herning.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Sclerose Café Træf | Scleroseforeningens lokalafd. Herning]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="69">
+      <org_event_id>69</org_event_id>
+      <title><![CDATA[Sclerose Café Træf | Scleroseforeningens lokalafd. Herning]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Herning logo" class="" src="https://sclerose-herning.nemtilmeld.dk/images/organizations/16584/logo.png?mtime=1700652911" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-11-12 6:30 PM</start_time>
+      <end_time>2025-11-12 8:30 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-11-12 18:30:00</start_time_common>
+      <end_time_common>2025-11-12 20:30:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-herning.nemtilmeld.dk/69/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-herning.nemtilmeld.dk/images/organizations/16584/logo.png?mtime=1700652911]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-herning.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="69">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Sclerose Café Træf]]></name>
+        <address><![CDATA[12. november]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Sclerose Café Træf | Scleroseforeningens lokalafd. Herning]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-herning.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Sclerose Café Træf | Scleroseforeningens lokalafd. Herning]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="70">
+      <org_event_id>70</org_event_id>
+      <title><![CDATA[Sclerose Café Træf | Scleroseforeningens lokalafd. Herning]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Herning logo" class="" src="https://sclerose-herning.nemtilmeld.dk/images/organizations/16584/logo.png?mtime=1700652911" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-12-08 6:30 PM</start_time>
+      <end_time>2025-12-08 8:30 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-12-08 18:30:00</start_time_common>
+      <end_time_common>2025-12-08 20:30:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-herning.nemtilmeld.dk/70/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-herning.nemtilmeld.dk/images/organizations/16584/logo.png?mtime=1700652911]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-herning.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="70">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Sclerose Café Træf]]></name>
+        <address><![CDATA[8. december]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Sclerose Café Træf | Scleroseforeningens lokalafd. Herning]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-herning.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Sclerose Café Træf | Scleroseforeningens lokalafd. Herning]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="78">
+      <org_event_id>78</org_event_id>
+      <title><![CDATA[Sclerose Café Træf | Scleroseforeningens lokalafd. Herning]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Herning logo" class="" src="https://sclerose-herning.nemtilmeld.dk/images/organizations/16584/logo.png?mtime=1700652911" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-09-03 12:30 PM</start_time>
+      <end_time>2025-09-03 2:30 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-09-03 12:30:00</start_time_common>
+      <end_time_common>2025-09-03 14:30:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-herning.nemtilmeld.dk/78/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-herning.nemtilmeld.dk/images/organizations/16584/logo.png?mtime=1700652911]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-herning.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="78">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Sclerose Café Træf]]></name>
+        <address><![CDATA[3. september]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Sclerose Café Træf | Scleroseforeningens lokalafd. Herning]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-herning.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Sclerose Café Træf | Scleroseforeningens lokalafd. Herning]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="79">
+      <org_event_id>79</org_event_id>
+      <title><![CDATA[Sclerose Café Træf | Scleroseforeningens lokalafd. Herning]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Herning logo" class="" src="https://sclerose-herning.nemtilmeld.dk/images/organizations/16584/logo.png?mtime=1700652911" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-10-02 12:30 PM</start_time>
+      <end_time>2025-10-02 2:30 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-10-02 12:30:00</start_time_common>
+      <end_time_common>2025-10-02 14:30:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-herning.nemtilmeld.dk/79/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-herning.nemtilmeld.dk/images/organizations/16584/logo.png?mtime=1700652911]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-herning.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="79">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Sclerose Café Træf]]></name>
+        <address><![CDATA[2. oktober]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Sclerose Café Træf | Scleroseforeningens lokalafd. Herning]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-herning.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Sclerose Café Træf | Scleroseforeningens lokalafd. Herning]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="80">
+      <org_event_id>80</org_event_id>
+      <title><![CDATA[Sclerose Café Træf | Scleroseforeningens lokalafd. Herning]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Herning logo" class="" src="https://sclerose-herning.nemtilmeld.dk/images/organizations/16584/logo.png?mtime=1700652911" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-10-27 12:30 PM</start_time>
+      <end_time>2025-10-27 2:30 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-10-27 12:30:00</start_time_common>
+      <end_time_common>2025-10-27 14:30:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-herning.nemtilmeld.dk/80/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-herning.nemtilmeld.dk/images/organizations/16584/logo.png?mtime=1700652911]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-herning.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="80">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Sclerose Café Træf]]></name>
+        <address><![CDATA[27. oktober]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Sclerose Café Træf | Scleroseforeningens lokalafd. Herning]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-herning.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Sclerose Café Træf | Scleroseforeningens lokalafd. Herning]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="81">
+      <org_event_id>81</org_event_id>
+      <title><![CDATA[Sclerose Café Træf | Scleroseforeningens lokalafd. Herning]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Herning logo" class="" src="https://sclerose-herning.nemtilmeld.dk/images/organizations/16584/logo.png?mtime=1700652911" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-11-25 12:30 PM</start_time>
+      <end_time>2025-11-25 2:30 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-11-25 12:30:00</start_time_common>
+      <end_time_common>2025-11-25 14:30:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-herning.nemtilmeld.dk/81/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-herning.nemtilmeld.dk/images/organizations/16584/logo.png?mtime=1700652911]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-herning.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="81">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Sclerose Café Træf]]></name>
+        <address><![CDATA[25. november]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Sclerose Café Træf | Scleroseforeningens lokalafd. Herning]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-herning.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Sclerose Café Træf | Scleroseforeningens lokalafd. Herning]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="83">
+      <org_event_id>83</org_event_id>
+      <title><![CDATA[Sclerosefestival 2025 | Scleroseforeningens lokalafd. Herning]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Herning logo" class="" src="https://sclerose-herning.nemtilmeld.dk/images/organizations/16584/logo.png?mtime=1700652911" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-10-04 10:00 AM</start_time>
+      <end_time>2025-10-04 12:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-10-04 10:00:00</start_time_common>
+      <end_time_common>2025-10-04 12:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-herning.nemtilmeld.dk/83/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-herning.nemtilmeld.dk/images/organizations/16584/logo.png?mtime=1700652911]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-herning.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="83">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Sclerosefestival 2025]]></name>
+        <address><![CDATA[Sclerosefestival]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[Dato og tid]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Sclerosefestival 2025 | Scleroseforeningens lokalafd. Herning]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[Dato og tid]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-herning.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Sclerosefestival 2025 | Scleroseforeningens lokalafd. Herning]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="84">
+      <org_event_id>84</org_event_id>
+      <title><![CDATA[Landsindsamling Scleroseforening | Scleroseforeningens lokalafd. Herning]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Herning logo" class="" src="https://sclerose-herning.nemtilmeld.dk/images/organizations/16584/logo.png?mtime=1700652911" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-09-14 10:00 AM</start_time>
+      <end_time>2025-09-14 12:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-09-14 10:00:00</start_time_common>
+      <end_time_common>2025-09-14 12:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-herning.nemtilmeld.dk/84/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-herning.nemtilmeld.dk/images/organizations/16584/logo.png?mtime=1700652911]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-herning.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="84">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Landsindsamling Scleroseforening]]></name>
+        <address><![CDATA[14. september]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Landsindsamling Scleroseforening | Scleroseforeningens lokalafd. Herning]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-herning.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Landsindsamling Scleroseforening | Scleroseforeningens lokalafd. Herning]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="94">
+      <org_event_id>94</org_event_id>
+      <title><![CDATA[Nååja - jeg har sclerose! | Scleroseforeningens lokalafd. Herning]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Herning logo" class="" src="https://sclerose-herning.nemtilmeld.dk/images/organizations/16584/logo.png?mtime=1700652911" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-09-02 7:00 PM</start_time>
+      <end_time>2025-09-02 9:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-09-02 19:00:00</start_time_common>
+      <end_time_common>2025-09-02 21:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-herning.nemtilmeld.dk/94/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-herning.nemtilmeld.dk/images/organizations/16584/logo.png?mtime=1700652911]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-herning.nemtilmeld.dk/images/descriptions/16584/Eddie-Sorensen.jpg]]></source>
+        </image>
+        <image id="2">
+          <source><![CDATA[https://sclerose-herning.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="94">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Nååja - jeg har sclerose!]]></name>
+        <address><![CDATA[2. september]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Nååja - jeg har sclerose! | Scleroseforeningens lokalafd. Herning]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-herning.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Nååja - jeg har sclerose! | Scleroseforeningens lokalafd. Herning]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+  </events>
+</data>

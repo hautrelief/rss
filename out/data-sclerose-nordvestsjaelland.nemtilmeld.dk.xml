@@ -1,0 +1,626 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data>
+  <provider>
+    <title><![CDATA[NemTilmeld Aps]]></title>
+    <address><![CDATA[Strømmen 6]]></address>
+    <zipcode><![CDATA[9400]]></zipcode>
+    <city><![CDATA[Nørresundby]]></city>
+    <email><![CDATA[info@nemtilmeld.dk]]></email>
+    <phone><![CDATA[+45 70404070]]></phone>
+    <website><![CDATA[https://www.nemtilmeld.dk]]></website>
+  </provider>
+  <events>
+    <event id="78">
+      <org_event_id>78</org_event_id>
+      <title><![CDATA[Akvarel workshop | Scleroseforeningens lokalafd. Nordvestsjælland]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Nordvestsjælland logo" class="" src="https://sclerose-nordvestsjaelland.nemtilmeld.dk/images/organizations/16596/logo.png?mtime=1700653367" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-11-01 11:00 AM</start_time>
+      <end_time>2025-11-01 1:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-11-01 11:00:00</start_time_common>
+      <end_time_common>2025-11-01 13:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-nordvestsjaelland.nemtilmeld.dk/78/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-nordvestsjaelland.nemtilmeld.dk/images/organizations/16596/logo.png?mtime=1700653367]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-nordvestsjaelland.nemtilmeld.dk/images/descriptions/16596/Billede_2.jpg]]></source>
+        </image>
+        <image id="2">
+          <source><![CDATA[https://sclerose-nordvestsjaelland.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="78">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Akvarel workshop]]></name>
+        <address><![CDATA[1. november]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Akvarel workshop | Scleroseforeningens lokalafd. Nordvestsjælland]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-nordvestsjaelland.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Akvarel workshop | Scleroseforeningens lokalafd. Nordvestsjælland]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="81">
+      <org_event_id>81</org_event_id>
+      <title><![CDATA[Jump gennem efteråret | Scleroseforeningens lokalafd. Nordvestsjælland]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Nordvestsjælland logo" class="" src="https://sclerose-nordvestsjaelland.nemtilmeld.dk/images/organizations/16596/logo.png?mtime=1700653367" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-08-28 4:30 PM</start_time>
+      <end_time>2025-08-28 6:30 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-08-28 16:30:00</start_time_common>
+      <end_time_common>2025-08-28 18:30:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-nordvestsjaelland.nemtilmeld.dk/81/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-nordvestsjaelland.nemtilmeld.dk/images/organizations/16596/logo.png?mtime=1700653367]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-nordvestsjaelland.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="81">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Jump gennem efteråret]]></name>
+        <address><![CDATA[28. august]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Jump gennem efteråret | Scleroseforeningens lokalafd. Nordvestsjælland]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-nordvestsjaelland.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Jump gennem efteråret | Scleroseforeningens lokalafd. Nordvestsjælland]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="82">
+      <org_event_id>82</org_event_id>
+      <title><![CDATA[Efterårs bowling for hele familien | Scleroseforeningens lokalafd. Nordvestsjælland]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Nordvestsjælland logo" class="" src="https://sclerose-nordvestsjaelland.nemtilmeld.dk/images/organizations/16596/logo.png?mtime=1700653367" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-10-10 5:00 PM</start_time>
+      <end_time>2025-10-10 7:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-10-10 17:00:00</start_time_common>
+      <end_time_common>2025-10-10 19:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-nordvestsjaelland.nemtilmeld.dk/82/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-nordvestsjaelland.nemtilmeld.dk/images/organizations/16596/logo.png?mtime=1700653367]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-nordvestsjaelland.nemtilmeld.dk/images/descriptions/16596/Billede_1.jpg]]></source>
+        </image>
+        <image id="2">
+          <source><![CDATA[https://sclerose-nordvestsjaelland.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="82">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Efterårs bowling for hele familien]]></name>
+        <address><![CDATA[10. oktober]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Efterårs bowling for hele familien | Scleroseforeningens lokalafd. Nordvestsjælland]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-nordvestsjaelland.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Efterårs bowling for hele familien | Scleroseforeningens lokalafd. Nordvestsjælland]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="83">
+      <org_event_id>83</org_event_id>
+      <title><![CDATA[Alle kan blive udsat for svindel. | Scleroseforeningens lokalafd. Nordvestsjælland]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Nordvestsjælland logo" class="" src="https://sclerose-nordvestsjaelland.nemtilmeld.dk/images/organizations/16596/logo.png?mtime=1700653367" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-10-22 7:00 PM</start_time>
+      <end_time>2025-10-22 9:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-10-22 19:00:00</start_time_common>
+      <end_time_common>2025-10-22 21:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-nordvestsjaelland.nemtilmeld.dk/83/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-nordvestsjaelland.nemtilmeld.dk/images/organizations/16596/logo.png?mtime=1700653367]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-nordvestsjaelland.nemtilmeld.dk/images/descriptions/16596/Billede_3.jpg]]></source>
+        </image>
+        <image id="2">
+          <source><![CDATA[https://sclerose-nordvestsjaelland.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="83">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Alle kan blive udsat for svindel.]]></name>
+        <address><![CDATA[22. oktober]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Alle kan blive udsat for svindel. | Scleroseforeningens lokalafd. Nordvestsjælland]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-nordvestsjaelland.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Alle kan blive udsat for svindel. | Scleroseforeningens lokalafd. Nordvestsjælland]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="84">
+      <org_event_id>84</org_event_id>
+      <title><![CDATA[Fredagscafe | Scleroseforeningens lokalafd. Nordvestsjælland]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Nordvestsjælland logo" class="" src="https://sclerose-nordvestsjaelland.nemtilmeld.dk/images/organizations/16596/logo.png?mtime=1700653367" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-10-10 1:30 PM</start_time>
+      <end_time>2025-10-10 3:30 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-10-10 13:30:00</start_time_common>
+      <end_time_common>2025-10-10 15:30:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-nordvestsjaelland.nemtilmeld.dk/84/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-nordvestsjaelland.nemtilmeld.dk/images/organizations/16596/logo.png?mtime=1700653367]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-nordvestsjaelland.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="84">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Fredagscafe]]></name>
+        <address><![CDATA[10. oktober]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Fredagscafe | Scleroseforeningens lokalafd. Nordvestsjælland]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-nordvestsjaelland.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Fredagscafe | Scleroseforeningens lokalafd. Nordvestsjælland]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="85">
+      <org_event_id>85</org_event_id>
+      <title><![CDATA[Fredagscafe | Scleroseforeningens lokalafd. Nordvestsjælland]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Nordvestsjælland logo" class="" src="https://sclerose-nordvestsjaelland.nemtilmeld.dk/images/organizations/16596/logo.png?mtime=1700653367" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-11-07 1:30 PM</start_time>
+      <end_time>2025-11-07 3:30 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-11-07 13:30:00</start_time_common>
+      <end_time_common>2025-11-07 15:30:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-nordvestsjaelland.nemtilmeld.dk/85/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-nordvestsjaelland.nemtilmeld.dk/images/organizations/16596/logo.png?mtime=1700653367]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-nordvestsjaelland.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="85">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Fredagscafe]]></name>
+        <address><![CDATA[7. november]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Fredagscafe | Scleroseforeningens lokalafd. Nordvestsjælland]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-nordvestsjaelland.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Fredagscafe | Scleroseforeningens lokalafd. Nordvestsjælland]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="86">
+      <org_event_id>86</org_event_id>
+      <title><![CDATA[Fredagscafe | Scleroseforeningens lokalafd. Nordvestsjælland]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Nordvestsjælland logo" class="" src="https://sclerose-nordvestsjaelland.nemtilmeld.dk/images/organizations/16596/logo.png?mtime=1700653367" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-11-21 1:30 PM</start_time>
+      <end_time>2025-11-21 3:30 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-11-21 13:30:00</start_time_common>
+      <end_time_common>2025-11-21 15:30:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-nordvestsjaelland.nemtilmeld.dk/86/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-nordvestsjaelland.nemtilmeld.dk/images/organizations/16596/logo.png?mtime=1700653367]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-nordvestsjaelland.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="86">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Fredagscafe]]></name>
+        <address><![CDATA[21. november]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Fredagscafe | Scleroseforeningens lokalafd. Nordvestsjælland]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-nordvestsjaelland.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Fredagscafe | Scleroseforeningens lokalafd. Nordvestsjælland]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="87">
+      <org_event_id>87</org_event_id>
+      <title><![CDATA[Fredagscafe | Scleroseforeningens lokalafd. Nordvestsjælland]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Nordvestsjælland logo" class="" src="https://sclerose-nordvestsjaelland.nemtilmeld.dk/images/organizations/16596/logo.png?mtime=1700653367" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-12-05 1:30 PM</start_time>
+      <end_time>2025-12-05 3:30 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-12-05 13:30:00</start_time_common>
+      <end_time_common>2025-12-05 15:30:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-nordvestsjaelland.nemtilmeld.dk/87/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-nordvestsjaelland.nemtilmeld.dk/images/organizations/16596/logo.png?mtime=1700653367]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-nordvestsjaelland.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="87">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Fredagscafe]]></name>
+        <address><![CDATA[5. december]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Fredagscafe | Scleroseforeningens lokalafd. Nordvestsjælland]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-nordvestsjaelland.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Fredagscafe | Scleroseforeningens lokalafd. Nordvestsjælland]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="88">
+      <org_event_id>88</org_event_id>
+      <title><![CDATA[Tirsdags salon Holbæk | Scleroseforeningens lokalafd. Nordvestsjælland]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Nordvestsjælland logo" class="" src="https://sclerose-nordvestsjaelland.nemtilmeld.dk/images/organizations/16596/logo.png?mtime=1700653367" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-09-16 11:00 AM</start_time>
+      <end_time>2025-09-16 1:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-09-16 11:00:00</start_time_common>
+      <end_time_common>2025-09-16 13:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-nordvestsjaelland.nemtilmeld.dk/88/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-nordvestsjaelland.nemtilmeld.dk/images/organizations/16596/logo.png?mtime=1700653367]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-nordvestsjaelland.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="88">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Tirsdags salon Holbæk]]></name>
+        <address><![CDATA[16. september]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Tirsdags salon Holbæk | Scleroseforeningens lokalafd. Nordvestsjælland]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-nordvestsjaelland.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Tirsdags salon Holbæk | Scleroseforeningens lokalafd. Nordvestsjælland]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="89">
+      <org_event_id>89</org_event_id>
+      <title><![CDATA[Julehygge | Scleroseforeningens lokalafd. Nordvestsjælland]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Nordvestsjælland logo" class="" src="https://sclerose-nordvestsjaelland.nemtilmeld.dk/images/organizations/16596/logo.png?mtime=1700653367" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-11-30 1:30 PM</start_time>
+      <end_time>2025-11-30 3:30 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-11-30 13:30:00</start_time_common>
+      <end_time_common>2025-11-30 15:30:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-nordvestsjaelland.nemtilmeld.dk/89/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-nordvestsjaelland.nemtilmeld.dk/images/organizations/16596/logo.png?mtime=1700653367]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-nordvestsjaelland.nemtilmeld.dk/images/descriptions/16596/Billede_2_1.jpg]]></source>
+        </image>
+        <image id="2">
+          <source><![CDATA[https://sclerose-nordvestsjaelland.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="89">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Julehygge]]></name>
+        <address><![CDATA[30. november]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Julehygge | Scleroseforeningens lokalafd. Nordvestsjælland]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-nordvestsjaelland.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Julehygge | Scleroseforeningens lokalafd. Nordvestsjælland]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+  </events>
+</data>

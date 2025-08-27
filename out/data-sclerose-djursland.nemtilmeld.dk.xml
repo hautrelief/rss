@@ -1,0 +1,509 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data>
+  <provider>
+    <title><![CDATA[NemTilmeld Aps]]></title>
+    <address><![CDATA[Strømmen 6]]></address>
+    <zipcode><![CDATA[9400]]></zipcode>
+    <city><![CDATA[Nørresundby]]></city>
+    <email><![CDATA[info@nemtilmeld.dk]]></email>
+    <phone><![CDATA[+45 70404070]]></phone>
+    <website><![CDATA[https://www.nemtilmeld.dk]]></website>
+  </provider>
+  <events>
+    <event id="167">
+      <org_event_id>167</org_event_id>
+      <title><![CDATA[Workshop i stenmaling | Scleroseforeningens lokalafd. Djursland]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Djursland logo" class="use-full-height" src="https://sclerose-djursland.nemtilmeld.dk/images/organizations/16573/logo.png?mtime=1700652989" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-10-21 4:00 PM</start_time>
+      <end_time>2025-10-21 6:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-10-21 16:00:00</start_time_common>
+      <end_time_common>2025-10-21 18:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-djursland.nemtilmeld.dk/167/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-djursland.nemtilmeld.dk/images/organizations/16573/logo.png?mtime=1700652989]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-djursland.nemtilmeld.dk/images/descriptions/16573/DSC_2925.JPG]]></source>
+        </image>
+        <image id="2">
+          <source><![CDATA[https://sclerose-djursland.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="167">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Workshop i stenmaling]]></name>
+        <address><![CDATA[21. oktober]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Workshop i stenmaling | Scleroseforeningens lokalafd. Djursland]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-djursland.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Workshop i stenmaling | Scleroseforeningens lokalafd. Djursland]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="168">
+      <org_event_id>168</org_event_id>
+      <title><![CDATA[Fællesspisning i Dronningens Ferieby | Scleroseforeningens lokalafd. Djursland]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Djursland logo" class="use-full-height" src="https://sclerose-djursland.nemtilmeld.dk/images/organizations/16573/logo.png?mtime=1700652989" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-11-04 4:30 PM</start_time>
+      <end_time>2025-11-04 6:30 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-11-04 16:30:00</start_time_common>
+      <end_time_common>2025-11-04 18:30:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-djursland.nemtilmeld.dk/168/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-djursland.nemtilmeld.dk/images/organizations/16573/logo.png?mtime=1700652989]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-djursland.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="168">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Fællesspisning i Dronningens Ferieby]]></name>
+        <address><![CDATA[4. november]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Fællesspisning i Dronningens Ferieby | Scleroseforeningens lokalafd. Djursland]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-djursland.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Fællesspisning i Dronningens Ferieby | Scleroseforeningens lokalafd. Djursland]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="169">
+      <org_event_id>169</org_event_id>
+      <title><![CDATA[Julestue i Dronningens Ferieby | Scleroseforeningens lokalafd. Djursland]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Djursland logo" class="use-full-height" src="https://sclerose-djursland.nemtilmeld.dk/images/organizations/16573/logo.png?mtime=1700652989" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-11-23 11:00 AM</start_time>
+      <end_time>2025-11-23 1:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-11-23 11:00:00</start_time_common>
+      <end_time_common>2025-11-23 13:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-djursland.nemtilmeld.dk/169/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-djursland.nemtilmeld.dk/images/organizations/16573/logo.png?mtime=1700652989]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-djursland.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="169">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Julestue i Dronningens Ferieby]]></name>
+        <address><![CDATA[23. november]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Julestue i Dronningens Ferieby | Scleroseforeningens lokalafd. Djursland]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-djursland.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Julestue i Dronningens Ferieby | Scleroseforeningens lokalafd. Djursland]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="170">
+      <org_event_id>170</org_event_id>
+      <title><![CDATA[Foredrag om kognitive udfordringer hos sclerosepatienter | Scleroseforeningens lokalafd. Djursland]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Djursland logo" class="use-full-height" src="https://sclerose-djursland.nemtilmeld.dk/images/organizations/16573/logo.png?mtime=1700652989" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-09-16 5:00 PM</start_time>
+      <end_time>2025-09-16 7:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-09-16 17:00:00</start_time_common>
+      <end_time_common>2025-09-16 19:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-djursland.nemtilmeld.dk/170/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-djursland.nemtilmeld.dk/images/organizations/16573/logo.png?mtime=1700652989]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-djursland.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="170">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Foredrag om kognitive udfordringer hos sclerosepatienter]]></name>
+        <address><![CDATA[16. september]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Foredrag om kognitive udfordringer hos sclerosepatienter | Scleroseforeningens lokalafd. Djursland]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-djursland.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Foredrag om kognitive udfordringer hos sclerosepatienter | Scleroseforeningens lokalafd. Djursland]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="175">
+      <org_event_id>175</org_event_id>
+      <title><![CDATA[Formiddags-café | Scleroseforeningens lokalafd. Djursland]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Djursland logo" class="use-full-height" src="https://sclerose-djursland.nemtilmeld.dk/images/organizations/16573/logo.png?mtime=1700652989" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-09-24 10:00 AM</start_time>
+      <end_time>2025-09-24 12:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-09-24 10:00:00</start_time_common>
+      <end_time_common>2025-09-24 12:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-djursland.nemtilmeld.dk/175/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-djursland.nemtilmeld.dk/images/organizations/16573/logo.png?mtime=1700652989]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-djursland.nemtilmeld.dk/images/descriptions/16573/1000_F_99432452_rqzeyOumTPfYCVzaLcZU7EaLlJbM519m.jpg]]></source>
+        </image>
+        <image id="2">
+          <source><![CDATA[https://sclerose-djursland.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="175">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Formiddags-café]]></name>
+        <address><![CDATA[24. september]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Formiddags-café | Scleroseforeningens lokalafd. Djursland]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-djursland.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Formiddags-café | Scleroseforeningens lokalafd. Djursland]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="176">
+      <org_event_id>176</org_event_id>
+      <title><![CDATA[Formiddags-café | Scleroseforeningens lokalafd. Djursland]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Djursland logo" class="use-full-height" src="https://sclerose-djursland.nemtilmeld.dk/images/organizations/16573/logo.png?mtime=1700652989" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-10-29 10:00 AM</start_time>
+      <end_time>2025-10-29 12:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-10-29 10:00:00</start_time_common>
+      <end_time_common>2025-10-29 12:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-djursland.nemtilmeld.dk/176/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-djursland.nemtilmeld.dk/images/organizations/16573/logo.png?mtime=1700652989]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-djursland.nemtilmeld.dk/images/descriptions/16573/1000_F_99432452_rqzeyOumTPfYCVzaLcZU7EaLlJbM519m.jpg]]></source>
+        </image>
+        <image id="2">
+          <source><![CDATA[https://sclerose-djursland.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="176">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Formiddags-café]]></name>
+        <address><![CDATA[29. oktober]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Formiddags-café | Scleroseforeningens lokalafd. Djursland]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-djursland.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Formiddags-café | Scleroseforeningens lokalafd. Djursland]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="177">
+      <org_event_id>177</org_event_id>
+      <title><![CDATA[Formiddags-café | Scleroseforeningens lokalafd. Djursland]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Djursland logo" class="use-full-height" src="https://sclerose-djursland.nemtilmeld.dk/images/organizations/16573/logo.png?mtime=1700652989" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-11-19 10:00 AM</start_time>
+      <end_time>2025-11-19 12:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-11-19 10:00:00</start_time_common>
+      <end_time_common>2025-11-19 12:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-djursland.nemtilmeld.dk/177/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-djursland.nemtilmeld.dk/images/organizations/16573/logo.png?mtime=1700652989]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-djursland.nemtilmeld.dk/images/descriptions/16573/1000_F_99432452_rqzeyOumTPfYCVzaLcZU7EaLlJbM519m.jpg]]></source>
+        </image>
+        <image id="2">
+          <source><![CDATA[https://sclerose-djursland.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="177">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Formiddags-café]]></name>
+        <address><![CDATA[19. november]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Formiddags-café | Scleroseforeningens lokalafd. Djursland]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-djursland.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Formiddags-café | Scleroseforeningens lokalafd. Djursland]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="178">
+      <org_event_id>178</org_event_id>
+      <title><![CDATA[Formiddags-café | Scleroseforeningens lokalafd. Djursland]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Djursland logo" class="use-full-height" src="https://sclerose-djursland.nemtilmeld.dk/images/organizations/16573/logo.png?mtime=1700652989" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-12-17 10:00 AM</start_time>
+      <end_time>2025-12-17 12:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-12-17 10:00:00</start_time_common>
+      <end_time_common>2025-12-17 12:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-djursland.nemtilmeld.dk/178/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-djursland.nemtilmeld.dk/images/organizations/16573/logo.png?mtime=1700652989]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-djursland.nemtilmeld.dk/images/descriptions/16573/1000_F_99432452_rqzeyOumTPfYCVzaLcZU7EaLlJbM519m.jpg]]></source>
+        </image>
+        <image id="2">
+          <source><![CDATA[https://sclerose-djursland.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="178">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Formiddags-café]]></name>
+        <address><![CDATA[17. december]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Formiddags-café | Scleroseforeningens lokalafd. Djursland]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-djursland.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Formiddags-café | Scleroseforeningens lokalafd. Djursland]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+  </events>
+</data>

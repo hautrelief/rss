@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data>
+  <provider>
+    <title><![CDATA[NemTilmeld Aps]]></title>
+    <address><![CDATA[Strømmen 6]]></address>
+    <zipcode><![CDATA[9400]]></zipcode>
+    <city><![CDATA[Nørresundby]]></city>
+    <email><![CDATA[info@nemtilmeld.dk]]></email>
+    <phone><![CDATA[+45 70404070]]></phone>
+    <website><![CDATA[https://www.nemtilmeld.dk]]></website>
+  </provider>
+  <events>
+    <event id="74">
+      <org_event_id>74</org_event_id>
+      <title><![CDATA[Spis sammen på Jacobs Fiskerestaurant | Scleroseforeningens lokalafd. Frederikshavn og Læsø]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Frederikshavn og Læsø logo" class="" src="https://sclerose-frederikshavn-laesoe.nemtilmeld.dk/images/organizations/16579/logo.png?mtime=1700652790" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-11-23 11:00 AM</start_time>
+      <end_time>2025-11-23 1:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-11-23 11:00:00</start_time_common>
+      <end_time_common>2025-11-23 13:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-frederikshavn-laesoe.nemtilmeld.dk/74/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-frederikshavn-laesoe.nemtilmeld.dk/images/organizations/16579/logo.png?mtime=1700652790]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-frederikshavn-laesoe.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="74">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Spis sammen på Jacobs Fiskerestaurant]]></name>
+        <address><![CDATA[23. november]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Spis sammen på Jacobs Fiskerestaurant | Scleroseforeningens lokalafd. Frederikshavn og Læsø]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-frederikshavn-laesoe.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Spis sammen på Jacobs Fiskerestaurant | Scleroseforeningens lokalafd. Frederikshavn og Læsø]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="75">
+      <org_event_id>75</org_event_id>
+      <title><![CDATA[Pakkespil i De Frivilliges hus | Scleroseforeningens lokalafd. Frederikshavn og Læsø]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Frederikshavn og Læsø logo" class="" src="https://sclerose-frederikshavn-laesoe.nemtilmeld.dk/images/organizations/16579/logo.png?mtime=1700652790" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-12-04 6:30 PM</start_time>
+      <end_time>2025-12-04 8:30 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-12-04 18:30:00</start_time_common>
+      <end_time_common>2025-12-04 20:30:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-frederikshavn-laesoe.nemtilmeld.dk/75/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-frederikshavn-laesoe.nemtilmeld.dk/images/organizations/16579/logo.png?mtime=1700652790]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-frederikshavn-laesoe.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="75">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Pakkespil i De Frivilliges hus]]></name>
+        <address><![CDATA[4. december]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Pakkespil i De Frivilliges hus | Scleroseforeningens lokalafd. Frederikshavn og Læsø]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-frederikshavn-laesoe.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Pakkespil i De Frivilliges hus | Scleroseforeningens lokalafd. Frederikshavn og Læsø]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="76">
+      <org_event_id>76</org_event_id>
+      <title><![CDATA[Spisning før Årsmøde | Scleroseforeningens lokalafd. Frederikshavn og Læsø]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Frederikshavn og Læsø logo" class="" src="https://sclerose-frederikshavn-laesoe.nemtilmeld.dk/images/organizations/16579/logo.png?mtime=1700652790" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2026-03-04 6:00 PM</start_time>
+      <end_time>2026-03-04 8:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2026-03-04 18:00:00</start_time_common>
+      <end_time_common>2026-03-04 20:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-frederikshavn-laesoe.nemtilmeld.dk/76/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-frederikshavn-laesoe.nemtilmeld.dk/images/organizations/16579/logo.png?mtime=1700652790]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-frederikshavn-laesoe.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="76">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Spisning før Årsmøde]]></name>
+        <address><![CDATA[4. marts]]></address>
+        <zipcode><![CDATA[2026]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Spisning før Årsmøde | Scleroseforeningens lokalafd. Frederikshavn og Læsø]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-frederikshavn-laesoe.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2026]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Spisning før Årsmøde | Scleroseforeningens lokalafd. Frederikshavn og Læsø]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="77">
+      <org_event_id>77</org_event_id>
+      <title><![CDATA[Forårsrevy med Brunch | Scleroseforeningens lokalafd. Frederikshavn og Læsø]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Frederikshavn og Læsø logo" class="" src="https://sclerose-frederikshavn-laesoe.nemtilmeld.dk/images/organizations/16579/logo.png?mtime=1700652790" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2026-03-07 10:30 AM</start_time>
+      <end_time>2026-03-07 12:30 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2026-03-07 10:30:00</start_time_common>
+      <end_time_common>2026-03-07 12:30:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-frederikshavn-laesoe.nemtilmeld.dk/77/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-frederikshavn-laesoe.nemtilmeld.dk/images/organizations/16579/logo.png?mtime=1700652790]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-frederikshavn-laesoe.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="77">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Forårsrevy med Brunch]]></name>
+        <address><![CDATA[7. marts]]></address>
+        <zipcode><![CDATA[2026]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Forårsrevy med Brunch | Scleroseforeningens lokalafd. Frederikshavn og Læsø]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-frederikshavn-laesoe.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2026]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Forårsrevy med Brunch | Scleroseforeningens lokalafd. Frederikshavn og Læsø]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+  </events>
+</data>

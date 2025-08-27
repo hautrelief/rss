@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data>
+  <provider>
+    <title><![CDATA[NemTilmeld Aps]]></title>
+    <address><![CDATA[Strømmen 6]]></address>
+    <zipcode><![CDATA[9400]]></zipcode>
+    <city><![CDATA[Nørresundby]]></city>
+    <email><![CDATA[info@nemtilmeld.dk]]></email>
+    <phone><![CDATA[+45 70404070]]></phone>
+    <website><![CDATA[https://www.nemtilmeld.dk]]></website>
+  </provider>
+  <events>
+    <event id="166">
+      <org_event_id>166</org_event_id>
+      <title><![CDATA[Arrangement | Facebook]]></title>
+      <description><![CDATA[<div class="fb_content clearfix" id="content" role="main"><div class="_4-u5 _30ny"><div class="_97vy"><img alt="Facebook" class="_97vu img" src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg"/></div><div class="_2pio _1uxu"><div class="_585n" id="u_0_1_h/"><i class="_585p img sp_GPvE0syHYuh sx_acaf87"><u>Notice</u></i><div class="_585r _50f4">Du skal logge på for at fortsætte.</div></div></div><div class="_4-u2 _1w1t _4-u8 _52jv"><div class="_xku" id="header_block"><span class="_97w1 _50f6"><div class="_9axz">Log på Facebook</div></span></div><div class="login_form_container"><form action="/login/device-based/regular/login/?login_attempt=1&amp;next=https%3A%2F%2Fwww.facebook.com%2Fgroups%2F2698615843683782&amp;lwv=100" id="login_form" method="post"><input autocomplete="off" name="jazoest" type="hidden" value="2925"/><input autocomplete="off" name="lsd" type="hidden" value="AVoBu8sKOJQ"/><div class="pam _9ay2 uiBoxYellow">Du skal logge på for at fortsætte.</div><input autocomplete="off" id="error_box" type="hidden"/><div id="loginform"><input autocomplete="off" id="display" name="display" type="hidden" value=""/><input autocomplete="off" id="isprivate" name="isprivate" type="hidden" value=""/><input autocomplete="off" id="return_session" name="return_session" type="hidden" value=""/><input autocomplete="off" id="skip_api_login" name="skip_api_login" type="hidden" value=""/><input autocomplete="off" id="signed_next" name="signed_next" type="hidden" value=""/><input autocomplete="off" id="trynum" name="trynum" type="hidden" value="1"/><input autocomplete="off" id="u_0_2_1C" name="timezone" type="hidden" value=""/><input autocomplete="off" id="u_0_3_BE" name="lgndim" type="hidden" value=""/><input name="lgnrnd" type="hidden" value="055221_iSx2"/><input id="lgnjs" name="lgnjs" type="hidden" value="n"/><input autocomplete="off" name="shared_prefs_data" type="hidden" value=""/><div class="clearfix _5466 _44mg" id="email_container"><input aria-label="E-mail eller telefonnummer" autocomplete="username" autofocus="1" class="inputtext _55r1 inputtext _1kbt inputtext _1kbt" id="email" name="email" placeholder="E-mail eller telefonnummer" tabindex="0" type="text" value=""/></div><div class="clearfix _5466 _44mg"><div><div class="_55r1 _1kbt"><input aria-label="Adgangskode" autocomplete="current-password" class="inputtext _55r1 inputtext _9npi inputtext _9npi" id="pass" name="pass" placeholder="Adgangskode" tabindex="0" type="password" value=""/><div class="_9ls7" id="u_0_4_c+"><a href="#" role="button"><div class="_9lsa"><div class="_9lsb" id="u_0_5_Q1"></div></div></a></div></div></div></div><div class="_xkt"><button class="_42ft _4jy0 _52e0 _4jy6 _4jy1 selected _51sy" id="loginbutton" name="login" tabindex="0" type="submit" value="1">Log på</button></div><div class="_xkv fsm fwn fcg" id="login_link"><a class="_97w4" href="https://www.facebook.com/recover/initiate/?ars=facebook_login&amp;cancel_lara_pswd=0&amp;next=https%3A%2F%2Fwww.facebook.com%2Fgroups%2F2698615843683782" target="">Har du glemt din konto?</a><span aria-hidden="true" role="presentation"> · </span><a class="_97w5" href="/r.php?next=https%3A%2F%2Fwww.facebook.com%2Fgroups%2F2698615843683782&amp;locale=da_DK&amp;display=page" rel="nofollow">Opret en profil på Facebook</a></div></div><input autocomplete="off" id="prefill_contact_point" name="prefill_contact_point" type="hidden" value=""/><input autocomplete="off" id="prefill_source" name="prefill_source" type="hidden"/><input autocomplete="off" id="prefill_type" name="prefill_type" type="hidden"/><input autocomplete="off" id="first_prefill_source" name="first_prefill_source" type="hidden"/><input autocomplete="off" id="first_prefill_type" name="first_prefill_type" type="hidden"/><input autocomplete="off" id="had_cp_prefilled" name="had_cp_prefilled" type="hidden" value="false"/><input autocomplete="off" id="had_password_prefilled" name="had_password_prefilled" type="hidden" value="false"/><input autocomplete="off" name="ab_test_data" type="hidden" value=""/></form></div></div></div></div>]]></description>
+      <description_short><![CDATA[Notice Du skal logge på for at fortsætte. Log på Facebook Du skal logge på for at fortsætte. Log på Har du glemt din konto? · Opret en profil på Facebook]]></description_short>
+      <start_time></start_time>
+      <end_time></end_time>
+      <deadline></deadline>
+      <start_time_common></start_time_common>
+      <end_time_common></end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-aalborg-jammerbugt.nemtilmeld.dk/166/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://facebook.com/security/hsts-pixel.gif?c=3.2.5]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="166">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[]]></name>
+        <address><![CDATA[]]></address>
+        <zipcode><![CDATA[]]></zipcode>
+        <city><![CDATA[]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Facebook]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-aalborg-jammerbugt.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Facebook]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="167">
+      <org_event_id>167</org_event_id>
+      <title><![CDATA[Foredrag om træning v/ Samuel Krogh | Scleroseforeningens lokalafd. Aalborg-Jammerbugt]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #0d6514">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Aalborg-Jammerbugt logo" class="" src="https://sclerose-aalborg-jammerbugt.nemtilmeld.dk/images/organizations/16616/logo.png?mtime=1700649981" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-09-25 7:00 PM</start_time>
+      <end_time>2025-09-25 9:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-09-25 19:00:00</start_time_common>
+      <end_time_common>2025-09-25 21:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-aalborg-jammerbugt.nemtilmeld.dk/167/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-aalborg-jammerbugt.nemtilmeld.dk/images/organizations/16616/logo.png?mtime=1700649981]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-aalborg-jammerbugt.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="167">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Foredrag om træning v/ Samuel Krogh]]></name>
+        <address><![CDATA[25. september]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Foredrag om træning v/ Samuel Krogh | Scleroseforeningens lokalafd. Aalborg-Jammerbugt]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-aalborg-jammerbugt.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Foredrag om træning v/ Samuel Krogh | Scleroseforeningens lokalafd. Aalborg-Jammerbugt]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+  </events>
+</data>

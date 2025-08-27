@@ -1,0 +1,314 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data>
+  <provider>
+    <title><![CDATA[NemTilmeld Aps]]></title>
+    <address><![CDATA[Strømmen 6]]></address>
+    <zipcode><![CDATA[9400]]></zipcode>
+    <city><![CDATA[Nørresundby]]></city>
+    <email><![CDATA[info@nemtilmeld.dk]]></email>
+    <phone><![CDATA[+45 70404070]]></phone>
+    <website><![CDATA[https://www.nemtilmeld.dk]]></website>
+  </provider>
+  <events>
+    <event id="114">
+      <org_event_id>114</org_event_id>
+      <title><![CDATA[Cafe aften i Kig ind | Scleroseforeningens lokalafd. Himmerland]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Himmerland logo" class="use-full-height" src="https://sclerose-himmerland.nemtilmeld.dk/images/organizations/16585/logo.png?mtime=1700649953" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-09-23 7:00 PM</start_time>
+      <end_time>2025-09-23 9:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-09-23 19:00:00</start_time_common>
+      <end_time_common>2025-09-23 21:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-himmerland.nemtilmeld.dk/114/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-himmerland.nemtilmeld.dk/images/organizations/16585/logo.png?mtime=1700649953]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-himmerland.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="114">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Cafe aften i Kig ind]]></name>
+        <address><![CDATA[23. september]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Cafe aften i Kig ind | Scleroseforeningens lokalafd. Himmerland]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-himmerland.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Cafe aften i Kig ind | Scleroseforeningens lokalafd. Himmerland]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="115">
+      <org_event_id>115</org_event_id>
+      <title><![CDATA[Cafe aften i Kig ind | Scleroseforeningens lokalafd. Himmerland]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Himmerland logo" class="use-full-height" src="https://sclerose-himmerland.nemtilmeld.dk/images/organizations/16585/logo.png?mtime=1700649953" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-11-06 7:00 PM</start_time>
+      <end_time>2025-11-06 9:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-11-06 19:00:00</start_time_common>
+      <end_time_common>2025-11-06 21:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-himmerland.nemtilmeld.dk/115/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-himmerland.nemtilmeld.dk/images/organizations/16585/logo.png?mtime=1700649953]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-himmerland.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="115">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Cafe aften i Kig ind]]></name>
+        <address><![CDATA[6. november]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Cafe aften i Kig ind | Scleroseforeningens lokalafd. Himmerland]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-himmerland.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Cafe aften i Kig ind | Scleroseforeningens lokalafd. Himmerland]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="130">
+      <org_event_id>130</org_event_id>
+      <title><![CDATA[Ballroom fitness Hadsund | Scleroseforeningens lokalafd. Himmerland]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Himmerland logo" class="use-full-height" src="https://sclerose-himmerland.nemtilmeld.dk/images/organizations/16585/logo.png?mtime=1700649953" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-08-11 4:00 PM</start_time>
+      <end_time>2025-08-11 6:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-08-11 16:00:00</start_time_common>
+      <end_time_common>2025-08-11 18:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-himmerland.nemtilmeld.dk/130/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-himmerland.nemtilmeld.dk/images/organizations/16585/logo.png?mtime=1700649953]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-himmerland.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="130">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Ballroom fitness Hadsund]]></name>
+        <address><![CDATA[11. august]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Ballroom fitness Hadsund | Scleroseforeningens lokalafd. Himmerland]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-himmerland.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Ballroom fitness Hadsund | Scleroseforeningens lokalafd. Himmerland]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="131">
+      <org_event_id>131</org_event_id>
+      <title><![CDATA[Ballroom fitness Støvring | Scleroseforeningens lokalafd. Himmerland]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Himmerland logo" class="use-full-height" src="https://sclerose-himmerland.nemtilmeld.dk/images/organizations/16585/logo.png?mtime=1700649953" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-08-12 1:00 PM</start_time>
+      <end_time>2025-08-12 3:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-08-12 13:00:00</start_time_common>
+      <end_time_common>2025-08-12 15:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-himmerland.nemtilmeld.dk/131/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-himmerland.nemtilmeld.dk/images/organizations/16585/logo.png?mtime=1700649953]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-himmerland.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="131">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Ballroom fitness Støvring]]></name>
+        <address><![CDATA[12. august]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Ballroom fitness Støvring | Scleroseforeningens lokalafd. Himmerland]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-himmerland.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Ballroom fitness Støvring | Scleroseforeningens lokalafd. Himmerland]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="132">
+      <org_event_id>132</org_event_id>
+      <title><![CDATA[Cafe aften i Hadsund | Scleroseforeningens lokalafd. Himmerland]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Himmerland logo" class="use-full-height" src="https://sclerose-himmerland.nemtilmeld.dk/images/organizations/16585/logo.png?mtime=1700649953" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-09-11 6:45 PM</start_time>
+      <end_time>2025-09-11 8:45 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-09-11 18:45:00</start_time_common>
+      <end_time_common>2025-09-11 20:45:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-himmerland.nemtilmeld.dk/132/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-himmerland.nemtilmeld.dk/images/organizations/16585/logo.png?mtime=1700649953]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-himmerland.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="132">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Cafe aften i Hadsund]]></name>
+        <address><![CDATA[11. september]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Cafe aften i Hadsund | Scleroseforeningens lokalafd. Himmerland]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-himmerland.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Cafe aften i Hadsund | Scleroseforeningens lokalafd. Himmerland]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+  </events>
+</data>

@@ -1,0 +1,314 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data>
+  <provider>
+    <title><![CDATA[NemTilmeld Aps]]></title>
+    <address><![CDATA[Strømmen 6]]></address>
+    <zipcode><![CDATA[9400]]></zipcode>
+    <city><![CDATA[Nørresundby]]></city>
+    <email><![CDATA[info@nemtilmeld.dk]]></email>
+    <phone><![CDATA[+45 70404070]]></phone>
+    <website><![CDATA[https://www.nemtilmeld.dk]]></website>
+  </provider>
+  <events>
+    <event id="187">
+      <org_event_id>187</org_event_id>
+      <title><![CDATA[Fysisk træning og sclerose | Scleroseforeningens lokalafd. Vestfyn]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Vestfyn logo" class="" src="https://sclerose-vestfyn.nemtilmeld.dk/images/organizations/16614/logo.png?mtime=1700653117" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-10-08 6:30 PM</start_time>
+      <end_time>2025-10-08 8:30 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-10-08 18:30:00</start_time_common>
+      <end_time_common>2025-10-08 20:30:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-vestfyn.nemtilmeld.dk/187/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-vestfyn.nemtilmeld.dk/images/organizations/16614/logo.png?mtime=1700653117]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-vestfyn.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="187">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Fysisk træning og sclerose]]></name>
+        <address><![CDATA[8. oktober]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Fysisk træning og sclerose | Scleroseforeningens lokalafd. Vestfyn]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-vestfyn.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Fysisk træning og sclerose | Scleroseforeningens lokalafd. Vestfyn]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="188">
+      <org_event_id>188</org_event_id>
+      <title><![CDATA[Scleroselandsindsamling år 2025 | Scleroseforeningens lokalafd. Vestfyn]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Vestfyn logo" class="" src="https://sclerose-vestfyn.nemtilmeld.dk/images/organizations/16614/logo.png?mtime=1700653117" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-09-14 10:00 AM</start_time>
+      <end_time>2025-09-14 12:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-09-14 10:00:00</start_time_common>
+      <end_time_common>2025-09-14 12:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-vestfyn.nemtilmeld.dk/188/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-vestfyn.nemtilmeld.dk/images/organizations/16614/logo.png?mtime=1700653117]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-vestfyn.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="188">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Scleroselandsindsamling år 2025]]></name>
+        <address><![CDATA[Scleroselandsindsamling år]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[Dato og tid]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Scleroselandsindsamling år 2025 | Scleroseforeningens lokalafd. Vestfyn]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[Dato og tid]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-vestfyn.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Scleroselandsindsamling år 2025 | Scleroseforeningens lokalafd. Vestfyn]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="189">
+      <org_event_id>189</org_event_id>
+      <title><![CDATA[Bowling i Middelfart | Scleroseforeningens lokalafd. Vestfyn]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Vestfyn logo" class="" src="https://sclerose-vestfyn.nemtilmeld.dk/images/organizations/16614/logo.png?mtime=1700653117" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-09-26 4:45 PM</start_time>
+      <end_time>2025-09-26 6:45 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-09-26 16:45:00</start_time_common>
+      <end_time_common>2025-09-26 18:45:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-vestfyn.nemtilmeld.dk/189/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-vestfyn.nemtilmeld.dk/images/organizations/16614/logo.png?mtime=1700653117]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-vestfyn.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="189">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Bowling i Middelfart]]></name>
+        <address><![CDATA[26. september]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Bowling i Middelfart | Scleroseforeningens lokalafd. Vestfyn]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-vestfyn.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Bowling i Middelfart | Scleroseforeningens lokalafd. Vestfyn]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="190">
+      <org_event_id>190</org_event_id>
+      <title><![CDATA[Julefrokost i Assens | Scleroseforeningens lokalafd. Vestfyn]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Vestfyn logo" class="" src="https://sclerose-vestfyn.nemtilmeld.dk/images/organizations/16614/logo.png?mtime=1700653117" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-12-07 12:30 PM</start_time>
+      <end_time>2025-12-07 2:30 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-12-07 12:30:00</start_time_common>
+      <end_time_common>2025-12-07 14:30:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-vestfyn.nemtilmeld.dk/190/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-vestfyn.nemtilmeld.dk/images/organizations/16614/logo.png?mtime=1700653117]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-vestfyn.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="190">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Julefrokost i Assens]]></name>
+        <address><![CDATA[7. december]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Julefrokost i Assens | Scleroseforeningens lokalafd. Vestfyn]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-vestfyn.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Julefrokost i Assens | Scleroseforeningens lokalafd. Vestfyn]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="191">
+      <org_event_id>191</org_event_id>
+      <title><![CDATA[Bustur til Tivoli Friheden, Århus | Scleroseforeningens lokalafd. Vestfyn]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Vestfyn logo" class="" src="https://sclerose-vestfyn.nemtilmeld.dk/images/organizations/16614/logo.png?mtime=1700653117" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-11-22 11:30 AM</start_time>
+      <end_time>2025-11-22 1:30 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-11-22 11:30:00</start_time_common>
+      <end_time_common>2025-11-22 13:30:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-vestfyn.nemtilmeld.dk/191/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-vestfyn.nemtilmeld.dk/images/organizations/16614/logo.png?mtime=1700653117]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-vestfyn.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="191">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Bustur til Tivoli Friheden, Århus]]></name>
+        <address><![CDATA[22. november]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Bustur til Tivoli Friheden, Århus | Scleroseforeningens lokalafd. Vestfyn]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-vestfyn.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Bustur til Tivoli Friheden, Århus | Scleroseforeningens lokalafd. Vestfyn]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+  </events>
+</data>

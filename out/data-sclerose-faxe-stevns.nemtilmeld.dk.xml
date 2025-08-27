@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data>
+  <provider>
+    <title><![CDATA[NemTilmeld Aps]]></title>
+    <address><![CDATA[Strømmen 6]]></address>
+    <zipcode><![CDATA[9400]]></zipcode>
+    <city><![CDATA[Nørresundby]]></city>
+    <email><![CDATA[info@nemtilmeld.dk]]></email>
+    <phone><![CDATA[+45 70404070]]></phone>
+    <website><![CDATA[https://www.nemtilmeld.dk]]></website>
+  </provider>
+  <events>
+    <event id="117">
+      <org_event_id>117</org_event_id>
+      <title><![CDATA[Vandgymnastik | Scleroseforeningens lokalafd. Faxe og Stevns]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Faxe og Stevns logo" class="" src="https://sclerose-faxe-stevns.nemtilmeld.dk/images/organizations/16577/logo.png?mtime=1700653429" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-09-04 2:00 PM</start_time>
+      <end_time>2025-09-04 4:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-09-04 14:00:00</start_time_common>
+      <end_time_common>2025-09-04 16:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-faxe-stevns.nemtilmeld.dk/117/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-faxe-stevns.nemtilmeld.dk/images/organizations/16577/logo.png?mtime=1700653429]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-faxe-stevns.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="117">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Vandgymnastik]]></name>
+        <address><![CDATA[4. september]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Vandgymnastik | Scleroseforeningens lokalafd. Faxe og Stevns]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-faxe-stevns.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Vandgymnastik | Scleroseforeningens lokalafd. Faxe og Stevns]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="118">
+      <org_event_id>118</org_event_id>
+      <title><![CDATA[Ridefysioterapi 12/9 2025 - det kan være noget for dig | Scleroseforeningens lokalafd. Faxe og Stevns]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Faxe og Stevns logo" class="" src="https://sclerose-faxe-stevns.nemtilmeld.dk/images/organizations/16577/logo.png?mtime=1700653429" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-09-12 1:30 PM</start_time>
+      <end_time>2025-09-12 3:30 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-09-12 13:30:00</start_time_common>
+      <end_time_common>2025-09-12 15:30:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-faxe-stevns.nemtilmeld.dk/118/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-faxe-stevns.nemtilmeld.dk/images/organizations/16577/logo.png?mtime=1700653429]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-faxe-stevns.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="118">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Ridefysioterapi 12/9 2025 - det kan være noget for dig]]></name>
+        <address><![CDATA[Ridefysioterapi 12/9]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[- det kan være noget for dig]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Ridefysioterapi 12/9 2025 - det kan være noget for dig | Scleroseforeningens lokalafd. Faxe og Stevns]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[- det kan være noget for dig]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-faxe-stevns.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Ridefysioterapi 12/9 2025 - det kan være noget for dig | Scleroseforeningens lokalafd. Faxe og Stevns]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+  </events>
+</data>

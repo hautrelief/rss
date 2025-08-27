@@ -1,0 +1,674 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data>
+  <provider>
+    <title><![CDATA[NemTilmeld Aps]]></title>
+    <address><![CDATA[Strømmen 6]]></address>
+    <zipcode><![CDATA[9400]]></zipcode>
+    <city><![CDATA[Nørresundby]]></city>
+    <email><![CDATA[info@nemtilmeld.dk]]></email>
+    <phone><![CDATA[+45 70404070]]></phone>
+    <website><![CDATA[https://www.nemtilmeld.dk]]></website>
+  </provider>
+  <events>
+    <event id="156">
+      <org_event_id>156</org_event_id>
+      <title><![CDATA[Årsmøde | Scleroseforeningens lokalafd. Sønderborg]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #ffffff">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Sønderborg logo" class="" src="https://sclerose-sonderborg.nemtilmeld.dk/images/organizations/16609/logo.png?mtime=1700653140" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2026-02-16 5:30 PM</start_time>
+      <end_time>2026-02-16 7:30 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2026-02-16 17:30:00</start_time_common>
+      <end_time_common>2026-02-16 19:30:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-sonderborg.nemtilmeld.dk/156/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-sonderborg.nemtilmeld.dk/images/organizations/16609/logo.png?mtime=1700653140]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-sonderborg.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="156">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Årsmøde]]></name>
+        <address><![CDATA[16. februar]]></address>
+        <zipcode><![CDATA[2026]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Årsmøde | Scleroseforeningens lokalafd. Sønderborg]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-sonderborg.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2026]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Årsmøde | Scleroseforeningens lokalafd. Sønderborg]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="159">
+      <org_event_id>159</org_event_id>
+      <title><![CDATA[Ølsmagning og smørrebrød | Scleroseforeningens lokalafd. Sønderborg]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #ffffff">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Sønderborg logo" class="" src="https://sclerose-sonderborg.nemtilmeld.dk/images/organizations/16609/logo.png?mtime=1700653140" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-10-28 6:00 PM</start_time>
+      <end_time>2025-10-28 8:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-10-28 18:00:00</start_time_common>
+      <end_time_common>2025-10-28 20:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-sonderborg.nemtilmeld.dk/159/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-sonderborg.nemtilmeld.dk/images/organizations/16609/logo.png?mtime=1700653140]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-sonderborg.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="159">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Ølsmagning og smørrebrød]]></name>
+        <address><![CDATA[28. oktober]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Ølsmagning og smørrebrød | Scleroseforeningens lokalafd. Sønderborg]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-sonderborg.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Ølsmagning og smørrebrød | Scleroseforeningens lokalafd. Sønderborg]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="165">
+      <org_event_id>165</org_event_id>
+      <title><![CDATA[Café for medlemmer med sclerose. | Scleroseforeningens lokalafd. Sønderborg]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #ffffff">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Sønderborg logo" class="" src="https://sclerose-sonderborg.nemtilmeld.dk/images/organizations/16609/logo.png?mtime=1700653140" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-10-29 2:30 PM</start_time>
+      <end_time>2025-10-29 4:30 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-10-29 14:30:00</start_time_common>
+      <end_time_common>2025-10-29 16:30:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-sonderborg.nemtilmeld.dk/165/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-sonderborg.nemtilmeld.dk/images/organizations/16609/logo.png?mtime=1700653140]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-sonderborg.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="165">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Café for medlemmer med sclerose.]]></name>
+        <address><![CDATA[29. oktober]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Café for medlemmer med sclerose. | Scleroseforeningens lokalafd. Sønderborg]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-sonderborg.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Café for medlemmer med sclerose. | Scleroseforeningens lokalafd. Sønderborg]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="166">
+      <org_event_id>166</org_event_id>
+      <title><![CDATA[Café for medlemmer med sclerose. | Scleroseforeningens lokalafd. Sønderborg]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #ffffff">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Sønderborg logo" class="" src="https://sclerose-sonderborg.nemtilmeld.dk/images/organizations/16609/logo.png?mtime=1700653140" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-09-30 2:30 PM</start_time>
+      <end_time>2025-09-30 4:30 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-09-30 14:30:00</start_time_common>
+      <end_time_common>2025-09-30 16:30:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-sonderborg.nemtilmeld.dk/166/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-sonderborg.nemtilmeld.dk/images/organizations/16609/logo.png?mtime=1700653140]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-sonderborg.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="166">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Café for medlemmer med sclerose.]]></name>
+        <address><![CDATA[30. september]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Café for medlemmer med sclerose. | Scleroseforeningens lokalafd. Sønderborg]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-sonderborg.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Café for medlemmer med sclerose. | Scleroseforeningens lokalafd. Sønderborg]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="167">
+      <org_event_id>167</org_event_id>
+      <title><![CDATA[Café for medlemmer med sclerose | Scleroseforeningens lokalafd. Sønderborg]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #ffffff">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Sønderborg logo" class="" src="https://sclerose-sonderborg.nemtilmeld.dk/images/organizations/16609/logo.png?mtime=1700653140" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-08-28 2:30 PM</start_time>
+      <end_time>2025-08-28 4:30 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-08-28 14:30:00</start_time_common>
+      <end_time_common>2025-08-28 16:30:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-sonderborg.nemtilmeld.dk/167/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-sonderborg.nemtilmeld.dk/images/organizations/16609/logo.png?mtime=1700653140]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-sonderborg.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="167">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Café for medlemmer med sclerose]]></name>
+        <address><![CDATA[28. august]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Café for medlemmer med sclerose | Scleroseforeningens lokalafd. Sønderborg]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-sonderborg.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Café for medlemmer med sclerose | Scleroseforeningens lokalafd. Sønderborg]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="168">
+      <org_event_id>168</org_event_id>
+      <title><![CDATA[Café for medlemmer med sclerose | Scleroseforeningens lokalafd. Sønderborg]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #ffffff">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Sønderborg logo" class="" src="https://sclerose-sonderborg.nemtilmeld.dk/images/organizations/16609/logo.png?mtime=1700653140" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-12-01 2:30 PM</start_time>
+      <end_time>2025-12-01 4:30 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-12-01 14:30:00</start_time_common>
+      <end_time_common>2025-12-01 16:30:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-sonderborg.nemtilmeld.dk/168/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-sonderborg.nemtilmeld.dk/images/organizations/16609/logo.png?mtime=1700653140]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-sonderborg.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="168">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Café for medlemmer med sclerose]]></name>
+        <address><![CDATA[1. december]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Café for medlemmer med sclerose | Scleroseforeningens lokalafd. Sønderborg]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-sonderborg.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Café for medlemmer med sclerose | Scleroseforeningens lokalafd. Sønderborg]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="170">
+      <org_event_id>170</org_event_id>
+      <title><![CDATA[Transport til festival i Vildbjerg | Scleroseforeningens lokalafd. Sønderborg]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #ffffff">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Sønderborg logo" class="" src="https://sclerose-sonderborg.nemtilmeld.dk/images/organizations/16609/logo.png?mtime=1700653140" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-10-04 10:00 AM</start_time>
+      <end_time>2025-10-04 12:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-10-04 10:00:00</start_time_common>
+      <end_time_common>2025-10-04 12:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-sonderborg.nemtilmeld.dk/170/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-sonderborg.nemtilmeld.dk/images/organizations/16609/logo.png?mtime=1700653140]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-sonderborg.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="170">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Transport til festival i Vildbjerg]]></name>
+        <address><![CDATA[4. oktober]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Transport til festival i Vildbjerg | Scleroseforeningens lokalafd. Sønderborg]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-sonderborg.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Transport til festival i Vildbjerg | Scleroseforeningens lokalafd. Sønderborg]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="171">
+      <org_event_id>171</org_event_id>
+      <title><![CDATA[Julearrangement | Scleroseforeningens lokalafd. Sønderborg]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #ffffff">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Sønderborg logo" class="" src="https://sclerose-sonderborg.nemtilmeld.dk/images/organizations/16609/logo.png?mtime=1700653140" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-12-03 5:30 PM</start_time>
+      <end_time>2025-12-03 7:30 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-12-03 17:30:00</start_time_common>
+      <end_time_common>2025-12-03 19:30:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-sonderborg.nemtilmeld.dk/171/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-sonderborg.nemtilmeld.dk/images/organizations/16609/logo.png?mtime=1700653140]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-sonderborg.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="171">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Julearrangement]]></name>
+        <address><![CDATA[3. december]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Julearrangement | Scleroseforeningens lokalafd. Sønderborg]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-sonderborg.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Julearrangement | Scleroseforeningens lokalafd. Sønderborg]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="172">
+      <org_event_id>172</org_event_id>
+      <title><![CDATA[Pårørende Café | Scleroseforeningens lokalafd. Sønderborg]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #ffffff">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Sønderborg logo" class="" src="https://sclerose-sonderborg.nemtilmeld.dk/images/organizations/16609/logo.png?mtime=1700653140" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-09-02 4:00 PM</start_time>
+      <end_time>2025-09-02 6:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-09-02 16:00:00</start_time_common>
+      <end_time_common>2025-09-02 18:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-sonderborg.nemtilmeld.dk/172/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-sonderborg.nemtilmeld.dk/images/organizations/16609/logo.png?mtime=1700653140]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-sonderborg.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="172">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Pårørende Café]]></name>
+        <address><![CDATA[2. september]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Pårørende Café | Scleroseforeningens lokalafd. Sønderborg]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-sonderborg.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Pårørende Café | Scleroseforeningens lokalafd. Sønderborg]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="173">
+      <org_event_id>173</org_event_id>
+      <title><![CDATA[Pårørende Café | Scleroseforeningens lokalafd. Sønderborg]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #ffffff">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Sønderborg logo" class="" src="https://sclerose-sonderborg.nemtilmeld.dk/images/organizations/16609/logo.png?mtime=1700653140" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-10-07 4:00 PM</start_time>
+      <end_time>2025-10-07 6:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-10-07 16:00:00</start_time_common>
+      <end_time_common>2025-10-07 18:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-sonderborg.nemtilmeld.dk/173/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-sonderborg.nemtilmeld.dk/images/organizations/16609/logo.png?mtime=1700653140]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-sonderborg.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="173">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Pårørende Café]]></name>
+        <address><![CDATA[7. oktober]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Pårørende Café | Scleroseforeningens lokalafd. Sønderborg]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-sonderborg.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Pårørende Café | Scleroseforeningens lokalafd. Sønderborg]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="174">
+      <org_event_id>174</org_event_id>
+      <title><![CDATA[Pårørende Café | Scleroseforeningens lokalafd. Sønderborg]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #ffffff">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Sønderborg logo" class="" src="https://sclerose-sonderborg.nemtilmeld.dk/images/organizations/16609/logo.png?mtime=1700653140" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-11-04 4:00 PM</start_time>
+      <end_time>2025-11-04 6:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-11-04 16:00:00</start_time_common>
+      <end_time_common>2025-11-04 18:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-sonderborg.nemtilmeld.dk/174/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-sonderborg.nemtilmeld.dk/images/organizations/16609/logo.png?mtime=1700653140]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-sonderborg.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="174">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Pårørende Café]]></name>
+        <address><![CDATA[4. november]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Pårørende Café | Scleroseforeningens lokalafd. Sønderborg]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-sonderborg.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Pårørende Café | Scleroseforeningens lokalafd. Sønderborg]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+  </events>
+</data>

@@ -1,0 +1,497 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data>
+  <provider>
+    <title><![CDATA[NemTilmeld Aps]]></title>
+    <address><![CDATA[Strømmen 6]]></address>
+    <zipcode><![CDATA[9400]]></zipcode>
+    <city><![CDATA[Nørresundby]]></city>
+    <email><![CDATA[info@nemtilmeld.dk]]></email>
+    <phone><![CDATA[+45 70404070]]></phone>
+    <website><![CDATA[https://www.nemtilmeld.dk]]></website>
+  </provider>
+  <events>
+    <event id="420">
+      <org_event_id>420</org_event_id>
+      <title><![CDATA[Julefrokost i kvindegruppen | Scleroseforeningens lokalafd. Østjylland]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Østjylland logo" class="" src="https://sclerose-oestjylland.nemtilmeld.dk/images/organizations/16617/logo.png?mtime=1700652833" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-11-24 8:00 AM</start_time>
+      <end_time>2025-11-24 10:00 AM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-11-24 08:00:00</start_time_common>
+      <end_time_common>2025-11-24 10:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-aarhus-favrskov-skanderborg.nemtilmeld.dk/420/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-oestjylland.nemtilmeld.dk/images/organizations/16617/logo.png?mtime=1700652833]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-aarhus-favrskov-skanderborg.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="420">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Julefrokost i kvindegruppen]]></name>
+        <address><![CDATA[24. november]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Julefrokost i kvindegruppen | Scleroseforeningens lokalafd. Østjylland]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-aarhus-favrskov-skanderborg.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Julefrokost i kvindegruppen | Scleroseforeningens lokalafd. Østjylland]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="440">
+      <org_event_id>440</org_event_id>
+      <title><![CDATA[Sclerosefestival 2025 | Scleroseforeningens lokalafd. Herning]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Herning logo" class="" src="https://sclerose-herning.nemtilmeld.dk/images/organizations/16584/logo.png?mtime=1700652911" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-10-04 10:00 AM</start_time>
+      <end_time>2025-10-04 12:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-10-04 10:00:00</start_time_common>
+      <end_time_common>2025-10-04 12:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-aarhus-favrskov-skanderborg.nemtilmeld.dk/440/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-herning.nemtilmeld.dk/images/organizations/16584/logo.png?mtime=1700652911]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-aarhus-favrskov-skanderborg.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="440">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Sclerosefestival 2025]]></name>
+        <address><![CDATA[Sclerosefestival]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[Dato og tid]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Sclerosefestival 2025 | Scleroseforeningens lokalafd. Herning]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[Dato og tid]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-aarhus-favrskov-skanderborg.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Sclerosefestival 2025 | Scleroseforeningens lokalafd. Herning]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="443">
+      <org_event_id>443</org_event_id>
+      <title><![CDATA[Julefrokost i lokalafdelingen | Scleroseforeningens lokalafd. Østjylland]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Østjylland logo" class="" src="https://sclerose-oestjylland.nemtilmeld.dk/images/organizations/16617/logo.png?mtime=1700652833" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-12-09 6:00 PM</start_time>
+      <end_time>2025-12-09 8:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-12-09 18:00:00</start_time_common>
+      <end_time_common>2025-12-09 20:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-aarhus-favrskov-skanderborg.nemtilmeld.dk/443/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-oestjylland.nemtilmeld.dk/images/organizations/16617/logo.png?mtime=1700652833]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-aarhus-favrskov-skanderborg.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="443">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Julefrokost i lokalafdelingen]]></name>
+        <address><![CDATA[9. december]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Julefrokost i lokalafdelingen | Scleroseforeningens lokalafd. Østjylland]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-aarhus-favrskov-skanderborg.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Julefrokost i lokalafdelingen | Scleroseforeningens lokalafd. Østjylland]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="444">
+      <org_event_id>444</org_event_id>
+      <title><![CDATA[Spis dig stærk - foredrag med Mette Mølbak | Scleroseforeningens lokalafd. Østjylland]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Østjylland logo" class="" src="https://sclerose-oestjylland.nemtilmeld.dk/images/organizations/16617/logo.png?mtime=1700652833" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-11-04 7:00 PM</start_time>
+      <end_time>2025-11-04 9:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-11-04 19:00:00</start_time_common>
+      <end_time_common>2025-11-04 21:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-aarhus-favrskov-skanderborg.nemtilmeld.dk/444/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-oestjylland.nemtilmeld.dk/images/organizations/16617/logo.png?mtime=1700652833]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-oestjylland.nemtilmeld.dk/images/descriptions/16617/Mette_Molbak_tilpasset.JPG]]></source>
+        </image>
+        <image id="2">
+          <source><![CDATA[https://sclerose-aarhus-favrskov-skanderborg.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="444">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Spis dig stærk - foredrag med Mette Mølbak]]></name>
+        <address><![CDATA[4. november]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Spis dig stærk - foredrag med Mette Mølbak | Scleroseforeningens lokalafd. Østjylland]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-aarhus-favrskov-skanderborg.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Spis dig stærk - foredrag med Mette Mølbak | Scleroseforeningens lokalafd. Østjylland]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="445">
+      <org_event_id>445</org_event_id>
+      <title><![CDATA[Favrskov aktiviteter - hygge med mad og drikke | Scleroseforeningens lokalafd. Østjylland]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Østjylland logo" class="" src="https://sclerose-oestjylland.nemtilmeld.dk/images/organizations/16617/logo.png?mtime=1700652833" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-08-27 6:30 PM</start_time>
+      <end_time>2025-08-27 8:30 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-08-27 18:30:00</start_time_common>
+      <end_time_common>2025-08-27 20:30:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-aarhus-favrskov-skanderborg.nemtilmeld.dk/445/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-oestjylland.nemtilmeld.dk/images/organizations/16617/logo.png?mtime=1700652833]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-aarhus-favrskov-skanderborg.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="445">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Favrskov aktiviteter - hygge med mad og drikke]]></name>
+        <address><![CDATA[27. august]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Favrskov aktiviteter - hygge med mad og drikke | Scleroseforeningens lokalafd. Østjylland]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-aarhus-favrskov-skanderborg.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Favrskov aktiviteter - hygge med mad og drikke | Scleroseforeningens lokalafd. Østjylland]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="446">
+      <org_event_id>446</org_event_id>
+      <title><![CDATA[Favrskov aktiviteter - hygge med mad og drikke | Scleroseforeningens lokalafd. Østjylland]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Østjylland logo" class="" src="https://sclerose-oestjylland.nemtilmeld.dk/images/organizations/16617/logo.png?mtime=1700652833" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-10-09 6:30 PM</start_time>
+      <end_time>2025-10-09 8:30 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-10-09 18:30:00</start_time_common>
+      <end_time_common>2025-10-09 20:30:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-aarhus-favrskov-skanderborg.nemtilmeld.dk/446/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-oestjylland.nemtilmeld.dk/images/organizations/16617/logo.png?mtime=1700652833]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-aarhus-favrskov-skanderborg.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="446">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Favrskov aktiviteter - hygge med mad og drikke]]></name>
+        <address><![CDATA[9. oktober]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Favrskov aktiviteter - hygge med mad og drikke | Scleroseforeningens lokalafd. Østjylland]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-aarhus-favrskov-skanderborg.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Favrskov aktiviteter - hygge med mad og drikke | Scleroseforeningens lokalafd. Østjylland]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="447">
+      <org_event_id>447</org_event_id>
+      <title><![CDATA[Favrskov aktiviteter - hygge med mad og drikke | Scleroseforeningens lokalafd. Østjylland]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Østjylland logo" class="" src="https://sclerose-oestjylland.nemtilmeld.dk/images/organizations/16617/logo.png?mtime=1700652833" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-11-17 6:00 PM</start_time>
+      <end_time>2025-11-17 8:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-11-17 18:00:00</start_time_common>
+      <end_time_common>2025-11-17 20:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-aarhus-favrskov-skanderborg.nemtilmeld.dk/447/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-oestjylland.nemtilmeld.dk/images/organizations/16617/logo.png?mtime=1700652833]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-aarhus-favrskov-skanderborg.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="447">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Favrskov aktiviteter - hygge med mad og drikke]]></name>
+        <address><![CDATA[17. november]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Favrskov aktiviteter - hygge med mad og drikke | Scleroseforeningens lokalafd. Østjylland]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-aarhus-favrskov-skanderborg.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Favrskov aktiviteter - hygge med mad og drikke | Scleroseforeningens lokalafd. Østjylland]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="448">
+      <org_event_id>448</org_event_id>
+      <title><![CDATA[Padel hos Padel Star Højbjerg | Scleroseforeningens lokalafd. Østjylland]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Østjylland logo" class="" src="https://sclerose-oestjylland.nemtilmeld.dk/images/organizations/16617/logo.png?mtime=1700652833" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-10-01 6:00 PM</start_time>
+      <end_time>2025-10-01 8:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-10-01 18:00:00</start_time_common>
+      <end_time_common>2025-10-01 20:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-aarhus-favrskov-skanderborg.nemtilmeld.dk/448/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-oestjylland.nemtilmeld.dk/images/organizations/16617/logo.png?mtime=1700652833]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-aarhus-favrskov-skanderborg.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="448">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Padel hos Padel Star Højbjerg]]></name>
+        <address><![CDATA[1. oktober]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Padel hos Padel Star Højbjerg | Scleroseforeningens lokalafd. Østjylland]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-aarhus-favrskov-skanderborg.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Padel hos Padel Star Højbjerg | Scleroseforeningens lokalafd. Østjylland]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+  </events>
+</data>

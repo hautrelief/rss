@@ -1,0 +1,1334 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data>
+  <provider>
+    <title><![CDATA[NemTilmeld Aps]]></title>
+    <address><![CDATA[Strømmen 6]]></address>
+    <zipcode><![CDATA[9400]]></zipcode>
+    <city><![CDATA[Nørresundby]]></city>
+    <email><![CDATA[info@nemtilmeld.dk]]></email>
+    <phone><![CDATA[+45 70404070]]></phone>
+    <website><![CDATA[https://www.nemtilmeld.dk]]></website>
+  </provider>
+  <events>
+    <event id="271">
+      <org_event_id>271</org_event_id>
+      <title><![CDATA[Yoga | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafdeling Roskilde-Lejre logo" class="" src="https://sclerose-roskilde-lejre.nemtilmeld.dk/images/organizations/16601/logo.png?mtime=1700653336" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-09-14 10:00 AM</start_time>
+      <end_time>2025-09-14 12:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-09-14 10:00:00</start_time_common>
+      <end_time_common>2025-09-14 12:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-roskilde.nemtilmeld.dk/271/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-roskilde-lejre.nemtilmeld.dk/images/organizations/16601/logo.png?mtime=1700653336]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-roskilde.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="271">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Yoga]]></name>
+        <address><![CDATA[14. september]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Yoga | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-roskilde.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Yoga | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="272">
+      <org_event_id>272</org_event_id>
+      <title><![CDATA[Yoga | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafdeling Roskilde-Lejre logo" class="" src="https://sclerose-roskilde-lejre.nemtilmeld.dk/images/organizations/16601/logo.png?mtime=1700653336" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-11-09 10:00 AM</start_time>
+      <end_time>2025-11-09 12:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-11-09 10:00:00</start_time_common>
+      <end_time_common>2025-11-09 12:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-roskilde.nemtilmeld.dk/272/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-roskilde-lejre.nemtilmeld.dk/images/organizations/16601/logo.png?mtime=1700653336]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-roskilde.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="272">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Yoga]]></name>
+        <address><![CDATA[9. november]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Yoga | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-roskilde.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Yoga | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="281">
+      <org_event_id>281</org_event_id>
+      <title><![CDATA[Caféaften i din lokalafdeling med spisning - også for pårørende | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafdeling Roskilde-Lejre logo" class="" src="https://sclerose-roskilde-lejre.nemtilmeld.dk/images/organizations/16601/logo.png?mtime=1700653336" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-09-10 6:00 PM</start_time>
+      <end_time>2025-09-10 8:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-09-10 18:00:00</start_time_common>
+      <end_time_common>2025-09-10 20:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-roskilde.nemtilmeld.dk/281/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-roskilde-lejre.nemtilmeld.dk/images/organizations/16601/logo.png?mtime=1700653336]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-roskilde.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="281">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Caféaften i din lokalafdeling med spisning - også for pårørende]]></name>
+        <address><![CDATA[10. september]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Caféaften i din lokalafdeling med spisning - også for pårørende | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-roskilde.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Caféaften i din lokalafdeling med spisning - også for pårørende | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="282">
+      <org_event_id>282</org_event_id>
+      <title><![CDATA[Caféaften i din lokalafdeling med DESSERTBUFFET (Kun for MS'ere) | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafdeling Roskilde-Lejre logo" class="" src="https://sclerose-roskilde-lejre.nemtilmeld.dk/images/organizations/16601/logo.png?mtime=1700653336" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-10-08 7:00 PM</start_time>
+      <end_time>2025-10-08 9:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-10-08 19:00:00</start_time_common>
+      <end_time_common>2025-10-08 21:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-roskilde.nemtilmeld.dk/282/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-roskilde-lejre.nemtilmeld.dk/images/organizations/16601/logo.png?mtime=1700653336]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-roskilde.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="282">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Caféaften i din lokalafdeling med DESSERTBUFFET (Kun for MS'ere)]]></name>
+        <address><![CDATA[8. oktober]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Caféaften i din lokalafdeling med DESSERTBUFFET (Kun for MS'ere) | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-roskilde.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Caféaften i din lokalafdeling med DESSERTBUFFET (Kun for MS'ere) | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="283">
+      <org_event_id>283</org_event_id>
+      <title><![CDATA[Caféaften i din lokalafdeling - KUN for MS'ere | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafdeling Roskilde-Lejre logo" class="" src="https://sclerose-roskilde-lejre.nemtilmeld.dk/images/organizations/16601/logo.png?mtime=1700653336" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-11-05 7:00 PM</start_time>
+      <end_time>2025-11-05 9:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-11-05 19:00:00</start_time_common>
+      <end_time_common>2025-11-05 21:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-roskilde.nemtilmeld.dk/283/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-roskilde-lejre.nemtilmeld.dk/images/organizations/16601/logo.png?mtime=1700653336]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-roskilde.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="283">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Caféaften i din lokalafdeling - KUN for MS'ere]]></name>
+        <address><![CDATA[5. november]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Caféaften i din lokalafdeling - KUN for MS'ere | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-roskilde.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Caféaften i din lokalafdeling - KUN for MS'ere | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="320">
+      <org_event_id>320</org_event_id>
+      <title><![CDATA[Te kursus | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafdeling Roskilde-Lejre logo" class="" src="https://sclerose-roskilde-lejre.nemtilmeld.dk/images/organizations/16601/logo.png?mtime=1700653336" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-10-26 3:00 PM</start_time>
+      <end_time>2025-10-26 5:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-10-26 15:00:00</start_time_common>
+      <end_time_common>2025-10-26 17:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-roskilde.nemtilmeld.dk/320/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-roskilde-lejre.nemtilmeld.dk/images/organizations/16601/logo.png?mtime=1700653336]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-roskilde.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="320">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Te kursus]]></name>
+        <address><![CDATA[26. oktober]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Te kursus | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-roskilde.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Te kursus | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="321">
+      <org_event_id>321</org_event_id>
+      <title><![CDATA[Foredrag: overlæge Morten Blinkenberg | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafdeling Roskilde-Lejre logo" class="" src="https://sclerose-roskilde-lejre.nemtilmeld.dk/images/organizations/16601/logo.png?mtime=1700653336" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-10-30 7:00 PM</start_time>
+      <end_time>2025-10-30 9:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-10-30 19:00:00</start_time_common>
+      <end_time_common>2025-10-30 21:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-roskilde.nemtilmeld.dk/321/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-roskilde-lejre.nemtilmeld.dk/images/organizations/16601/logo.png?mtime=1700653336]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-roskilde.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="321">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Foredrag: overlæge Morten Blinkenberg]]></name>
+        <address><![CDATA[30. oktober]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Foredrag: overlæge Morten Blinkenberg | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-roskilde.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Foredrag: overlæge Morten Blinkenberg | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="322">
+      <org_event_id>322</org_event_id>
+      <title><![CDATA[Caféaften i din lokalafdeling med ÆBLESKIVER | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafdeling Roskilde-Lejre logo" class="" src="https://sclerose-roskilde-lejre.nemtilmeld.dk/images/organizations/16601/logo.png?mtime=1700653336" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-12-06 3:00 PM</start_time>
+      <end_time>2025-12-06 5:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-12-06 15:00:00</start_time_common>
+      <end_time_common>2025-12-06 17:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-roskilde.nemtilmeld.dk/322/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-roskilde-lejre.nemtilmeld.dk/images/organizations/16601/logo.png?mtime=1700653336]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-roskilde.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="322">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Caféaften i din lokalafdeling med ÆBLESKIVER]]></name>
+        <address><![CDATA[6. december]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Caféaften i din lokalafdeling med ÆBLESKIVER | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-roskilde.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Caféaften i din lokalafdeling med ÆBLESKIVER | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="324">
+      <org_event_id>324</org_event_id>
+      <title><![CDATA[Guidet tur i Roskilde Domkirke | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafdeling Roskilde-Lejre logo" class="" src="https://sclerose-roskilde-lejre.nemtilmeld.dk/images/organizations/16601/logo.png?mtime=1700653336" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-11-09 1:15 PM</start_time>
+      <end_time>2025-11-09 3:15 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-11-09 13:15:00</start_time_common>
+      <end_time_common>2025-11-09 15:15:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-roskilde.nemtilmeld.dk/324/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-roskilde-lejre.nemtilmeld.dk/images/organizations/16601/logo.png?mtime=1700653336]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-roskilde.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="324">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Guidet tur i Roskilde Domkirke]]></name>
+        <address><![CDATA[9. november]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Guidet tur i Roskilde Domkirke | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-roskilde.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Guidet tur i Roskilde Domkirke | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="326">
+      <org_event_id>326</org_event_id>
+      <title><![CDATA[Caféaften for pårørende | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafdeling Roskilde-Lejre logo" class="" src="https://sclerose-roskilde-lejre.nemtilmeld.dk/images/organizations/16601/logo.png?mtime=1700653336" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-11-12 6:30 PM</start_time>
+      <end_time>2025-11-12 8:30 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-11-12 18:30:00</start_time_common>
+      <end_time_common>2025-11-12 20:30:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-roskilde.nemtilmeld.dk/326/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-roskilde-lejre.nemtilmeld.dk/images/organizations/16601/logo.png?mtime=1700653336]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-roskilde.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="326">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Caféaften for pårørende]]></name>
+        <address><![CDATA[12. november]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Caféaften for pårørende | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-roskilde.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Caféaften for pårørende | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="327">
+      <org_event_id>327</org_event_id>
+      <title><![CDATA[Caféaften for pårørende | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafdeling Roskilde-Lejre logo" class="" src="https://sclerose-roskilde-lejre.nemtilmeld.dk/images/organizations/16601/logo.png?mtime=1700653336" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-12-10 6:30 PM</start_time>
+      <end_time>2025-12-10 8:30 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-12-10 18:30:00</start_time_common>
+      <end_time_common>2025-12-10 20:30:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-roskilde.nemtilmeld.dk/327/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-roskilde-lejre.nemtilmeld.dk/images/organizations/16601/logo.png?mtime=1700653336]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-roskilde.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="327">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Caféaften for pårørende]]></name>
+        <address><![CDATA[10. december]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Caféaften for pårørende | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-roskilde.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Caféaften for pårørende | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="330">
+      <org_event_id>330</org_event_id>
+      <title><![CDATA[Dagcafé med hygge | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafdeling Roskilde-Lejre logo" class="" src="https://sclerose-roskilde-lejre.nemtilmeld.dk/images/organizations/16601/logo.png?mtime=1700653336" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-09-03 10:00 AM</start_time>
+      <end_time>2025-09-03 12:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-09-03 10:00:00</start_time_common>
+      <end_time_common>2025-09-03 12:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-roskilde.nemtilmeld.dk/330/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-roskilde-lejre.nemtilmeld.dk/images/organizations/16601/logo.png?mtime=1700653336]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-roskilde.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="330">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Dagcafé med hygge]]></name>
+        <address><![CDATA[3. september]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Dagcafé med hygge | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-roskilde.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Dagcafé med hygge | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="331">
+      <org_event_id>331</org_event_id>
+      <title><![CDATA[Dagcafé med hygge | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafdeling Roskilde-Lejre logo" class="" src="https://sclerose-roskilde-lejre.nemtilmeld.dk/images/organizations/16601/logo.png?mtime=1700653336" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-09-17 10:00 AM</start_time>
+      <end_time>2025-09-17 12:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-09-17 10:00:00</start_time_common>
+      <end_time_common>2025-09-17 12:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-roskilde.nemtilmeld.dk/331/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-roskilde-lejre.nemtilmeld.dk/images/organizations/16601/logo.png?mtime=1700653336]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-roskilde.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="331">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Dagcafé med hygge]]></name>
+        <address><![CDATA[17. september]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Dagcafé med hygge | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-roskilde.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Dagcafé med hygge | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="332">
+      <org_event_id>332</org_event_id>
+      <title><![CDATA[Dagcafé med hygge | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafdeling Roskilde-Lejre logo" class="" src="https://sclerose-roskilde-lejre.nemtilmeld.dk/images/organizations/16601/logo.png?mtime=1700653336" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-10-01 10:00 AM</start_time>
+      <end_time>2025-10-01 12:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-10-01 10:00:00</start_time_common>
+      <end_time_common>2025-10-01 12:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-roskilde.nemtilmeld.dk/332/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-roskilde-lejre.nemtilmeld.dk/images/organizations/16601/logo.png?mtime=1700653336]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-roskilde.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="332">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Dagcafé med hygge]]></name>
+        <address><![CDATA[1. oktober]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Dagcafé med hygge | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-roskilde.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Dagcafé med hygge | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="333">
+      <org_event_id>333</org_event_id>
+      <title><![CDATA[Dagcafé med hygge | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafdeling Roskilde-Lejre logo" class="" src="https://sclerose-roskilde-lejre.nemtilmeld.dk/images/organizations/16601/logo.png?mtime=1700653336" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-10-15 10:00 AM</start_time>
+      <end_time>2025-10-15 12:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-10-15 10:00:00</start_time_common>
+      <end_time_common>2025-10-15 12:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-roskilde.nemtilmeld.dk/333/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-roskilde-lejre.nemtilmeld.dk/images/organizations/16601/logo.png?mtime=1700653336]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-roskilde.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="333">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Dagcafé med hygge]]></name>
+        <address><![CDATA[15. oktober]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Dagcafé med hygge | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-roskilde.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Dagcafé med hygge | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="334">
+      <org_event_id>334</org_event_id>
+      <title><![CDATA[Dagcafé med hygge | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafdeling Roskilde-Lejre logo" class="" src="https://sclerose-roskilde-lejre.nemtilmeld.dk/images/organizations/16601/logo.png?mtime=1700653336" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-10-29 10:00 AM</start_time>
+      <end_time>2025-10-29 12:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-10-29 10:00:00</start_time_common>
+      <end_time_common>2025-10-29 12:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-roskilde.nemtilmeld.dk/334/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-roskilde-lejre.nemtilmeld.dk/images/organizations/16601/logo.png?mtime=1700653336]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-roskilde.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="334">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Dagcafé med hygge]]></name>
+        <address><![CDATA[29. oktober]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Dagcafé med hygge | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-roskilde.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Dagcafé med hygge | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="335">
+      <org_event_id>335</org_event_id>
+      <title><![CDATA[Dagcafé med hygge | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafdeling Roskilde-Lejre logo" class="" src="https://sclerose-roskilde-lejre.nemtilmeld.dk/images/organizations/16601/logo.png?mtime=1700653336" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-11-12 10:00 AM</start_time>
+      <end_time>2025-11-12 12:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-11-12 10:00:00</start_time_common>
+      <end_time_common>2025-11-12 12:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-roskilde.nemtilmeld.dk/335/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-roskilde-lejre.nemtilmeld.dk/images/organizations/16601/logo.png?mtime=1700653336]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-roskilde.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="335">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Dagcafé med hygge]]></name>
+        <address><![CDATA[12. november]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Dagcafé med hygge | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-roskilde.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Dagcafé med hygge | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="336">
+      <org_event_id>336</org_event_id>
+      <title><![CDATA[Dagcafé med hygge | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafdeling Roskilde-Lejre logo" class="" src="https://sclerose-roskilde-lejre.nemtilmeld.dk/images/organizations/16601/logo.png?mtime=1700653336" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-11-26 10:00 AM</start_time>
+      <end_time>2025-11-26 12:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-11-26 10:00:00</start_time_common>
+      <end_time_common>2025-11-26 12:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-roskilde.nemtilmeld.dk/336/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-roskilde-lejre.nemtilmeld.dk/images/organizations/16601/logo.png?mtime=1700653336]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-roskilde.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="336">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Dagcafé med hygge]]></name>
+        <address><![CDATA[26. november]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Dagcafé med hygge | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-roskilde.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Dagcafé med hygge | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="337">
+      <org_event_id>337</org_event_id>
+      <title><![CDATA[Dagcafé med hygge | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafdeling Roskilde-Lejre logo" class="" src="https://sclerose-roskilde-lejre.nemtilmeld.dk/images/organizations/16601/logo.png?mtime=1700653336" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-12-10 10:00 AM</start_time>
+      <end_time>2025-12-10 12:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-12-10 10:00:00</start_time_common>
+      <end_time_common>2025-12-10 12:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-roskilde.nemtilmeld.dk/337/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-roskilde-lejre.nemtilmeld.dk/images/organizations/16601/logo.png?mtime=1700653336]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-roskilde.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="337">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Dagcafé med hygge]]></name>
+        <address><![CDATA[10. december]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Dagcafé med hygge | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-roskilde.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Dagcafé med hygge | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="338">
+      <org_event_id>338</org_event_id>
+      <title><![CDATA[Demonstration af Balancevest | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafdeling Roskilde-Lejre logo" class="" src="https://sclerose-roskilde-lejre.nemtilmeld.dk/images/organizations/16601/logo.png?mtime=1700653336" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-09-24 6:30 PM</start_time>
+      <end_time>2025-09-24 8:30 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-09-24 18:30:00</start_time_common>
+      <end_time_common>2025-09-24 20:30:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-roskilde.nemtilmeld.dk/338/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-roskilde-lejre.nemtilmeld.dk/images/organizations/16601/logo.png?mtime=1700653336]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-roskilde.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="338">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Demonstration af Balancevest]]></name>
+        <address><![CDATA[24. september]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Demonstration af Balancevest | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-roskilde.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Demonstration af Balancevest | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="339">
+      <org_event_id>339</org_event_id>
+      <title><![CDATA[Caféaften for pårørende | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafdeling Roskilde-Lejre logo" class="" src="https://sclerose-roskilde-lejre.nemtilmeld.dk/images/organizations/16601/logo.png?mtime=1700653336" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-09-10 6:30 PM</start_time>
+      <end_time>2025-09-10 8:30 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-09-10 18:30:00</start_time_common>
+      <end_time_common>2025-09-10 20:30:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-roskilde.nemtilmeld.dk/339/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-roskilde-lejre.nemtilmeld.dk/images/organizations/16601/logo.png?mtime=1700653336]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-roskilde.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="339">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Caféaften for pårørende]]></name>
+        <address><![CDATA[10. september]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Caféaften for pårørende | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-roskilde.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Caféaften for pårørende | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="340">
+      <org_event_id>340</org_event_id>
+      <title><![CDATA[Caféaften for pårørende | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafdeling Roskilde-Lejre logo" class="" src="https://sclerose-roskilde-lejre.nemtilmeld.dk/images/organizations/16601/logo.png?mtime=1700653336" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-10-08 6:30 PM</start_time>
+      <end_time>2025-10-08 8:30 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-10-08 18:30:00</start_time_common>
+      <end_time_common>2025-10-08 20:30:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-roskilde.nemtilmeld.dk/340/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-roskilde-lejre.nemtilmeld.dk/images/organizations/16601/logo.png?mtime=1700653336]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-roskilde.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="340">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Caféaften for pårørende]]></name>
+        <address><![CDATA[8. oktober]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Caféaften for pårørende | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-roskilde.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Caféaften for pårørende | Scleroseforeningens lokalafdeling Roskilde-Lejre]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+  </events>
+</data>

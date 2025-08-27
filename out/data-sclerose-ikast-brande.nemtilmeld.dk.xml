@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data>
+  <provider>
+    <title><![CDATA[NemTilmeld Aps]]></title>
+    <address><![CDATA[Strømmen 6]]></address>
+    <zipcode><![CDATA[9400]]></zipcode>
+    <city><![CDATA[Nørresundby]]></city>
+    <email><![CDATA[info@nemtilmeld.dk]]></email>
+    <phone><![CDATA[+45 70404070]]></phone>
+    <website><![CDATA[https://www.nemtilmeld.dk]]></website>
+  </provider>
+  <events>
+    <event id="36">
+      <org_event_id>36</org_event_id>
+      <title><![CDATA[NYTÅRSKUR - NYTÅRSKUR SCLEROSEFORENINGEN IKAST-BRANDE HOLDER NYTÅRSKUR | Scleroseforeningens lokalafd. Ikast og Brande]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Ikast og Brande logo" class="" src="https://sclerose-ikast-brande.nemtilmeld.dk/images/organizations/16587/logo.png?mtime=1700652894" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2026-01-25 12:00 PM</start_time>
+      <end_time>2026-01-25 2:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2026-01-25 12:00:00</start_time_common>
+      <end_time_common>2026-01-25 14:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-ikast-brande.nemtilmeld.dk/36/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-ikast-brande.nemtilmeld.dk/images/organizations/16587/logo.png?mtime=1700652894]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-ikast-brande.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="36">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[NYTÅRSKUR - NYTÅRSKUR SCLEROSEFORENINGEN IKAST-BRANDE HOLDER NYTÅRSKUR]]></name>
+        <address><![CDATA[25. januar]]></address>
+        <zipcode><![CDATA[2026]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[NYTÅRSKUR - NYTÅRSKUR SCLEROSEFORENINGEN IKAST-BRANDE HOLDER NYTÅRSKUR | Scleroseforeningens lokalafd. Ikast og Brande]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-ikast-brande.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2026]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[NYTÅRSKUR - NYTÅRSKUR SCLEROSEFORENINGEN IKAST-BRANDE HOLDER NYTÅRSKUR | Scleroseforeningens lokalafd. Ikast og Brande]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="39">
+      <org_event_id>39</org_event_id>
+      <title><![CDATA[INGEN BOWLING - MEN KÆMPE LUDO + BOB TURNERING BLIVER DET STORE HIT DEN 24-09-2025 | Scleroseforeningens lokalafd. Ikast og Brande]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Ikast og Brande logo" class="" src="https://sclerose-ikast-brande.nemtilmeld.dk/images/organizations/16587/logo.png?mtime=1700652894" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-09-24 6:00 PM</start_time>
+      <end_time>2025-09-24 8:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-09-24 18:00:00</start_time_common>
+      <end_time_common>2025-09-24 20:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-ikast-brande.nemtilmeld.dk/39/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-ikast-brande.nemtilmeld.dk/images/organizations/16587/logo.png?mtime=1700652894]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-ikast-brande.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="39">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[INGEN BOWLING - MEN KÆMPE LUDO + BOB TURNERING BLIVER DET STORE HIT DEN 24-09-2025]]></name>
+        <address><![CDATA[24. september]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[INGEN BOWLING - MEN KÆMPE LUDO + BOB TURNERING BLIVER DET STORE HIT DEN 24-09-2025 | Scleroseforeningens lokalafd. Ikast og Brande]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-ikast-brande.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[INGEN BOWLING - MEN KÆMPE LUDO + BOB TURNERING BLIVER DET STORE HIT DEN 24-09-2025 | Scleroseforeningens lokalafd. Ikast og Brande]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="49">
+      <org_event_id>49</org_event_id>
+      <title><![CDATA[GÅTUR PÅ LINNEBJERG BAKKEØ mandag den 29 september kl 14.30 | Scleroseforeningens lokalafd. Ikast og Brande]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Ikast og Brande logo" class="" src="https://sclerose-ikast-brande.nemtilmeld.dk/images/organizations/16587/logo.png?mtime=1700652894" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-09-29 2:30 PM</start_time>
+      <end_time>2025-09-29 4:30 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-09-29 14:30:00</start_time_common>
+      <end_time_common>2025-09-29 16:30:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-ikast-brande.nemtilmeld.dk/49/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-ikast-brande.nemtilmeld.dk/images/organizations/16587/logo.png?mtime=1700652894]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-ikast-brande.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="49">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[GÅTUR PÅ LINNEBJERG BAKKEØ mandag den 29 september kl 14.30]]></name>
+        <address><![CDATA[29. september]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[GÅTUR PÅ LINNEBJERG BAKKEØ mandag den 29 september kl 14.30 | Scleroseforeningens lokalafd. Ikast og Brande]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-ikast-brande.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[GÅTUR PÅ LINNEBJERG BAKKEØ mandag den 29 september kl 14.30 | Scleroseforeningens lokalafd. Ikast og Brande]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="54">
+      <org_event_id>54</org_event_id>
+      <title><![CDATA[Sclerosefestival 2025 | Scleroseforeningens lokalafd. Herning]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Herning logo" class="" src="https://sclerose-herning.nemtilmeld.dk/images/organizations/16584/logo.png?mtime=1700652911" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-10-04 10:00 AM</start_time>
+      <end_time>2025-10-04 12:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-10-04 10:00:00</start_time_common>
+      <end_time_common>2025-10-04 12:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-ikast-brande.nemtilmeld.dk/54/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-herning.nemtilmeld.dk/images/organizations/16584/logo.png?mtime=1700652911]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-ikast-brande.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="54">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Sclerosefestival 2025]]></name>
+        <address><![CDATA[Sclerosefestival]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[Dato og tid]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Sclerosefestival 2025 | Scleroseforeningens lokalafd. Herning]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[Dato og tid]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-ikast-brande.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Sclerosefestival 2025 | Scleroseforeningens lokalafd. Herning]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+  </events>
+</data>

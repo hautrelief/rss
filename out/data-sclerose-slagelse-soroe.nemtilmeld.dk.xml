@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data>
+  <provider>
+    <title><![CDATA[NemTilmeld Aps]]></title>
+    <address><![CDATA[Strømmen 6]]></address>
+    <zipcode><![CDATA[9400]]></zipcode>
+    <city><![CDATA[Nørresundby]]></city>
+    <email><![CDATA[info@nemtilmeld.dk]]></email>
+    <phone><![CDATA[+45 70404070]]></phone>
+    <website><![CDATA[https://www.nemtilmeld.dk]]></website>
+  </provider>
+  <events>
+    <event id="73">
+      <org_event_id>73</org_event_id>
+      <title><![CDATA[Jeg er også vigtig - et foredrag med fokus på pårørende | Scleroseforeningens lokalafd. Slagselse og Sorø]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Slagselse og Sorø logo" class="" src="https://sclerose-slagelse-soroe.nemtilmeld.dk/images/organizations/16604/logo.png?mtime=1700649933" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-11-05 6:00 PM</start_time>
+      <end_time>2025-11-05 8:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-11-05 18:00:00</start_time_common>
+      <end_time_common>2025-11-05 20:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-slagelse-soroe.nemtilmeld.dk/73/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-slagelse-soroe.nemtilmeld.dk/images/organizations/16604/logo.png?mtime=1700649933]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-slagelse-soroe.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="73">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Jeg er også vigtig - et foredrag med fokus på pårørende]]></name>
+        <address><![CDATA[5. november]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Jeg er også vigtig - et foredrag med fokus på pårørende | Scleroseforeningens lokalafd. Slagselse og Sorø]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-slagelse-soroe.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Jeg er også vigtig - et foredrag med fokus på pårørende | Scleroseforeningens lokalafd. Slagselse og Sorø]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+  </events>
+</data>

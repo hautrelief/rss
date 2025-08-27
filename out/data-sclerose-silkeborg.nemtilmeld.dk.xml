@@ -1,0 +1,383 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data>
+  <provider>
+    <title><![CDATA[NemTilmeld Aps]]></title>
+    <address><![CDATA[Strømmen 6]]></address>
+    <zipcode><![CDATA[9400]]></zipcode>
+    <city><![CDATA[Nørresundby]]></city>
+    <email><![CDATA[info@nemtilmeld.dk]]></email>
+    <phone><![CDATA[+45 70404070]]></phone>
+    <website><![CDATA[https://www.nemtilmeld.dk]]></website>
+  </provider>
+  <events>
+    <event id="62">
+      <org_event_id>62</org_event_id>
+      <title><![CDATA[Sclerosefestival 2025 | Scleroseforeningens lokalafd. Herning]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Herning logo" class="" src="https://sclerose-herning.nemtilmeld.dk/images/organizations/16584/logo.png?mtime=1700652911" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-10-04 10:00 AM</start_time>
+      <end_time>2025-10-04 12:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-10-04 10:00:00</start_time_common>
+      <end_time_common>2025-10-04 12:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-silkeborg.nemtilmeld.dk/62/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-herning.nemtilmeld.dk/images/organizations/16584/logo.png?mtime=1700652911]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-silkeborg.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="62">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Sclerosefestival 2025]]></name>
+        <address><![CDATA[Sclerosefestival]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[Dato og tid]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Sclerosefestival 2025 | Scleroseforeningens lokalafd. Herning]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[Dato og tid]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-silkeborg.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Sclerosefestival 2025 | Scleroseforeningens lokalafd. Herning]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="68">
+      <org_event_id>68</org_event_id>
+      <title><![CDATA[TRE kursus | Scleroseforeningens lokalafd. Silkeborg]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Silkeborg logo" class="" src="https://sclerose-silkeborg.nemtilmeld.dk/images/organizations/16602/logo.png?mtime=1700652851" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-09-17 5:00 PM</start_time>
+      <end_time>2025-09-17 7:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-09-17 17:00:00</start_time_common>
+      <end_time_common>2025-09-17 19:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-silkeborg.nemtilmeld.dk/68/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-silkeborg.nemtilmeld.dk/images/organizations/16602/logo.png?mtime=1700652851]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-silkeborg.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="68">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[TRE kursus]]></name>
+        <address><![CDATA[17. september]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[TRE kursus | Scleroseforeningens lokalafd. Silkeborg]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-silkeborg.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[TRE kursus | Scleroseforeningens lokalafd. Silkeborg]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="69">
+      <org_event_id>69</org_event_id>
+      <title><![CDATA[Baboon City | Scleroseforeningens lokalafd. Ringkøbing og Skjern]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Ringkøbing og Skjern logo" class="" src="https://sclerose-ringkoebing-skjern.nemtilmeld.dk/images/organizations/16600/logo.png?mtime=1700652930" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-08-31 10:00 AM</start_time>
+      <end_time>2025-08-31 12:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-08-31 10:00:00</start_time_common>
+      <end_time_common>2025-08-31 12:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-silkeborg.nemtilmeld.dk/69/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-ringkoebing-skjern.nemtilmeld.dk/images/organizations/16600/logo.png?mtime=1700652930]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-ringkoebing-skjern.nemtilmeld.dk/images/descriptions/16600/baboon-city.jpg]]></source>
+        </image>
+        <image id="2">
+          <source><![CDATA[https://sclerose-silkeborg.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="69">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Baboon City Aflyst]]></name>
+        <address><![CDATA[31. august]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Baboon City | Scleroseforeningens lokalafd. Ringkøbing og Skjern]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-silkeborg.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Baboon City | Scleroseforeningens lokalafd. Ringkøbing og Skjern]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="70">
+      <org_event_id>70</org_event_id>
+      <title><![CDATA[Café hygge | Scleroseforeningens lokalafd. Silkeborg]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Silkeborg logo" class="" src="https://sclerose-silkeborg.nemtilmeld.dk/images/organizations/16602/logo.png?mtime=1700652851" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-08-28 5:00 PM</start_time>
+      <end_time>2025-08-28 7:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-08-28 17:00:00</start_time_common>
+      <end_time_common>2025-08-28 19:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-silkeborg.nemtilmeld.dk/70/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-silkeborg.nemtilmeld.dk/images/organizations/16602/logo.png?mtime=1700652851]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-silkeborg.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="70">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Café hygge]]></name>
+        <address><![CDATA[28. august]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Café hygge | Scleroseforeningens lokalafd. Silkeborg]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-silkeborg.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Café hygge | Scleroseforeningens lokalafd. Silkeborg]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="71">
+      <org_event_id>71</org_event_id>
+      <title><![CDATA[Jule Banko 2025 | Scleroseforeningens lokalafd. Silkeborg]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Silkeborg logo" class="" src="https://sclerose-silkeborg.nemtilmeld.dk/images/organizations/16602/logo.png?mtime=1700652851" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-11-28 6:30 PM</start_time>
+      <end_time>2025-11-28 8:30 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-11-28 18:30:00</start_time_common>
+      <end_time_common>2025-11-28 20:30:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-silkeborg.nemtilmeld.dk/71/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-silkeborg.nemtilmeld.dk/images/organizations/16602/logo.png?mtime=1700652851]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-silkeborg.nemtilmeld.dk/images/descriptions/16602/Glog.png]]></source>
+        </image>
+        <image id="2">
+          <source><![CDATA[https://sclerose-silkeborg.nemtilmeld.dk/images/descriptions/16602/Banko.png]]></source>
+        </image>
+        <image id="3">
+          <source><![CDATA[https://sclerose-silkeborg.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="71">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Jule Banko 2025]]></name>
+        <address><![CDATA[Jule Banko]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[Dato og tid]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Jule Banko 2025 | Scleroseforeningens lokalafd. Silkeborg]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[Dato og tid]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-silkeborg.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Jule Banko 2025 | Scleroseforeningens lokalafd. Silkeborg]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="72">
+      <org_event_id>72</org_event_id>
+      <title><![CDATA[Julefrokost 2025 | Scleroseforeningens lokalafd. Silkeborg]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Silkeborg logo" class="" src="https://sclerose-silkeborg.nemtilmeld.dk/images/organizations/16602/logo.png?mtime=1700652851" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-12-10 5:00 PM</start_time>
+      <end_time>2025-12-10 7:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-12-10 17:00:00</start_time_common>
+      <end_time_common>2025-12-10 19:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-silkeborg.nemtilmeld.dk/72/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-silkeborg.nemtilmeld.dk/images/organizations/16602/logo.png?mtime=1700652851]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-silkeborg.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="72">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Julefrokost 2025]]></name>
+        <address><![CDATA[Julefrokost]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[Dato og tid]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Julefrokost 2025 | Scleroseforeningens lokalafd. Silkeborg]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[Dato og tid]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-silkeborg.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Julefrokost 2025 | Scleroseforeningens lokalafd. Silkeborg]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+  </events>
+</data>

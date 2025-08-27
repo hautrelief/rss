@@ -1,0 +1,329 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data>
+  <provider>
+    <title><![CDATA[NemTilmeld Aps]]></title>
+    <address><![CDATA[Strømmen 6]]></address>
+    <zipcode><![CDATA[9400]]></zipcode>
+    <city><![CDATA[Nørresundby]]></city>
+    <email><![CDATA[info@nemtilmeld.dk]]></email>
+    <phone><![CDATA[+45 70404070]]></phone>
+    <website><![CDATA[https://www.nemtilmeld.dk]]></website>
+  </provider>
+  <events>
+    <event id="102">
+      <org_event_id>102</org_event_id>
+      <title><![CDATA[Foredrag om anti-inflammatorisk kost v/Martin Kreutzer | Scleroseforeningens lokalafd. Fredericia og Kolding]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Fredericia og Kolding logo" class="" src="https://sclerose-kolding-fredericia.nemtilmeld.dk/images/organizations/16588/logo.png?mtime=1700653166" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-10-07 7:00 PM</start_time>
+      <end_time>2025-10-07 9:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-10-07 19:00:00</start_time_common>
+      <end_time_common>2025-10-07 21:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-kolding-fredericia.nemtilmeld.dk/102/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-kolding-fredericia.nemtilmeld.dk/images/organizations/16588/logo.png?mtime=1700653166]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-kolding-fredericia.nemtilmeld.dk/images/descriptions/16588/Martin-Kreutzer_web.jpg]]></source>
+        </image>
+        <image id="2">
+          <source><![CDATA[https://sclerose-kolding-fredericia.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="102">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Foredrag om anti-inflammatorisk kost v/Martin Kreutzer]]></name>
+        <address><![CDATA[7. oktober]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Foredrag om anti-inflammatorisk kost v/Martin Kreutzer | Scleroseforeningens lokalafd. Fredericia og Kolding]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-kolding-fredericia.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Foredrag om anti-inflammatorisk kost v/Martin Kreutzer | Scleroseforeningens lokalafd. Fredericia og Kolding]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="104">
+      <org_event_id>104</org_event_id>
+      <title><![CDATA[Tag familien med på fisketur - en sjov og spændende naturoplevelse | Scleroseforeningens lokalafd. Fredericia og Kolding]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Fredericia og Kolding logo" class="" src="https://sclerose-kolding-fredericia.nemtilmeld.dk/images/organizations/16588/logo.png?mtime=1700653166" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-09-07 11:00 AM</start_time>
+      <end_time>2025-09-07 1:00 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-09-07 11:00:00</start_time_common>
+      <end_time_common>2025-09-07 13:00:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-kolding-fredericia.nemtilmeld.dk/104/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-kolding-fredericia.nemtilmeld.dk/images/organizations/16588/logo.png?mtime=1700653166]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-kolding-fredericia.nemtilmeld.dk/images/descriptions/16588/fisk.jpg]]></source>
+        </image>
+        <image id="2">
+          <source><![CDATA[https://sclerose-kolding-fredericia.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="104">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Tag familien med på fisketur - en sjov og spændende naturoplevelse]]></name>
+        <address><![CDATA[7. september]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Tag familien med på fisketur - en sjov og spændende naturoplevelse | Scleroseforeningens lokalafd. Fredericia og Kolding]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-kolding-fredericia.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Tag familien med på fisketur - en sjov og spændende naturoplevelse | Scleroseforeningens lokalafd. Fredericia og Kolding]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="108">
+      <org_event_id>108</org_event_id>
+      <title><![CDATA[Cafehygge i Fredericia | Scleroseforeningens lokalafd. Fredericia og Kolding]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Fredericia og Kolding logo" class="" src="https://sclerose-kolding-fredericia.nemtilmeld.dk/images/organizations/16588/logo.png?mtime=1700653166" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-09-11 2:30 PM</start_time>
+      <end_time>2025-09-11 4:30 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-09-11 14:30:00</start_time_common>
+      <end_time_common>2025-09-11 16:30:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-kolding-fredericia.nemtilmeld.dk/108/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-kolding-fredericia.nemtilmeld.dk/images/organizations/16588/logo.png?mtime=1700653166]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-kolding-fredericia.nemtilmeld.dk/images/descriptions/16588/kaffekop.jpg]]></source>
+        </image>
+        <image id="2">
+          <source><![CDATA[https://sclerose-kolding-fredericia.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="108">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Cafehygge i Fredericia]]></name>
+        <address><![CDATA[11. september]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Cafehygge i Fredericia | Scleroseforeningens lokalafd. Fredericia og Kolding]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-kolding-fredericia.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Cafehygge i Fredericia | Scleroseforeningens lokalafd. Fredericia og Kolding]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="109">
+      <org_event_id>109</org_event_id>
+      <title><![CDATA[Cafehygge i Kolding | Scleroseforeningens lokalafd. Fredericia og Kolding]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Fredericia og Kolding logo" class="" src="https://sclerose-kolding-fredericia.nemtilmeld.dk/images/organizations/16588/logo.png?mtime=1700653166" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-10-23 2:30 PM</start_time>
+      <end_time>2025-10-23 4:30 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-10-23 14:30:00</start_time_common>
+      <end_time_common>2025-10-23 16:30:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-kolding-fredericia.nemtilmeld.dk/109/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-kolding-fredericia.nemtilmeld.dk/images/organizations/16588/logo.png?mtime=1700653166]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-kolding-fredericia.nemtilmeld.dk/images/descriptions/16588/kaffekop.jpg]]></source>
+        </image>
+        <image id="2">
+          <source><![CDATA[https://sclerose-kolding-fredericia.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="109">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Cafehygge i Kolding]]></name>
+        <address><![CDATA[23. oktober]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Cafehygge i Kolding | Scleroseforeningens lokalafd. Fredericia og Kolding]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-kolding-fredericia.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Cafehygge i Kolding | Scleroseforeningens lokalafd. Fredericia og Kolding]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+    <event id="110">
+      <org_event_id>110</org_event_id>
+      <title><![CDATA[Bowling og/eller spisning | Scleroseforeningens lokalafd. Fredericia og Kolding]]></title>
+      <description><![CDATA[<section id="brand" style="background-color: #FFFFFF">
+<div class="container push-in">
+<h1>
+<a href="/" style="display:table-cell; vertical-align:middle;">
+<img alt="Scleroseforeningens lokalafd. Fredericia og Kolding logo" class="" src="https://sclerose-kolding-fredericia.nemtilmeld.dk/images/organizations/16588/logo.png?mtime=1700653166" title="Til forsiden"/>
+</a>
+</h1>
+</div>
+</section>]]></description>
+      <description_short><![CDATA[]]></description_short>
+      <start_time>2025-11-06 5:45 PM</start_time>
+      <end_time>2025-11-06 7:45 PM</end_time>
+      <deadline></deadline>
+      <start_time_common>2025-11-06 17:45:00</start_time_common>
+      <end_time_common>2025-11-06 19:45:00</end_time_common>
+      <deadline_time_common></deadline_time_common>
+      <tickets/>
+      <available_tickets>true</available_tickets>
+      <available_tickets_quantity/>
+      <highest_ticket_price/>
+      <few_tickets_left>false</few_tickets_left>
+      <public_status>registration_open</public_status>
+      <url>https://sclerose-kolding-fredericia.nemtilmeld.dk/110/</url>
+      <images>
+        <image id="0">
+          <source><![CDATA[https://sclerose-kolding-fredericia.nemtilmeld.dk/images/organizations/16588/logo.png?mtime=1700653166]]></source>
+        </image>
+        <image id="1">
+          <source><![CDATA[https://sclerose-kolding-fredericia.nemtilmeld.dk/images/descriptions/16588/bowling.jpg]]></source>
+        </image>
+        <image id="2">
+          <source><![CDATA[https://sclerose-kolding-fredericia.nemtilmeld.dk/system/application/views/ar/common/assets/images/design/vinke.png]]></source>
+        </image>
+      </images>
+      <categories> </categories>
+      <location id="110">
+        <type><![CDATA[address]]></type>
+        <name><![CDATA[Bowling og/eller spisning]]></name>
+        <address><![CDATA[6. november]]></address>
+        <zipcode><![CDATA[2025]]></zipcode>
+        <city><![CDATA[kl.]]></city>
+        <country><![CDATA[DK]]></country>
+      </location>
+      <organization id="0">
+        <title><![CDATA[Bowling og/eller spisning | Scleroseforeningens lokalafd. Fredericia og Kolding]]></title>
+        <address><![CDATA[]]></address>
+        <city><![CDATA[kl.]]></city>
+        <phone><![CDATA[]]></phone>
+        <country><![CDATA[DK]]></country>
+        <url><![CDATA[https://sclerose-kolding-fredericia.nemtilmeld.dk/]]></url>
+        <description><![CDATA[]]></description>
+        <email><![CDATA[]]></email>
+        <zipcode><![CDATA[2025]]></zipcode>
+      </organization>
+      <contact_details>
+        <name><![CDATA[Bowling og/eller spisning | Scleroseforeningens lokalafd. Fredericia og Kolding]]></name>
+        <phone><![CDATA[]]></phone>
+        <email><![CDATA[]]></email>
+      </contact_details>
+    </event>
+  </events>
+</data>
