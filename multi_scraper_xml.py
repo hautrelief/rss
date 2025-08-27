@@ -1,20 +1,14 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
+# multi_scraper_xml.py
+# HTML-scraper for NemTilmeld-lister der genererer:
+#  - 1 XML i NemTilmeld-lignende format pr. site: out/data-<host>.xml
+#  - 1 RSS pr. site: out/rss-<host>.xml
+#  - Samle-XML: data_all.xml
+#  - Samle-RSS: out/rss-all.xml
+#
+# Kræver: requests, beautifulsoup4, lxml
+# Kilder hentes fra sources.txt (en URL pr. linje). Både root-URL og /events/ accepteres.
 
-"""
-Bygger feeds pr. entitet KUN fra HTML:
-
-- out/rss-<host>.xml      (RSS 2.0 – strukturelt som NemTilmelds gamle feed)
-- out/data-<host>.xml     (jeres custom XML: <data><provider/><events>…)
-- out/rss-all.xml         (samlet RSS 2.0)
-- data_all.xml            (samlet custom XML)
-
-Input-kilder i sources.txt:
-  - Kan være https://<host>/, https://<host>/events/ eller gamle feed-URL’er
-    (https://<host>/events/list/feed). Vi normaliserer selv til en HTML-
-    liste-side (/events/ hvis muligt, ellers forsiden).
-"""
-
+from __future__ import annotations
 import os
 import re
 import sys
@@ -27,473 +21,459 @@ import requests
 from bs4 import BeautifulSoup
 from lxml import etree as ET
 
-# ------------------------- config -------------------------
-
-UA = "sclerose-nemtilmeld-html/2.0 (+github actions)"
-S = requests.Session()
-S.headers.update({
-    "User-Agent": UA,
-    "Accept": "text/html,application/xhtml+xml;q=0.9,*/*;q=0.8",
-    "Accept-Language": "da-DK,da;q=0.9,en;q=0.6"
-})
-
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
-# DK dato/tid
-MONTHS = {
-    "jan":1, "januar":1,
-    "feb":2, "februar":2,
-    "mar":3, "marts":3,
-    "apr":4, "april":4,
-    "maj":5,
-    "jun":6, "juni":6,
-    "jul":7, "juli":7,
-    "aug":8, "august":8,
-    "sep":9, "sept":9, "september":9,
-    "okt":10, "oktober":10,
-    "nov":11, "november":11,
-    "dec":12, "december":12
-}
-DATE_PATS = [
-    re.compile(r"(\d{1,2})\.?\s*([A-Za-zæøåÆØÅ]{3,12})\s*(\d{2,4})"),
-    re.compile(r"(\d{1,2})\s*[-/.]\s*(\d{1,2})\s*[-/.]\s*(\d{2,4})"),
-]
-TIME_PATS = [
-    re.compile(r"kl\.?\s*(\d{1,2})[:.](\d{2})", re.I),
-    re.compile(r"\b(\d{1,2})[:.](\d{2})\b")
-]
+# ---------- HTTP session ----------
+S = requests.Session()
+S.headers.update({
+    "User-Agent": "ScleroseForeningen-FeedBuilder/1.0 (+https://scleroseforeningen.dk)",
+    "Accept-Language": "da,da-DK;q=0.9,en;q=0.8",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Connection": "close",
+})
 
-# ------------------------- tiny utils -------------------------
+# ---------- helpers ----------
+MONTHS_DA = {
+    "januar": 1, "februar": 2, "marts": 3, "april": 4, "maj": 5, "juni": 6,
+    "juli": 7, "august": 8, "september": 9, "oktober": 10, "november": 11, "december": 12
+}
+
+def host_of(url: str) -> str:
+    return urlparse(url).netloc
+
+def root_of(url: str) -> str:
+    p = urlparse(url)
+    return f"{p.scheme}://{p.netloc}/"
+
+def to_listing_url(url: str) -> str:
+    """
+    Normaliser en kilde-URL til /events/-listen (ikke feeds).
+    """
+    url = url.strip()
+    if not url:
+        raise ValueError("Tom URL")
+    p = urlparse(url)
+    if not p.scheme:
+        url = "https://" + url
+        p = urlparse(url)
+    # Hvis allerede /events/ eller /events/list/... -> brug /events/
+    if p.path.endswith("/events/") or p.path.endswith("/events"):
+        return f"{p.scheme}://{p.netloc}/events/"
+    # hvis root
+    if p.path in ("", "/"):
+        return f"{p.scheme}://{p.netloc}/events/"
+    # ellers klip til /events/
+    return f"{p.scheme}://{p.netloc}/events/"
+
+def load_sources(cli_args: list[str]) -> list[str]:
+    """
+    Kilder kan gives som CLI-argumenter; hvis ingen, læses sources.txt
+    """
+    if cli_args:
+        return cli_args
+    path = "sources.txt"
+    if not os.path.exists(path):
+        logging.warning("sources.txt findes ikke – ingen kilder.")
+        return []
+    out = []
+    with open(path, "r", encoding="utf-8") as f:
+        for line in f:
+            s = line.strip()
+            if s and not s.startswith("#"):
+                out.append(s)
+    return out
 
 def fetch(url: str, retries: int = 3, timeout: int = 30, allow_redirects: bool = True) -> requests.Response:
+    """
+    Robust GET med exponential backoff. Rejser sidste fejl,
+    men kaldes i try/except i main() så én dårlig side ikke vælter alt.
+    """
+    last_err = None
     for i in range(retries):
         try:
             r = S.get(url, timeout=timeout, allow_redirects=allow_redirects)
             r.raise_for_status()
             return r
         except Exception as e:
-            if i == retries-1:
-                raise
-            time.sleep(2**i)
+            last_err = e
+            sleep = 2 ** i
+            logging.warning("HTTP-fejl på %s (%s). Forsøger igen om %ss ...", url, e, sleep)
+            time.sleep(sleep)
+    raise last_err
 
-def host_of(u: str) -> str:
-    return urlparse(u).netloc
+def text(el) -> str:
+    return (el.get_text(separator=" ", strip=True) if el else "").strip()
 
-def root_of(u: str) -> str:
-    p = urlparse(u)
-    return f"{p.scheme}://{p.netloc}/"
+def as_aware_utc(dt: datetime | None) -> datetime | None:
+    """Normalisér til UTC-aware (bruges til sortering / pubDate i RSS)."""
+    if dt is None:
+        return None
+    return dt.replace(tzinfo=timezone.utc) if dt.tzinfo is None else dt.astimezone(timezone.utc)
 
-def to_listing_url(src: str) -> str:
-    """Normaliser enhver kilde-URL til en HTML-liste-side."""
-    src = src.strip()
-    if not re.match(r"^https?://", src):
-        raise ValueError(f"Ugyldig URL: {src}")
-    # Hvis det er den gamle feed-URL → /events/
-    if "/events/list/feed" in src:
-        return root_of(src) + "events/"
-    # Hvis det er /events/ allerede
-    if "/events" in urlparse(src).path:
-        return src if src.endswith("/") else src + "/"
-    # Ellers forsøg /events/, fald tilbage til forsiden
-    base = root_of(src)
-    try:
-        r = fetch(urljoin(base, "events/"))
-        if r.ok:
-            return urljoin(base, "events/")
-    except Exception:
-        pass
-    return base
+def parse_dk_datetime(blob: str) -> datetime | None:
+    """
+    Forsøg at parse noget à la:
+      'Tirsdag d. 2. september 2025 kl. 19:00'
+      '2. september 2025 kl. 19:00'
+      '2025-09-14 10:00'
+    Returnerer naive datetime (senere konverteret til aware i RSS).
+    """
+    if not blob:
+        return None
+    b = blob.lower().strip()
 
-def norm_space(s: str) -> str:
-    return re.sub(r"\s+", " ", (s or "").replace("\xa0", " ")).strip()
+    # ISO-ish først
+    m = re.search(r"(\d{4})-(\d{2})-(\d{2})[ T](\d{1,2}):(\d{2})", b)
+    if m:
+        y, mo, d, hh, mm = map(int, m.groups())
+        try:
+            return datetime(y, mo, d, hh, mm)
+        except ValueError:
+            return None
 
-def parse_dk_datetime(text: str):
-    """Heuristik: find (start,end) i dansk brødtekst."""
-    if not text:
-        return None, None
-    t = norm_space(text.lower())
-
-    # dato
-    d = m = y = None
-    for pat in DATE_PATS:
-        mo = pat.search(t)
+    # Dansk form: 2. september 2025 kl. 19:00
+    m = re.search(
+        r"(\d{1,2})\.\s*([a-zæøå]+)\s*(\d{4}).*?kl\.?\s*(\d{1,2})(?::|\.)(\d{2})",
+        b, re.IGNORECASE
+    )
+    if m:
+        d, mname, y, hh, mm = m.groups()
+        d, y, hh, mm = int(d), int(y), int(hh), int(mm)
+        mo = MONTHS_DA.get(mname, 0)
         if mo:
-            g = mo.groups()
-            if not g[1].isdigit():  # '2. september 2025'
-                d = int(g[0])
-                m = MONTHS.get(g[1].strip(".").lower(), None)
-                y = int(g[2])
-            else:                   # '02-09-2025'
-                d = int(g[0]); m = int(g[1]); y = int(g[2])
-                if y < 100: y += 2000 if y < 50 else 1900
-            break
+            try:
+                return datetime(y, mo, d, hh, mm)
+            except ValueError:
+                return None
 
-    # tid
-    hh = mm = None
-    for tp in TIME_PATS:
-        mt = tp.search(t)
-        if mt:
-            hh = int(mt.group(1)); mm = int(mt.group(2))
-            break
+    # Hvis dato uden tid
+    m = re.search(r"(\d{1,2})\.\s*([a-zæøå]+)\s*(\d{4})", b, re.IGNORECASE)
+    if m:
+        d, mname, y = m.groups()
+        d, y = int(d), int(y)
+        mo = MONTHS_DA.get(mname, 0)
+        if mo:
+            try:
+                return datetime(y, mo, d, 0, 0)
+            except ValueError:
+                return None
 
-    if d and m and y:
-        if hh is None: hh = 9
-        if mm is None: mm = 0
-        start = datetime(y, m, d, hh, mm)
-        end = datetime(y, m, d, min(23, hh+2), mm)
-        return start, end
-    return None, None
+    return None
 
-def fmt_h(dt: datetime | None) -> str:
-    if not dt: return ""
-    try:
-        return dt.strftime("%Y-%m-%d %-I:%M %p")
-    except Exception:
-        return dt.strftime("%Y-%m-%d %I:%M %p")
+# ---------- scraping ----------
 
-def fmt_c(dt: datetime | None) -> str:
-    return dt.strftime("%Y-%m-%d %H:%M:%S") if dt else ""
+EVENT_LINK_RE = re.compile(r"/\d+/?$")
 
-def make_cdata(parent, tag, text=""):
-    el = ET.SubElement(parent, tag)
-    el.text = ET.CDATA(text or "")
-    return el
+def discover_event_links(listing_html: str, base_url: str) -> list[str]:
+    soup = BeautifulSoup(listing_html, "html.parser")
+    links = set()
+    for a in soup.find_all("a", href=True):
+        href = a["href"].strip()
+        # absolut eller relativ
+        if href.startswith("http"):
+            if host_of(href) == host_of(base_url) and EVENT_LINK_RE.search(urlparse(href).path or ""):
+                links.add(href.split("?")[0])
+        else:
+            if EVENT_LINK_RE.search(href):
+                links.add(urljoin(base_url, href.split("?")[0]))
+    return sorted(links)
 
-def safe_abs(base: str, href: str) -> str:
-    try:
-        return urljoin(base, href)
-    except Exception:
-        return href
+def extract_site_title(html: str) -> str:
+    soup = BeautifulSoup(html, "html.parser")
+    # <title>
+    if soup.title and soup.title.string:
+        return soup.title.string.strip()
+    # fallback: brand/logo alt text
+    img = soup.find("img", {"title": True}) or soup.find("img", {"alt": True})
+    if img:
+        return img.get("title") or img.get("alt") or ""
+    return ""
 
-def looks_like_event_link(abs_url: str, host: str) -> bool:
-    """Interne event-sider har path /123/."""
-    p = urlparse(abs_url)
-    return (p.netloc == host) and bool(re.search(r"/\d{1,8}/?$", p.path))
+def parse_event_teaser(card_el: BeautifulSoup) -> str:
+    # prøv at tage første p/div i kortet
+    for sel in ["p", "div"]:
+        c = card_el.find(sel)
+        if c and text(c):
+            return text(c)
+    return ""
 
-# ------------------------- scraping -------------------------
-
-def find_site_title(soup: BeautifulSoup, host: str) -> str:
-    # prøv: <title>, brand-header, logo alt
-    if soup.title and soup.title.text.strip():
-        return norm_space(soup.title.text)
-    logo = soup.select_one('img[alt*="Sclerose"], img[alt*="logo"], img[alt*="Logo"]')
-    if logo and logo.get("alt"):
-        return norm_space(logo["alt"])
-    return host
-
-def event_blocks_from_listing(soup: BeautifulSoup):
+def scrape_detail(detail_url: str) -> dict:
     """
-    Returner kandidat-"blokke" der ligner events (div/li/article).
-    Gør det bredt – vi deduplikerer senere på link.
+    Returner info fra detalje-siden (HTML til description, evt. tidspunkt/placering).
     """
-    blocks = set()
-    # typiske wrappers
-    for sel in [
-        "div.list-item", "div.event", "li.event", "article", "div.media", "div.card", "li", "div"
-    ]:
-        for el in soup.select(sel):
-            # blokker med 'Læs mere' eller et tydeligt link
-            if el.select_one('a[href*="facebook."], a[href*="/"]'):
-                blocks.add(el)
-    return list(blocks)
-
-def extract_event_from_block(block, base: str, host: str):
-    """
-    Udtræk (title, link, teaser, start, end, is_internal).
-    """
-    # link prioritet: intern event -> ekstern
-    a_best = None
-    intern = None
-    extern = None
-    for a in block.select("a[href]"):
-        href = a.get("href", "")
-        absu = safe_abs(base, href)
-        if looks_like_event_link(absu, host):
-            intern = a
-            break
-        if urlparse(absu).netloc and urlparse(absu).netloc != host:
-            # kandidér ekstern
-            extern = extern or a
-        elif "/events/" not in absu and absu.endswith("/"):
-            # måske intern root-link – lad stå
-            extern = extern or a
-    a_best = intern or extern
-
-    link = safe_abs(base, a_best["href"]) if a_best else ""
+    r = fetch(detail_url)
+    html = r.text
+    soup = BeautifulSoup(html, "html.parser")
 
     # titel
     title = ""
-    for hsel in ["h1","h2","h3","h4",".title",".event-title","strong"]:
-        el = block.select_one(hsel)
-        if el and norm_space(el.get_text()):
-            title = norm_space(el.get_text())
+    if soup.find("h1"):
+        title = text(soup.find("h1"))
+    if not title and soup.title:
+        title = soup.title.text.strip()
+
+    # forsøg at finde en "content/description"-blok
+    desc_html = ""
+    candidates = [
+        {"id": "event-description"}, {"class": re.compile("description|content|event__body|js-nemtilmeld_event_field-description")},
+        {"id": "content"}, {"class": "content"}
+    ]
+    for sel in candidates:
+        block = soup.find("div", sel) or soup.find("section", sel) or soup.find("article", sel)
+        if block:
+            desc_html = str(block)
             break
-    if not title and a_best:
-        title = norm_space(a_best.get_text())
+    if not desc_html:
+        # fallback: main
+        main = soup.find("main")
+        if main:
+            desc_html = str(main)
+        else:
+            body = soup.find("body")
+            if body:
+                # skrab ikke hele navigationen – men som fallback er det bedre end ingenting
+                desc_html = str(body)
 
-    # teaser/description kort
-    teaser = ""
-    p = block.find("p")
-    if p and norm_space(p.get_text()):
-        teaser = norm_space(p.get_text())
-    # fallback: kort tekst af hele blokken
-    if not teaser:
-        teaser = norm_space(block.get_text())
-        teaser = " ".join(teaser.split()[:80])
+    # Prøv at finde en tekstdato
+    possible = soup.get_text(" ", strip=True)
+    dt = parse_dk_datetime(possible)
 
-    # tider
-    start, end = parse_dk_datetime(" ".join([
-        title, teaser, norm_space(block.get_text())
-    ]))
+    # Lokalitet – heuristik
+    location = ""
+    for lab in ["Adresse", "Sted", "Lokation", "Location"]:
+        m = re.search(lab + r"\s*[:\-]\s*(.+)", possible, re.IGNORECASE)
+        if m:
+            location = m.group(1).strip()
+            break
 
     return {
         "title": title,
-        "link": link,
-        "teaser": teaser,
-        "start": start,
-        "end": end,
-        "is_internal": bool(intern and looks_like_event_link(link, host))
+        "detail_html": desc_html,
+        "start": dt,
+        "location": location
     }
 
-def scrape_listing(listing_url: str):
-    """Hent liste-siden og udtræk kandidater."""
+def scrape_listing(listing_url: str) -> tuple[str, list[dict]]:
+    """
+    Finder event-links på /events/ og besøger hver detalje-side for rig data.
+    Returnerer (site_title, events[])
+    """
     r = fetch(listing_url)
-    soup = BeautifulSoup(r.text, "html.parser")
-    host = host_of(listing_url)
-    site_title = find_site_title(soup, host)
-    base = root_of(listing_url)
+    site_title = extract_site_title(r.text)
+    links = discover_event_links(r.text, listing_url)
 
-    # find blokke → udtræk events
     events = []
-    seen_links = set()
-    for b in event_blocks_from_listing(soup):
-        ev = extract_event_from_block(b, base, host)
-        if not ev["title"] and not ev["link"]:
+    for href in links:
+        try:
+            d = scrape_detail(href)
+            # sikr titel
+            if not d.get("title"):
+                d["title"] = f"Arrangement ({href.rsplit('/',2)[-2]})"
+            d["link"] = href
+            events.append(d)
+        except Exception as e:
+            logging.error("Fejl ved detalje %s: %s", href, e)
             continue
-        # deduplikér på link (ellers på (title,start))
-        key = ev["link"] or (ev["title"], ev["start"])
-        if key in seen_links: 
-            continue
-        seen_links.add(key)
-        events.append(ev)
 
-    # sortér på start
-    events.sort(key=lambda e: e["start"] or datetime.max)
     return site_title, events
 
-def augment_from_detail(ev: dict, host: str):
-    """
-    Hvis ev er intern, prøv at hente detaljer – uden at følge eksterne redirects.
-    Hvis siden svarer 3xx til ekstern host, behold ekstern link og teaser.
-    """
-    if not ev["is_internal"] or not ev["link"]:
-        return ev
+# ---------- XML writers (NemTilmeld-lignende + RSS) ----------
 
-    try:
-        r = fetch(ev["link"], allow_redirects=False)
-        # ekstern redirect?
-        if 300 <= r.status_code < 400:
-            loc = r.headers.get("Location", "")
-            if loc and urlparse(loc).netloc and urlparse(loc).netloc != host:
-                ev["link"] = loc  # peg direkte på ekstern side
-                ev["is_internal"] = False
-                return ev
-
-        soup = BeautifulSoup(r.text, "html.parser")
-        # titel (mere præcis)
-        if soup.find("h1"):
-            t = norm_space(soup.find("h1").get_text())
-            if t: ev["title"] = t
-
-        # beskrivelse – tag hovedindhold (robust, bred)
-        main = soup.select_one("#content, main, .content, .container, .col-content")
-        if not main: main = soup
-        # fjern navigation/footers
-        for bad in main.select("nav, header, footer, script, style"):
-            bad.decompose()
-
-        html = str(main)
-        # forkortet tekst til RSS summary
-        plain = norm_space(main.get_text())
-        teaser = " ".join(plain.split()[:120])
-        if teaser:
-            ev["teaser"] = teaser
-
-        # prøv igen at udlede tider fra detail
-        st, en = parse_dk_datetime(plain)
-        if st and not ev["start"]: ev["start"] = st
-        if en and not ev["end"]:   ev["end"] = en
-
-        # gem hele html’en som 'detail_html' (til custom XML description)
-        ev["detail_html"] = html
-
-    except Exception as e:
-        # stiltiende – behold liste-data
-        pass
-
-    return ev
-
-# ------------------------- writers -------------------------
-
-def provider_xml(parent):
-    prov = ET.SubElement(parent, "provider")
-    make_cdata(prov, "title", "NemTilmeld Aps")
-    make_cdata(prov, "address", "Strømmen 6")
-    z = ET.SubElement(prov, "zipcode"); z.text = ET.CDATA("9400")
-    make_cdata(prov, "city", "Nørresundby")
-    make_cdata(prov, "email", "info@nemtilmeld.dk")
-    make_cdata(prov, "phone", "+45 70404070")
-    make_cdata(prov, "website", "https://www.nemtilmeld.dk")
+def provider_block() -> ET.Element:
+    prov = ET.Element("provider")
+    for tag, val in [
+        ("title", "NemTilmeld Aps"),
+        ("address", "Strømmen 6"),
+        ("zipcode", "9400"),
+        ("city", "Nørresundby"),
+        ("email", "info@nemtilmeld.dk"),
+        ("phone", "+45 70404070"),
+        ("website", "https://www.nemtilmeld.dk"),
+    ]:
+        el = ET.SubElement(prov, tag)
+        el.text = ET.CDATA(val)
     return prov
 
-def build_custom_event(ev: dict, host: str, site_title: str):
-    # id: prøv at udlede fra link (/123/). Ellers en simpel hash.
-    m = re.search(r"/(\d{1,8})/?$", urlparse(ev["link"]).path or "")
-    ev_id = m.group(1) if m else str(abs(hash((host, ev["title"], ev["link"]))) % 10**9)
+def build_custom_event(ev: dict, host: str, site_title: str) -> ET.Element:
+    """
+    Konstruér et <event> element med et subset af felter.
+    """
+    # event-id fra link path
+    ev_id = re.search(r"/(\d+)/?$", ev.get("link","") or "")
+    ev_id = (ev_id.group(1) if ev_id else "0")
 
-    el = ET.Element("event", id=ev_id)
-    ET.SubElement(el, "org_event_id").text = ev_id
-    make_cdata(el, "title", ev["title"] or "Arrangement")
+    e = ET.Element("event", id=ev_id)
 
-    desc_html = ev.get("detail_html")
-    if not desc_html:
-        # lav en enkel HTML af teaser + link
-        t = ev["teaser"] or ""
-        if ev.get("link"):
-            t += f'<p><a href="{ev["link"]}" target="_blank" rel="noopener">Læs mere</a></p>'
-        desc_html = f"<div>{t}</div>"
-    d = ET.SubElement(el, "description"); d.text = ET.CDATA(desc_html)
+    # org_event_id (holder samme id)
+    ET.SubElement(e, "org_event_id").text = ev_id
 
-    short = (ev["teaser"] or "")[:300]
-    make_cdata(el, "description_short", short)
+    # titel
+    title = ET.SubElement(e, "title")
+    t = ev.get("title") or "Arrangement"
+    title.text = ET.CDATA(f"{t} | {site_title or host}")
 
-    ET.SubElement(el, "start_time").text = fmt_h(ev.get("start"))
-    ET.SubElement(el, "end_time").text   = fmt_h(ev.get("end"))
-    ET.SubElement(el, "deadline")
+    # description (HTML)
+    desc = ET.SubElement(e, "description")
+    desc.text = ET.CDATA(ev.get("detail_html") or "")
 
-    ET.SubElement(el, "start_time_common").text = fmt_c(ev.get("start"))
-    ET.SubElement(el, "end_time_common").text   = fmt_c(ev.get("end"))
-    ET.SubElement(el, "deadline_time_common")
+    # kort beskrivelse
+    short = ET.SubElement(e, "description_short")
+    short.text = ET.CDATA((ev.get("teaser") or "").strip())
 
-    # tickets/availability – ukendt fra HTML-listen → defaults
-    ET.SubElement(el, "tickets")
-    ET.SubElement(el, "available_tickets").text = "true"
-    ET.SubElement(el, "available_tickets_quantity")
-    ET.SubElement(el, "highest_ticket_price")
-    ET.SubElement(el, "few_tickets_left").text = "false"
-    ET.SubElement(el, "public_status").text = "registration_open"
+    # tider
+    start_dt = ev.get("start")
+    if isinstance(start_dt, datetime):
+        start_text = start_dt.strftime("%Y-%m-%d %I:%M %p")
+        start_common = start_dt.strftime("%Y-%m-%d %H:%M:%S")
+    else:
+        start_text = ""
+        start_common = ""
+    ET.SubElement(e, "start_time").text = start_text
+    ET.SubElement(e, "end_time").text = ""  # ukendt fra HTML i generel form
+    ET.SubElement(e, "deadline").text = ""
+    ET.SubElement(e, "start_time_common").text = start_common
+    ET.SubElement(e, "end_time_common").text = ""
+    ET.SubElement(e, "deadline_time_common").text = ""
 
-    ET.SubElement(el, "url").text = ev.get("link") or ""
-    ET.SubElement(el, "images")    # tom
-    ET.SubElement(el, "categories").text = " "
+    # tickets (ukendt pris – tom struktur)
+    tickets = ET.SubElement(e, "tickets")
+    # Behold tomt – NemTilmeld-klienter tåler tom <tickets/>
 
-    loc = ET.SubElement(el, "location", id=ev_id)
-    make_cdata(loc, "type", "address"); make_cdata(loc, "name", "")
-    make_cdata(loc, "address", ""); z = ET.SubElement(loc, "zipcode"); z.text = ET.CDATA("")
-    make_cdata(loc, "city", ""); make_cdata(loc, "country", "DK")
+    # availability (ukendt – sæt konservativt)
+    ET.SubElement(e, "available_tickets").text = "true"
+    ET.SubElement(e, "available_tickets_quantity").text = ""
+    ET.SubElement(e, "highest_ticket_price").text = ""
+    ET.SubElement(e, "few_tickets_left").text = "false"
+    ET.SubElement(e, "public_status").text = "registration_open"
 
-    org = ET.SubElement(el, "organization", id="0")
-    make_cdata(org, "title", site_title or host)
-    make_cdata(org, "address", ""); make_cdata(org, "city", "")
-    make_cdata(org, "phone", "");  make_cdata(org, "country", "DK")
-    make_cdata(org, "url", f"https://{host}/")
-    make_cdata(org, "description", ""); make_cdata(org, "email", "")
-    oz = ET.SubElement(org, "zipcode"); oz.text = ET.CDATA("")
+    # url
+    ET.SubElement(e, "url").text = ev.get("link") or ""
 
-    cd = ET.SubElement(el, "contact_details")
-    make_cdata(cd, "name", site_title or host); make_cdata(cd, "phone", ""); make_cdata(cd, "email", "")
+    # images (ukendt – tom)
+    ET.SubElement(e, "images")
 
-    return el
+    # categories (tom)
+    ET.SubElement(e, "categories").text = " "
 
-def write_custom_for_site(host: str, site_title: str, events: list, out_path: str):
+    # location (helt enkel – vi placerer den tekst vi kunne finde)
+    loc = ET.SubElement(e, "location", id=ev_id)
+    lt = ET.SubElement(loc, "type"); lt.text = ET.CDATA("address")
+    ln = ET.SubElement(loc, "name"); ln.text = ET.CDATA(ev.get("title") or "Arrangement")
+    la = ET.SubElement(loc, "address"); la.text = ET.CDATA("")
+    lz = ET.SubElement(loc, "zipcode"); lz.text = ET.CDATA("")
+    lc = ET.SubElement(loc, "city"); lc.text = ET.CDATA(ev.get("location") or "")
+    lco = ET.SubElement(loc, "country"); lco.text = ET.CDATA("DK")
+
+    # organization – vi bruger sitets navn/host
+    org = ET.SubElement(e, "organization", id="0")
+    for tag, val in [
+        ("title", site_title or host),
+        ("address", ""),
+        ("zipcode", ""),
+        ("city", ""),
+        ("phone", ""),
+        ("country", "DK"),
+        ("url", f"https://{host}/"),
+        ("description", ""),
+        ("email", ""),
+    ]:
+        el = ET.SubElement(org, tag)
+        el.text = ET.CDATA(val)
+
+    # contact
+    contact = ET.SubElement(e, "contact_details")
+    cn = ET.SubElement(contact, "name"); cn.text = ET.CDATA(site_title or host)
+    cp = ET.SubElement(contact, "phone"); cp.text = ET.CDATA("")
+    ce = ET.SubElement(contact, "email"); ce.text = ET.CDATA("")
+
+    return e
+
+def write_custom_for_site(host: str, site_title: str, events: list[dict], out_path: str):
     data = ET.Element("data")
-    provider_xml(data)
+    data.append(provider_block())
     evs = ET.SubElement(data, "events")
-    for ev in events:
-        evs.append(build_custom_event(ev, host, site_title))
-    xml = ET.tostring(data, encoding="utf-8", xml_declaration=True, pretty_print=True)
-    with open(out_path, "wb") as f: f.write(xml)
 
-def write_custom_all(all_event_elements: list, out_path: str):
+    for ev in events:
+        ev_el = build_custom_event(ev, host, site_title)
+        evs.append(ev_el)
+
+    xml = ET.tostring(data, encoding="utf-8", xml_declaration=True, pretty_print=True)
+    with open(out_path, "wb") as f:
+        f.write(xml)
+
+def write_custom_all(all_event_elements: list[ET.Element], out_path: str):
     data = ET.Element("data")
-    provider_xml(data)
+    data.append(provider_block())
     evs = ET.SubElement(data, "events")
     for el in all_event_elements:
         evs.append(el)
     xml = ET.tostring(data, encoding="utf-8", xml_declaration=True, pretty_print=True)
-    with open(out_path, "wb") as f: f.write(xml)
+    with open(out_path, "wb") as f:
+        f.write(xml)
 
-def write_rss_for_site(host: str, site_title: str, site_url: str, events: list, out_path: str):
+def write_rss_for_site(host: str, site_title: str, site_url: str, events: list[dict], out_path: str):
     rss = ET.Element("rss", version="2.0")
     ch = ET.SubElement(rss, "channel")
     ET.SubElement(ch, "title").text = site_title or host
-    ET.SubElement(ch, "link").text  = site_url
+    ET.SubElement(ch, "link").text = site_url
     ET.SubElement(ch, "description").text = f"Arrangementer fra {site_title or host}"
     ET.SubElement(ch, "language").text = "da-DK"
+
     now = datetime.now(timezone.utc)
     ET.SubElement(ch, "pubDate").text = now.strftime("%a, %d %b %Y %H:%M:%S %z")
 
-    # sortér på start
-    events_sorted = sorted(events, key=lambda e: e.get("start") or now)
+    # ✅ sortér med UTC-aware tider
+    events_sorted = sorted(events, key=lambda e: as_aware_utc(e.get("start")) or now)
 
     for ev in events_sorted:
         it = ET.SubElement(ch, "item")
-        ET.SubElement(it, "title").text = ev["title"] or "Arrangement"
-        ET.SubElement(it, "link").text  = ev.get("link") or ""
+        ET.SubElement(it, "title").text = ev.get("title") or "Arrangement"
+        ET.SubElement(it, "link").text = ev.get("link") or ""
         g = ET.SubElement(it, "guid", isPermaLink="true"); g.text = ev.get("link") or ""
+
         desc = ET.SubElement(it, "description")
-        # brug detail_html hvis vi har, ellers teaser
         html = ev.get("detail_html") or f"<div>{ev.get('teaser','')}</div>"
         desc.text = ET.CDATA(html)
-        # pubDate = start eller nu
-        dt = ev.get("start") or now
+
+        dt = as_aware_utc(ev.get("start")) or now
         ET.SubElement(it, "pubDate").text = dt.strftime("%a, %d %b %Y %H:%M:%S %z")
 
     xml = ET.tostring(rss, encoding="utf-8", xml_declaration=True, pretty_print=True)
-    with open(out_path, "wb") as f: f.write(xml)
+    with open(out_path, "wb") as f:
+        f.write(xml)
 
-def write_rss_all(all_events: list, out_path: str):
+def write_rss_all(all_events: list[dict], out_path: str):
     rss = ET.Element("rss", version="2.0")
     ch = ET.SubElement(rss, "channel")
     ET.SubElement(ch, "title").text = "Scleroseforeningen – samlede arrangementer"
-    ET.SubElement(ch, "link").text  = "https://scleroseforeningen.dk/"
+    ET.SubElement(ch, "link").text = "https://scleroseforeningen.dk/"
     ET.SubElement(ch, "description").text = "Aggregat af lokale arrangementer (HTML-scrapet)"
     ET.SubElement(ch, "language").text = "da-DK"
+
     now = datetime.now(timezone.utc)
     ET.SubElement(ch, "pubDate").text = now.strftime("%a, %d %b %Y %H:%M:%S %z")
 
-    events_sorted = sorted(all_events, key=lambda e: e.get("start") or now)
+    # ✅ UTC-aware sortering
+    events_sorted = sorted(all_events, key=lambda e: as_aware_utc(e.get("start")) or now)
+
     for ev in events_sorted:
         it = ET.SubElement(ch, "item")
-        ET.SubElement(it, "title").text = ev["title"] or "Arrangement"
-        ET.SubElement(it, "link").text  = ev.get("link") or ""
+        ET.SubElement(it, "title").text = ev.get("title") or "Arrangement"
+        ET.SubElement(it, "link").text = ev.get("link") or ""
         g = ET.SubElement(it, "guid", isPermaLink="true"); g.text = ev.get("link") or ""
+
         desc = ET.SubElement(it, "description")
         html = ev.get("detail_html") or f"<div>{ev.get('teaser','')}</div>"
         desc.text = ET.CDATA(html)
-        dt = ev.get("start") or now
+
+        dt = as_aware_utc(ev.get("start")) or now
         ET.SubElement(it, "pubDate").text = dt.strftime("%a, %d %b %Y %H:%M:%S %z")
 
     xml = ET.tostring(rss, encoding="utf-8", xml_declaration=True, pretty_print=True)
-    with open(out_path, "wb") as f: f.write(xml)
+    with open(out_path, "wb") as f:
+        f.write(xml)
 
-# ------------------------- main -------------------------
-
-def load_sources(argv: list[str]) -> list[str]:
-    if argv:
-        return [a.strip() for a in argv if a.strip()]
-    urls = []
-    try:
-        with open("sources.txt", "r", encoding="utf-8") as fh:
-            for line in fh:
-                s = line.strip()
-                if not s or s.startswith("#"): 
-                    continue
-                urls.append(s)
-    except FileNotFoundError:
-        logging.error("sources.txt ikke fundet – angiv URL’er som argumenter eller tilføj filen.")
-        sys.exit(2)
-    return urls
+# ---------- main ----------
 
 def main(argv):
     srcs = load_sources(argv[1:])
@@ -502,11 +482,7 @@ def main(argv):
         try:
             listing_urls.append(to_listing_url(s))
         except Exception as e:
-            logging.warning("Springer %s (%s)", s, e)
-
-    if not listing_urls:
-        logging.error("Ingen gyldige kilder.")
-        return 3
+            logging.warning("Springer kilde %s (%s)", s, e)
 
     os.makedirs("out", exist_ok=True)
 
@@ -514,42 +490,44 @@ def main(argv):
     all_events_flat = []
     summary = []
 
+    if not listing_urls:
+        logging.error("Ingen gyldige kilder.")
+        # skriv tomme filer, så workflow ikke fejler
+        write_custom_all([], "data_all.xml")
+        write_rss_all([], "out/rss-all.xml")
+        return 0
+
     for listing in listing_urls:
         host = host_of(listing)
         base = root_of(listing)
+        try:
+            logging.info("Scraper: %s", listing)
+            site_title, events = scrape_listing(listing)
 
-        logging.info("Scraper: %s", listing)
-        site_title, events = scrape_listing(listing)
+            # skriv pr. site
+            write_custom_for_site(host, site_title, events, f"out/data-{host}.xml")
+            write_rss_for_site(host, site_title, base, events, f"out/rss-{host}.xml")
 
-        # suppler fra detail for interne links (uden at følge eksterne redirects)
-        enriched = []
-        for ev in events:
-            enriched.append(augment_from_detail(ev, host))
+            # til aggregater
+            for ev in events:
+                all_events_flat.append(ev)
+                all_custom_elements.append(build_custom_event(ev, host, site_title))
 
-        # skriv per-site filer
-        custom_path = f"out/data-{host}.xml"
-        write_custom_for_site(host, site_title, enriched, custom_path)
+            summary.append((host, len(events)))
+        except Exception as e:
+            logging.error("Fejl på %s: %s", listing, e)
+            continue
 
-        rss_path = f"out/rss-{host}.xml"
-        write_rss_for_site(host, site_title, base, enriched, rss_path)
-
-        # til samlede filer
-        for ev in enriched:
-            all_events_flat.append(ev)
-            all_custom_elements.append(build_custom_event(ev, host, site_title))
-
-        summary.append((host, len(enriched)))
-
-    # Combined
+    # skriv aggregater (altid)
     write_custom_all(all_custom_elements, "data_all.xml")
     write_rss_all(all_events_flat, "out/rss-all.xml")
 
     logging.info("---- Resume ----")
     tot = 0
     for host, n in summary:
-        logging.info("%s: %d events", host, n); tot += n
+        logging.info("%s: %d events", host, n)
+        tot += n
     logging.info("TOTAL: %d events", tot)
-    logging.info("Skrevet: data_all.xml, out/rss-all.xml samt per-site out/*.xml")
     return 0
 
 if __name__ == "__main__":
