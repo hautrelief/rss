@@ -1,45 +1,71 @@
 name: Build XML feeds (multi-site)
 
 on:
-  workflow_dispatch:
+  workflow_dispatch: {}
   schedule:
-    - cron: "0 */12 * * *"  # hver 12. time (UTC)
+    - cron: "0 */12 * * *"  # kør hver 12. time (UTC)
 
 permissions:
-  contents: write
+  contents: write  # krævet for at kunne committe/pushe output
+
+# (valgfrit) undgå overlappende kørsler
+concurrency:
+  group: build-xml-multi
+  cancel-in-progress: true
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - run: |
+
+      - name: Install dependencies
+        run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+
       - name: Generate XMLs
         run: |
+          # multi_scraper_xml.py læser som standard kilder fra sources.txt
           python multi_scraper_xml.py
-- name: Commit XMLs
-  run: |
-    set -e
-    git config user.name "github-actions[bot]"
-    git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-    # Tilføj alt nyt/ændret
-    git add -A
+      - name: Verify outputs
+        run: |
+          set -e
+          test -f data_all.xml && echo "✅ data_all.xml OK" || (echo "❌ data_all.xml mangler" && exit 1)
+          mkdir -p out
+          ls -lah out || true
 
-    # Kun commit hvis der ER staged changes
-    if git diff --cached --quiet; then
-      echo "No changes to commit"
-    else
-      git commit -m "Update XML feeds"
+      - name: Commit XMLs
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      # Håndter hvis repo er ændret siden checkout (undgår non-fast-forward)
-      git pull --rebase origin "${GITHUB_REF_NAME:-main}"
+          # Tilføj alle nye/ændrede filer
+          git add -A
 
-      git push
-    fi
+          # Commit kun hvis der ER staged ændringer
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update XML feeds"
+            # Håndter hvis der er kommet nye commits på branch imens
+            BRANCH="${GITHUB_REF_NAME:-main}"
+            git pull --rebase origin "$BRANCH" || true
+            git push origin "$BRANCH"
+          fi
 
+      - name: Upload artifacts (optional)
+        uses: actions/upload-artifact@v4
+        with:
+          name: xml-output
+          path: |
+            data_all.xml
+            out/*.xml
